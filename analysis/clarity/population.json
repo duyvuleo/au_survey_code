@@ -1,0 +1,43 @@
+{
+  "all_cases": {
+    "spider": 2220,
+    "bird": 908,
+    "combined": 3128
+  },
+  "column_cases": {
+    "spider": 1190,
+    "bird": 450,
+    "combined": 1640
+  },
+  "primary_cases": {
+    "spider": 176,
+    "bird": 143,
+    "combined": 319
+  },
+  "column_partition": {
+    "parent_execution_failed": 3,
+    "construction_unresolved": 49,
+    "alternative_execution_incomplete": 2,
+    "complete_screen_excluded": 1267,
+    "retained_primary": 319
+  },
+  "interpretation": "Exclusive descriptive accounting of saved states, not chronological screen order. Individual screen reasons can overlap.",
+  "retention": {
+    "primary_over_all": [
+      319,
+      3128
+    ],
+    "primary_over_columns": [
+      319,
+      1640
+    ]
+  },
+  "outer_order": {
+    "complete_column_cases_flagged": 415,
+    "flagged_with_no_other_screen_reason": 40,
+    "primary_outer_order_cases": 0,
+    "boundary": "The code excludes every outer ORDER BY without first verifying ties. The 40 single-flag cases are not established valid additions to the analysis."
+  },
+  "original_audit_sha256": "e4f121e9c0593e0e41ab9330a8d8677eb8507a576d0368a5acc3cb9c46d6198b",
+  "primary_membership_unchanged": true
+}

@@ -1,0 +1,38 @@
+{
+  "revision": "human-source-review-2026-10-09",
+  "confirmation_date": "2026-10-09",
+  "confirmation": "A survey author confirmed that both co-authors personally checked the cited source passages and approved their submitted judgments.",
+  "reviewer_labels": "Reviewer A and B replace personal file identifiers. Empty reviewer-ID, completion-date, and independence fields remain empty in the copied forms. The confirmation date is not an inferred review-completion date.",
+  "independent_before_discussion": null,
+  "scope": "The 36 supplied setting-pair information-flow and empirical-relationship judgments, covering 28 settings from 18 papers.",
+  "limits": "The confirmation does not establish independent first-pass annotation, complete paired subtype judgments, validation of all 89 endpoint assignments, or reproduction of SQL/model experiments. Original forms and their provenance notes are retained unchanged.",
+  "submitted_form_agreement": {
+    "information_flow_PNU": {
+      "matching": 34,
+      "paired": 36,
+      "percent": 94.44444444444444
+    },
+    "empirical_evaluation_PNU": {
+      "matching": 35,
+      "paired": 36,
+      "percent": 97.22222222222223
+    }
+  },
+  "agreement_scope": "Descriptive agreement on the submitted forms, which include follow-up corrections. Independent pre-discussion reliability is not established.",
+  "subtype_policy": "Retain both forms' subtype entries verbatim, including blanks. Empirical evidence types above are a source-based synthesis of the empirical rationales, not a mechanical conjunction of E=P and a subtype P. R06 per-meaning P describes a training schema-check mechanism. No paired numerical per-meaning absence claim is reported.",
+  "resolution_authority": "Source-based synthesis accepted by the survey author, not an additional unanimous reviewer vote.",
+  "manuscript_results": {
+    "main_evaluation_totals": {
+      "P": 60,
+      "N": 18,
+      "U": 20
+    },
+    "ib_empirical_evaluation": {
+      "N": 13,
+      "P": 5
+    },
+    "reviewed_setting_pairs": 36,
+    "reviewed_unique_settings": 28,
+    "reviewed_papers": 18
+  }
+}

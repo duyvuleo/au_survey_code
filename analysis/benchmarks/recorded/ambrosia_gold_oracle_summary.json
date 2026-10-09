@@ -1,0 +1,95 @@
+{
+  "all": {
+    "N": 1277,
+    "evaluated": 1277,
+    "errors": 0,
+    "mean_recall": 0.9994779430957974,
+    "mean_precision": 1.0,
+    "all_found_count": 1275,
+    "nonperfect": [
+      {
+        "record_id": "3600",
+        "split": "test",
+        "ambig_type": "vague",
+        "gold_list_count": 3,
+        "gold_unique_sql_count": 2,
+        "recall": 0.6666666666666666,
+        "precision": 1.0,
+        "f1_score": 0.8,
+        "num_queries": 3,
+        "num_unique_queries": 2,
+        "unique_results": 2,
+        "unique_results_filtered": 2,
+        "execution_errors": [],
+        "all_found": false
+      },
+      {
+        "record_id": "3677",
+        "split": "test",
+        "ambig_type": "vague",
+        "gold_list_count": 3,
+        "gold_unique_sql_count": 2,
+        "recall": 0.6666666666666666,
+        "precision": 1.0,
+        "f1_score": 0.8,
+        "num_queries": 3,
+        "num_unique_queries": 2,
+        "unique_results": 2,
+        "unique_results_filtered": 2,
+        "execution_errors": [],
+        "all_found": false
+      }
+    ]
+  },
+  "test": {
+    "N": 1149,
+    "evaluated": 1149,
+    "errors": 0,
+    "mean_recall": 0.9994197853205685,
+    "mean_precision": 1.0,
+    "all_found_count": 1147,
+    "nonperfect": [
+      {
+        "record_id": "3600",
+        "split": "test",
+        "ambig_type": "vague",
+        "gold_list_count": 3,
+        "gold_unique_sql_count": 2,
+        "recall": 0.6666666666666666,
+        "precision": 1.0,
+        "f1_score": 0.8,
+        "num_queries": 3,
+        "num_unique_queries": 2,
+        "unique_results": 2,
+        "unique_results_filtered": 2,
+        "execution_errors": [],
+        "all_found": false
+      },
+      {
+        "record_id": "3677",
+        "split": "test",
+        "ambig_type": "vague",
+        "gold_list_count": 3,
+        "gold_unique_sql_count": 2,
+        "recall": 0.6666666666666666,
+        "precision": 1.0,
+        "f1_score": 0.8,
+        "num_queries": 3,
+        "num_unique_queries": 2,
+        "unique_results": 2,
+        "unique_results_filtered": 2,
+        "execution_errors": [],
+        "all_found": false
+      }
+    ]
+  },
+  "few_shot_examples": {
+    "N": 128,
+    "evaluated": 128,
+    "errors": 0,
+    "mean_recall": 1.0,
+    "mean_precision": 1.0,
+    "all_found_count": 128,
+    "nonperfect": []
+  }
+}

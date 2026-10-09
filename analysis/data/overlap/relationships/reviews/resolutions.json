@@ -1,0 +1,1265 @@
+[
+  {
+    "case_id": "R01",
+    "setting_id": "M03-ambiqt-filtered",
+    "pair": "IC",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M03",
+    "source_url": "https://aclanthology.org/2025.findings-acl.863/",
+    "resolution": null
+  },
+  {
+    "case_id": "R02",
+    "setting_id": "M03-ambrosia",
+    "pair": "IC",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M03",
+    "source_url": "https://aclanthology.org/2025.findings-acl.863/",
+    "resolution": null
+  },
+  {
+    "case_id": "R03",
+    "setting_id": "M05-single-turn",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M05",
+    "source_url": "https://aclanthology.org/2026.acl-industry.86/",
+    "resolution": null
+  },
+  {
+    "case_id": "R04",
+    "setting_id": "M05-supplied-dialogue",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M05",
+    "source_url": "https://aclanthology.org/2026.acl-industry.86/",
+    "resolution": {
+      "field": "information_flow_PNU",
+      "status": "P",
+      "evidence_level": "documented design",
+      "rationale": "The supplied-dialogue predictor receives clarification or unresolved grounding and returns resolved SQL or Null. This documents an interpretation-to-answerability dependency under the single-resolved-SQL contract. It does not establish successful behavior, per-meaning feasibility, or empirical relationship evaluation.",
+      "line_ranges": [
+        [
+          289,
+          305
+        ],
+        [
+          730,
+          737
+        ],
+        [
+          1690,
+          1701
+        ]
+      ],
+      "source_url": "https://aclanthology.org/2026.acl-industry.86/"
+    }
+  },
+  {
+    "case_id": "R05",
+    "setting_id": "M05-detection",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M05",
+    "source_url": "https://aclanthology.org/2026.acl-industry.86/",
+    "resolution": null
+  },
+  {
+    "case_id": "R06",
+    "setting_id": "M08-reviewed-setting",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [
+      "diagnostic_confusion"
+    ],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "P",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "P"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M08",
+    "source_url": "https://scp.cc.gatech.edu/external-news/ieee-xplore-rag-or-not-rag-question-effective-text-sql-generation-under-ambiguity",
+    "resolution": null
+  },
+  {
+    "case_id": "R07",
+    "setting_id": "M08-reviewed-setting",
+    "pair": "IA",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M08",
+    "source_url": "https://scp.cc.gatech.edu/external-news/ieee-xplore-rag-or-not-rag-question-effective-text-sql-generation-under-ambiguity",
+    "resolution": null
+  },
+  {
+    "case_id": "R08",
+    "setting_id": "M08-reviewed-setting",
+    "pair": "BA",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "M08",
+    "source_url": "https://scp.cc.gatech.edu/external-news/ieee-xplore-rag-or-not-rag-question-effective-text-sql-generation-under-ambiguity",
+    "resolution": null
+  },
+  {
+    "case_id": "R09",
+    "setting_id": "S01-classification",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [
+      "diagnostic_confusion"
+    ],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "P"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S01",
+    "source_url": "https://arxiv.org/abs/2010.12634",
+    "resolution": null
+  },
+  {
+    "case_id": "R10",
+    "setting_id": "S02-mimic3",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S02",
+    "source_url": "https://arxiv.org/abs/2301.07695",
+    "resolution": null
+  },
+  {
+    "case_id": "R11",
+    "setting_id": "S02-eicu",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S02",
+    "source_url": "https://arxiv.org/abs/2301.07695",
+    "resolution": null
+  },
+  {
+    "case_id": "R12",
+    "setting_id": "S03-shared-task",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S03",
+    "source_url": "https://aclanthology.org/2024.clinicalnlp-1.62/",
+    "resolution": {
+      "field": "empirical_evaluation_PNU",
+      "status": "N",
+      "evidence_level": "not found in the specified overview",
+      "rationale": "Changing penalties on pooled reliability scores does not distinguish incorrect SQL on answerable requests from SQL returned for unanswerable requests. The overview does not add a linked feasibility/error analysis. TrustSQL and OMOP retain positive verification-control judgments because they additionally report feasibility-conditioned detector results or inspected errors.",
+      "line_ranges": [
+        [
+          345,
+          388
+        ]
+      ],
+      "primary_locator": "EHRSQL shared-task overview, Section 4.1 Equation 1 and Section 5.2 Table 3, PDF pages 4-6.",
+      "source_url": "https://aclanthology.org/2024.clinicalnlp-1.62/"
+    }
+  },
+  {
+    "case_id": "R13",
+    "setting_id": "S04-reviewed-setting",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [
+      "diagnostic_confusion"
+    ],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "P"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S04",
+    "source_url": "https://aclanthology.org/2023.findings-acl.352/",
+    "resolution": null
+  },
+  {
+    "case_id": "R14",
+    "setting_id": "S05-penalty",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S05",
+    "source_url": "https://arxiv.org/abs/2403.15879",
+    "resolution": null
+  },
+  {
+    "case_id": "R15",
+    "setting_id": "S06-ambrosia-generated",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S06",
+    "source_url": "https://aclanthology.org/2025.emnlp-main.906/",
+    "resolution": null
+  },
+  {
+    "case_id": "R16",
+    "setting_id": "S06-beaver-generated",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S06",
+    "source_url": "https://aclanthology.org/2025.emnlp-main.906/",
+    "resolution": null
+  },
+  {
+    "case_id": "R17",
+    "setting_id": "S07-reviewed-setting",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [
+      "request_level_relation"
+    ],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S07",
+    "source_url": "https://arxiv.org/abs/2512.21345",
+    "resolution": null
+  },
+  {
+    "case_id": "R18",
+    "setting_id": "S07-reviewed-setting",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S07",
+    "source_url": "https://arxiv.org/abs/2512.21345",
+    "resolution": null
+  },
+  {
+    "case_id": "R19",
+    "setting_id": "S08-triagesql-binary",
+    "pair": "IB",
+    "integration": "U",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S08",
+    "source_url": "https://arxiv.org/abs/2601.10398",
+    "resolution": {
+      "field": "information_flow_PNU",
+      "status": "U",
+      "evidence_level": "unclear linkage to the specified method",
+      "rationale": "Appendix A documents a vagueness-to-unanswerable prompt policy, but the inspected source does not explicitly identify the TriageSQL probe template with that policy. A separate prompted baseline also exists. The generic policy is documented; its use within this fixed probe setting remains unclear. This does not require causal or code-level proof of feature reliance.",
+      "line_ranges": [
+        [
+          262,
+          280
+        ],
+        [
+          338,
+          352
+        ],
+        [
+          699,
+          700
+        ],
+        [
+          748,
+          775
+        ],
+        [
+          843,
+          844
+        ],
+        [
+          856,
+          864
+        ]
+      ],
+      "source_url": "https://arxiv.org/abs/2601.10398"
+    }
+  },
+  {
+    "case_id": "R20",
+    "setting_id": "S12-reviewed-setting",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [
+      "request_level_relation"
+    ],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S12",
+    "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6877678",
+    "resolution": null
+  },
+  {
+    "case_id": "R21",
+    "setting_id": "S12-reviewed-setting",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S12",
+    "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6877678",
+    "resolution": null
+  },
+  {
+    "case_id": "R22",
+    "setting_id": "S12-reviewed-setting",
+    "pair": "IA",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S12",
+    "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6877678",
+    "resolution": null
+  },
+  {
+    "case_id": "R23",
+    "setting_id": "S13-refusal-utility",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S13",
+    "source_url": "https://aclanthology.org/2026.clinicalnlp-1.40/",
+    "resolution": null
+  },
+  {
+    "case_id": "R24",
+    "setting_id": "S14-preservation",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S14",
+    "source_url": "https://proceedings.mlr.press/v297/lee26b.html",
+    "resolution": null
+  },
+  {
+    "case_id": "R25",
+    "setting_id": "S14-correction",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "S14",
+    "source_url": "https://proceedings.mlr.press/v297/lee26b.html",
+    "resolution": null
+  },
+  {
+    "case_id": "R26",
+    "setting_id": "C09::clinical-generated",
+    "pair": "CA",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "C09",
+    "source_url": "https://arxiv.org/abs/2602.12015",
+    "resolution": null
+  },
+  {
+    "case_id": "R27",
+    "setting_id": "A04::woz-corpus",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A04",
+    "source_url": "https://aclanthology.org/D19-1204/",
+    "resolution": null
+  },
+  {
+    "case_id": "R28",
+    "setting_id": "A04::offline-baselines",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A04",
+    "source_url": "https://aclanthology.org/D19-1204/",
+    "resolution": null
+  },
+  {
+    "case_id": "R29",
+    "setting_id": "A06::classification",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A06",
+    "source_url": "https://aclanthology.org/2025.naacl-long.13/",
+    "resolution": null
+  },
+  {
+    "case_id": "R30",
+    "setting_id": "A06::supplied-dialogue-sql",
+    "pair": "IB",
+    "integration": "N",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "N",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "N",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A06",
+    "source_url": "https://aclanthology.org/2025.naacl-long.13/",
+    "resolution": null
+  },
+  {
+    "case_id": "R31",
+    "setting_id": "A11::gold-category",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A11",
+    "source_url": "https://arxiv.org/abs/2607.23340",
+    "resolution": null
+  },
+  {
+    "case_id": "R32",
+    "setting_id": "A11::gold-category",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A11",
+    "source_url": "https://arxiv.org/abs/2607.23340",
+    "resolution": null
+  },
+  {
+    "case_id": "R33",
+    "setting_id": "A11::predicted-category",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A11",
+    "source_url": "https://arxiv.org/abs/2607.23340",
+    "resolution": null
+  },
+  {
+    "case_id": "R34",
+    "setting_id": "A11::predicted-category",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A11",
+    "source_url": "https://arxiv.org/abs/2607.23340",
+    "resolution": null
+  },
+  {
+    "case_id": "R35",
+    "setting_id": "A11::taxonomy-only-free",
+    "pair": "IB",
+    "integration": "P",
+    "relationship_evaluation": "N",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "N"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "N",
+        "request_level_relation_PNU_or_NA": "P",
+        "diagnostic_confusion_PNU_or_NA": "N"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A11",
+    "source_url": "https://arxiv.org/abs/2607.23340",
+    "resolution": null
+  },
+  {
+    "case_id": "R36",
+    "setting_id": "A11::taxonomy-only-free",
+    "pair": "BV",
+    "integration": "P",
+    "relationship_evaluation": "P",
+    "empirical_evidence_types": [],
+    "submitted_core_judgments": {
+      "reviewer-a": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      },
+      "reviewer-b": {
+        "information_flow_PNU": "P",
+        "empirical_evaluation_PNU": "P"
+      }
+    },
+    "submitted_ib_subtypes": {
+      "reviewer-a": {
+        "per_meaning_answerability_PNU_or_NA": "NA",
+        "request_level_relation_PNU_or_NA": "NA",
+        "diagnostic_confusion_PNU_or_NA": "NA"
+      },
+      "reviewer-b": {
+        "per_meaning_answerability_PNU_or_NA": null,
+        "request_level_relation_PNU_or_NA": null,
+        "diagnostic_confusion_PNU_or_NA": null
+      }
+    },
+    "paper_id": "A11",
+    "source_url": "https://arxiv.org/abs/2607.23340",
+    "resolution": null
+  }
+]

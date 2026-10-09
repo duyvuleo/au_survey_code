@@ -1,0 +1,123 @@
+{
+  "scope": "Recorded targeted read-only diagnostics, not a broad rerun or semantic certification.",
+  "checks": {
+    "card_games": {
+      "database_sha256": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227",
+      "checks": [
+        {
+          "name": "Italian cohort size and threshold stability",
+          "results": [
+            [
+              95,
+              95,
+              16,
+              0
+            ]
+          ],
+          "diagnostic_sql_sha256": "a2158f706f31c158b7eaeff1ebb875d393a97125d7bc299f42cfbf78b36ac97a"
+        },
+        {
+          "name": "Italian cohort unique IDs, threshold crossings and nulls",
+          "results": [
+            [
+              95,
+              95,
+              16,
+              0,
+              0,
+              0
+            ]
+          ],
+          "diagnostic_sql_sha256": "0dff02f96119ad266e2d3a7ce04e045a52e31b2b40c4cdd9c6d14ce3897a240c"
+        }
+      ]
+    },
+    "hr_1": {
+      "database_sha256": "5e3358561f210b2f75d9ced5eafc13744c773f3f27eb8e0967afddd21fb25350",
+      "checks": [
+        {
+          "name": "Salary domain and missingness",
+          "results": [
+            [
+              2000,
+              20000,
+              5000,
+              40000,
+              0,
+              0,
+              0
+            ]
+          ],
+          "diagnostic_sql_sha256": "c17777824118b32a3bcf5dbde6b7dcde103fcfcfc6dd432fd6b5c152b855d523"
+        },
+        {
+          "name": "Salary storage classes",
+          "results": [
+            [
+              "integer",
+              "integer",
+              19
+            ]
+          ],
+          "diagnostic_sql_sha256": "3a383345ac930438051f47e3b1743299cace8290ae8d44d47de488e1b3095613"
+        }
+      ]
+    },
+    "music_2": {
+      "database_sha256": "1d2ab9310c84c5acb0c2b30f0ba52898d73a86a89c721131032260c827bdf8b9",
+      "checks": [
+        {
+          "name": "Referenced relations empty",
+          "results": [
+            [
+              0,
+              0
+            ]
+          ],
+          "diagnostic_sql_sha256": "d256b25834a6a5c5473adf2d367d9a5de7c119dd9fb5f5492ed4944b80bc9d71"
+        }
+      ]
+    },
+    "store_product": {
+      "database_sha256": "f36004a47e0a221b56b5eab99198f0f234161399f745545b9a39338ca77a64ba",
+      "checks": [
+        {
+          "name": "Masking by fixed OR branch",
+          "results": [
+            [
+              6,
+              4,
+              2,
+              0,
+              0
+            ]
+          ],
+          "diagnostic_sql_sha256": "826e34606b4e594a928097cfc82abf334340efd2c510012c6ccca195ff8bf5e1"
+        },
+        {
+          "name": "Measurement ranges",
+          "results": [
+            [
+              3.0,
+              36.0,
+              600.0,
+              600.0
+            ]
+          ],
+          "diagnostic_sql_sha256": "ada90cb27300c34a4ac0fcecae64b88cf7d54a9baaf143fa80616d9852637c09"
+        },
+        {
+          "name": "Declared-compatible fields all stored REAL",
+          "results": [
+            [
+              "real",
+              "real",
+              6
+            ]
+          ],
+          "diagnostic_sql_sha256": "b248fca2cbc1a6a216986db2f9d3ec2fb85ed4be8e976412b32fa85fa6344a81"
+        }
+      ]
+    }
+  }
+}

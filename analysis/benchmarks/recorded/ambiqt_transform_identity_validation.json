@@ -1,0 +1,84 @@
+[
+  {
+    "category": "col-synonyms",
+    "model": "logical-beam",
+    "mismatches": {
+      "extra_map": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "col-synonyms",
+    "model": "t5-3b-bw10",
+    "mismatches": {
+      "extra_map": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "tbl-synonyms",
+    "model": "logical-beam",
+    "mismatches": {
+      "extra_table_map": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "tbl-synonyms",
+    "model": "t5-3b-bw10",
+    "mismatches": {
+      "extra_table_map": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "tbl-split",
+    "model": "logical-beam",
+    "mismatches": {
+      "split_map": [],
+      "primary_key": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "tbl-split",
+    "model": "t5-3b-bw10",
+    "mismatches": {
+      "split_map": [],
+      "primary_key": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "tbl-agg",
+    "model": "logical-beam",
+    "mismatches": {
+      "new_table_name": [],
+      "query1": [],
+      "query2": []
+    }
+  },
+  {
+    "category": "tbl-agg",
+    "model": "t5-3b-bw10",
+    "mismatches": {
+      "new_table_name": [],
+      "query1": [],
+      "query2": [
+        44,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ]
+    }
+  }
+]

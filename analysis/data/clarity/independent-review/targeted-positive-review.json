@@ -1,0 +1,431 @@
+[
+  {
+    "bundle_id": "spider-ed143f8a9346f8916b2eef05ed8575c525d899b5a8adbb7e7be787a1f5dbd654",
+    "dataset": "spider",
+    "source_line": 3576,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "All results are empty despite nonempty source relations; this establishes only coincident absence under the bound predicates, not a populated-answer demonstration."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-e26aecf6b805152a465f39123bff9fa30879d6d881d2c6ada06ba0a11d350955",
+    "dataset": "spider",
+    "source_line": 3791,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-55b6ba7505c497e41aa855eeea0aee5d7f5542b8f85de154ed740c0430526414",
+    "dataset": "spider",
+    "source_line": 3792,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-86bd9cb720319f26a44afa2faf230bfbfe1920d0bcf6534212669c880dbd0e37",
+    "dataset": "spider",
+    "source_line": 3795,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-15301d527a11cab6b0269dadc65be787ca32bc42454d3d3c642e4148b37e89af",
+    "dataset": "spider",
+    "source_line": 3797,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-0255e8d5fa8c282f31d08dbb1d061d77c5353926b953cca6497ae0c7fd3c1b10",
+    "dataset": "spider",
+    "source_line": 6329,
+    "semantic_judgment": "role_or_unit_plausibility_unresolved",
+    "limitations": [
+      "A shared numeric type does not validate the generic term or unchanged numeric threshold across these differently named measures. No units or contextual disambiguation were independently established; retain as structural equality only."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-f390abf5452c5dddcf0918bb0a30f5ba00ca6517bc924395fe0aa45caf1705f0",
+    "dataset": "spider",
+    "source_line": 6360,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "All results are empty despite nonempty source relations; this establishes only coincident absence under the bound predicates, not a populated-answer demonstration."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-3df87fd8e613bf6194ca49d51c8e675c532ff5fce6d8d233d4a0e27e038b91d8",
+    "dataset": "spider",
+    "source_line": 6402,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-75122693d54fbb15b4b81107fe80de7a2b1277ac6da37f15f3cd36f4c75991db",
+    "dataset": "spider",
+    "source_line": 6597,
+    "semantic_judgment": "role_or_unit_plausibility_unresolved",
+    "limitations": [
+      "A shared numeric type does not validate the generic term or unchanged numeric threshold across these differently named measures. No units or contextual disambiguation were independently established; retain as structural equality only."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-20a5afa1aab0daf86b57fd3455110fb38d0da8711268e949fdc8d2f541b457b7",
+    "dataset": "spider",
+    "source_line": 6612,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-dd1428c6e023d4c0b3ba5e344ec3eb1b506399897ccdb8df1a770fefc3390c23",
+    "dataset": "spider",
+    "source_line": 6613,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-0c4738b1e57fcffea262eaa10d53edf2c13a4fb07be49b964fe002a1a5022918",
+    "dataset": "spider",
+    "source_line": 6614,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-0b55c18f41f14e7665f21f0f4dfa7d14cf98dc2e567412a95209d451bd6a7784",
+    "dataset": "spider",
+    "source_line": 6615,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-41db4ac67fabf9c2a9870af355456725e63088b967e067ee86f11089cd35425e",
+    "dataset": "spider",
+    "source_line": 6616,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-09e634194ad1f02c598b2d98a79d77ca92122e35d7a457c6f80d086f08f70f22",
+    "dataset": "spider",
+    "source_line": 6617,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-8251dbb61db87987ad327db8882879047725908af71e4a7a543a7671c4b93bcb",
+    "dataset": "spider",
+    "source_line": 6618,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-a04e5d534e83c611bec11e1f783f565388a3ee48b7a43db4b6f6880248ad4550",
+    "dataset": "spider",
+    "source_line": 6619,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "The query reads an empty source relation: music_2 Band (and other music tables), or sakila_1 staff. Equality is vacuous on those relations; the count-zero case remains nonempty output. No snapshot mismatch is proven."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-1f759a47378bb6329feffd9499254997636013a9b7b48399a7368f46ed43334f",
+    "dataset": "spider",
+    "source_line": 6646,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "A scalar-zero answer is nonempty output. Report separately from empty result sets and do not equate it with unanswerability."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-b5ef73f3fdc902e51cf58edd50de986e2876b5853899117a5e08bbfe6a347e22",
+    "dataset": "spider",
+    "source_line": 6648,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-c13a860bba4c8eb6931cdfe260e50b3d9b44d85941bcbc8331414a2ce4d16dc1",
+    "dataset": "spider",
+    "source_line": 6649,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-07b79c7b46b184b1dc903c5fe71d6acc6017a4361d877a1a2b6e27b1be56569f",
+    "dataset": "spider",
+    "source_line": 6650,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-6d475f61820ba28d3c7a13c1bb92fb95481c578cd942d19aab1c21e35a532bd2",
+    "dataset": "spider",
+    "source_line": 6691,
+    "semantic_judgment": "candidate_context_compatibility_unresolved",
+    "limitations": [
+      "The candidate month list includes months already used in the fixed context, including a self-comparison for the second OR branch. The fixed first branch can mask the difference. The complete candidate set is not semantically certified."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-251a4caa21a0a0f87160f7aa298eabaf4b88e528d652e34276b03918652101d8",
+    "dataset": "spider",
+    "source_line": 6692,
+    "semantic_judgment": "candidate_context_compatibility_unresolved",
+    "limitations": [
+      "The candidate month list includes months already used in the fixed context, including a self-comparison for the second OR branch. The fixed first branch can mask the difference. The complete candidate set is not semantically certified."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "spider-bf1fa121d7b1e5044996d9af9719c3d7222c65038865427b073e60cd5ceef70a",
+    "dataset": "spider",
+    "source_line": 6701,
+    "semantic_judgment": "role_or_unit_plausibility_unresolved",
+    "limitations": [
+      "A shared numeric type does not validate the generic term or unchanged numeric threshold across these differently named measures. No units or contextual disambiguation were independently established; retain as structural equality only."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-b713760ed5455e054f2efbbe4a33238c98e37952fda2d4af3f47e92254cdbbcf",
+    "dataset": "bird",
+    "source_line": 2064,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-4063fa5a466c0f983b55e9e5aa877ff2a5f92edad4b127ae8cfc776105e476ca",
+    "dataset": "bird",
+    "source_line": 2068,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Parent RANK semantics and ties define this derived comparison; natural-language top-5 tie policy is not independently established. Window ordering is not an outer-output order requirement."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-be2a34d36972b7313c1687904ec09e0991cb17fd47c05d340dd278aa93824437",
+    "dataset": "bird",
+    "source_line": 2178,
+    "semantic_judgment": "role_or_unit_plausibility_unresolved",
+    "limitations": [
+      "A shared numeric type does not validate the generic term or unchanged numeric threshold across these differently named measures. No units or contextual disambiguation were independently established; retain as structural equality only."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-b5f3926b59ec70b541779f16f624318f5e8192523795c28234ab0ffb5dfb329e",
+    "dataset": "bird",
+    "source_line": 2191,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-ffa9c63d8349910c575345f32504cf5a6ccddc6ddfe71d4a6aa3f2cf4fdccd61",
+    "dataset": "bird",
+    "source_line": 2961,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-b853ad9e6ae28da523bbe96bc098c39c9a7495b8811780e27396bc8f02800648",
+    "dataset": "bird",
+    "source_line": 2962,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-ac80e17a9d3c022f703d31fd760d94f528fb4a5bb93d73f70297d16c63b68e91",
+    "dataset": "bird",
+    "source_line": 2971,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-643be42dd13650aa0f86455a6b21d7d6360ecabea48ba0918a59e490800c313f",
+    "dataset": "bird",
+    "source_line": 2990,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-1d4e7d5357269ac9d2ef3595306ba62fcfc9dc7c838bd1bf4de9c2c334769387",
+    "dataset": "bird",
+    "source_line": 2997,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-359bf7a777cec138a1cfa0edda1051213dade8ca13ebdd5f6a5bb9b6da1c0496",
+    "dataset": "bird",
+    "source_line": 3001,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-d3ab892b719f7f04b0fc8ef8d76aba2c740c03a2d766f0abfd5574973d81f56a",
+    "dataset": "bird",
+    "source_line": 3004,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-ccb3154a68aa93f684d0e3730fcd3dab2e7f2fd7e5ca5f21ad85e286c49827b5",
+    "dataset": "bird",
+    "source_line": 3014,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-88e550d163a9401b29153c9278fbbf7ff512d03723618bf54bd808023a7dd554",
+    "dataset": "bird",
+    "source_line": 3077,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-799e99b98ab2e227928170a37efda438e562d4ca5d1f7d8208e4ad84171145cd",
+    "dataset": "bird",
+    "source_line": 3141,
+    "semantic_judgment": "role_or_unit_plausibility_unresolved",
+    "limitations": [
+      "A shared numeric type does not validate the generic term or unchanged numeric threshold across these differently named measures. No units or contextual disambiguation were independently established; retain as structural equality only."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  },
+  {
+    "bundle_id": "bird-53ea68dbb6bfe74bf7c7bf337254f09c2d1c08e7d40c8ecf017c426e537f0243",
+    "dataset": "bird",
+    "source_line": 3154,
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "limitations": [
+      "Annotation-based reading is plausible in this bounded review; this is not human validation, complete proof of intended units/roles, or workload prevalence evidence."
+    ],
+    "reexecution_pass": true,
+    "scope": "targeted review of positive structural matches, selected after outcomes; not an unbiased validation sample"
+  }
+]

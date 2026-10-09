@@ -1,0 +1,547 @@
+{
+  "selection": "Four outcome-selected illustrations; not a representative or outcome-blind sample.",
+  "scope": "Both represented queries inspected in each case. Missing-meaning coverage is unresolved. Independent human validation is not included. No corrected semantic rate is inferred.",
+  "source_text": "Raw requests, conversation text, SQL strings and databases omitted. Source-file lines and hashes identify the inspected records; exact public annotation acquisition is unverified.",
+  "cases": [
+    {
+      "case_id": "BIRD-3014",
+      "bundle_id": "bird-ccb3154a68aa93f684d0e3730fcd3dab2e7f2fd7e5ca5f21ad85e286c49827b5",
+      "dataset": "bird",
+      "db_id": "card_games",
+      "source": {
+        "repository_file": "projects/ac_conversation/bird/final_data/bird_data.jsonl",
+        "data_commit": "fc5c2d09bc1ec580ad8001083a7760c2038a6ac3",
+        "source_file_sha256": "cc69c8060d80535f360b3f62b4803011b3c514e240590663fc75330e8998bb9a",
+        "line_1based": 3014,
+        "all_bundle_source_lines": [
+          3014,
+          3274,
+          3534,
+          3794,
+          4054
+        ],
+        "public_acquisition_url": null,
+        "access_limit": "The annotation snapshot was inspected. A public URL resolving this commit/file is not established. The paper URL is bibliographic only.",
+        "paper_url": "https://aclanthology.org/2026.acl-industry.86/"
+      },
+      "database": {
+        "sha256": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227",
+        "bytes": 261820416,
+        "relative_instance": "card_games/card_games.sqlite",
+        "source_url": "https://bird-bench.oss-cn-beijing.aliyuncs.com/dev.zip",
+        "original_benchmark_snapshot_identity_verified": false
+      },
+      "meanings": [
+        {
+          "column": "baseSetSize",
+          "paraphrase": "Count eligible set IDs whose recorded base set size is below 100."
+        },
+        {
+          "column": "totalSetSize",
+          "paraphrase": "Count eligible set IDs whose recorded total set size is below 100."
+        }
+      ],
+      "verdict": "plausible_under_recorded_definitions",
+      "rubric": {
+        "question_faithfulness": {
+          "status": "supported",
+          "rationale": "The initial wording says card count without choosing between the two recorded size fields. The Italian-language and non-null-translation conditions remain fixed."
+        },
+        "candidate_plausibility": {
+          "status": "supported",
+          "rationale": "The BIRD description names baseSetSize as the number of cards in the set and defines totalSetSize to include promotional and related supplemental products while excluding Alchemy modifications. Both are recorded card-count measures. The base description does not specify every included/excluded product class."
+        },
+        "units_and_roles": {
+          "status": "supported",
+          "rationale": "Both fields count cards for the same set record and have integer storage in the recorded profile. No unit conversion is introduced. Do not call totalSetSize a count of every card without its documented exclusions."
+        },
+        "sql_faithfulness": {
+          "status": "supported",
+          "rationale": "Both complete queries preserve COUNT(T1.id), the sets/set_translations join, language Italian, the non-null translation condition, and the literal threshold 100. Only the resolved size-column identifier changes. In this fixed cohort, 95 joined rows have 95 distinct IDs, so duplicate join rows do not inflate this example."
+        },
+        "requested_output": {
+          "status": "supported",
+          "rationale": "Both return the same scalar count of qualifying set-ID occurrences. The checked cohort has one joined row per distinct set ID."
+        },
+        "execution_interpretation": {
+          "status": "supported",
+          "rationale": "Both recorded answers are 30. The diagnostic checks find 16 unequal size pairs among 95 eligible IDs, zero nulls in either size column, and zero differences between the two <100 predicate truth values. Thus the same IDs pass the threshold in this cohort. This conclusion uses the predicate diagnostic, not equal cardinalities alone."
+        }
+      },
+      "supported_claim": "The two plausible stored-size readings return the same requested count because neither changes threshold membership in the checked Italian/non-null-translation cohort.",
+      "limitations": [
+        "The meaning of baseSetSize must not be expanded beyond its recorded description. Its name and generic description do not independently enumerate all exclusions.",
+        "The schema does not enforce uniqueness of (setCode, language). Uniqueness is confirmed only for the checked cohort by the recorded diagnostic.",
+        "The results do not establish that the size measures are identical, queries equivalent on other data, or one reading intended by the user."
+      ],
+      "within_case_review": {
+        "represented_column_choices": 2,
+        "unique_queries": 2,
+        "complete_query_texts_inspected": 2,
+        "all_represented_queries_inspected_for_meaning": true,
+        "new_queries_executed_by_this_reviewer": 0,
+        "execution_evidence": "Existing complete results and targeted read-only diagnostics in the cited packets. Reexecution is not semantic proof."
+      },
+      "meaning_coverage": {
+        "status": "unresolved",
+        "rationale": "The two supplied choices are inspected. Coverage of every plausible interpretation is not established."
+      },
+      "human_validation": false,
+      "reference_records": [
+        {
+          "sql_sha256": "01a7eef765a62ce95a3e14bcd0aa50e9ed08e462cd1ce8929c97d96335b69c29",
+          "row_count": 1,
+          "column_count": 1,
+          "bag_signature": "e628e36a28d47dbd70dd4eb6cf136980ba6f94e24463fd2ffdff316ce633ece3",
+          "ordered_signature": "083431621b612df4cfbc64a3c72db917254c720d57849e2b9f78391903347ebb",
+          "empty": false,
+          "scalar_zero": false,
+          "fresh_readonly_matches_recorded": true
+        },
+        {
+          "sql_sha256": "98859369d379805e9b0a755223d6c246ad6fff5b18b27a07c1044473da6642af",
+          "row_count": 1,
+          "column_count": 1,
+          "bag_signature": "e628e36a28d47dbd70dd4eb6cf136980ba6f94e24463fd2ffdff316ce633ece3",
+          "ordered_signature": "083431621b612df4cfbc64a3c72db917254c720d57849e2b9f78391903347ebb",
+          "empty": false,
+          "scalar_zero": false,
+          "fresh_readonly_matches_recorded": true
+        }
+      ],
+      "outcome": {
+        "status": "complete_execution",
+        "fixed_output_screened_eligible": true,
+        "all_alternatives_agree": true,
+        "all_empty": false,
+        "all_null": false,
+        "all_scalar_zero": false,
+        "any_pair_agrees": true,
+        "references_empty_source_relation": false,
+        "all_identified_source_relations_nonempty": true
+      },
+      "source_table_counts": [
+        {
+          "dataset": "bird",
+          "db_id": "card_games",
+          "table": "set_translations",
+          "ok": true,
+          "row_count": 1210
+        },
+        {
+          "dataset": "bird",
+          "db_id": "card_games",
+          "table": "sets",
+          "ok": true,
+          "row_count": 551
+        }
+      ],
+      "definition_source": {
+        "source_url": "https://bird-bench.oss-cn-beijing.aliyuncs.com/dev.zip",
+        "archive_sha256": "cdd6d19faeb45a23970b98d3ef6c40a87987c95459c2cf12076897a60cf5a630",
+        "archive_member": "dev_databases/card_games/database_description/sets.csv",
+        "member_sha256": "3679c8051713f1574d40ff6793eaebf590705915d20f086ffe3ee930a4ddbb0e",
+        "column_locations": [
+          {
+            "column": "baseSetSize",
+            "line_start": 3,
+            "line_end": 3
+          },
+          {
+            "column": "totalSetSize",
+            "line_start": 22,
+            "line_end": 22
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "SPIDER-3673",
+      "bundle_id": "spider-3a15488abe6ece50c84c801bf43bb8af0a7800287e4359221155162f626079dd",
+      "dataset": "spider",
+      "db_id": "hr_1",
+      "source": {
+        "repository_file": "projects/ac_conversation/spider/final_data/spider_data.jsonl",
+        "data_commit": "fc5c2d09bc1ec580ad8001083a7760c2038a6ac3",
+        "source_file_sha256": "d1b6ed2ab7dba8e7d2f13129dbc69f8c5c7f1420ea49910bedde1d3f88dd9c9a",
+        "line_1based": 3673,
+        "all_bundle_source_lines": [
+          3673,
+          4163,
+          4653,
+          5143,
+          5633
+        ],
+        "public_acquisition_url": null,
+        "access_limit": "The annotation snapshot was inspected. A public URL resolving this commit/file is not established. The paper URL is bibliographic only.",
+        "paper_url": "https://aclanthology.org/2026.acl-industry.86/"
+      },
+      "database": {
+        "sha256": "5e3358561f210b2f75d9ced5eafc13744c773f3f27eb8e0967afddd21fb25350",
+        "bytes": 69632,
+        "relative_instance": "hr_1/hr_1.sqlite",
+        "source_url": "https://github.com/testzer0/AmbiQT/tree/2dd908bd4a7173f98fa6637758f4d41852722a5c",
+        "original_benchmark_snapshot_identity_verified": false
+      },
+      "meanings": [
+        {
+          "column": "MIN_SALARY",
+          "paraphrase": "Return job titles whose recorded minimum salary exceeds 9000."
+        },
+        {
+          "column": "MAX_SALARY",
+          "paraphrase": "Return job titles whose recorded maximum salary exceeds 9000."
+        }
+      ],
+      "verdict": "plausible_under_recorded_definitions",
+      "rubric": {
+        "question_faithfulness": {
+          "status": "supported",
+          "rationale": "The initial question asks about jobs whose salary is greater than 9000 without specifying the lower or upper salary bound. Both readings make that choice explicit."
+        },
+        "candidate_plausibility": {
+          "status": "supported",
+          "rationale": "MIN_SALARY and MAX_SALARY are lower/upper fields for the same job, rather than unrelated numeric measures. The recorded diagnostic finds no lower bound exceeding the upper bound."
+        },
+        "units_and_roles": {
+          "status": "supported_with_scope",
+          "rationale": "Both fields represent recorded salary bounds and all 19 pairs use integer storage. The supplied schema does not specify currency or pay period, so the illustration should retain 9000 without adding dollars, annual salary, or monthly salary."
+        },
+        "sql_faithfulness": {
+          "status": "supported",
+          "rationale": "Both queries select job_title from jobs and preserve >9000. Only the salary-bound identifier changes. No join, aggregation, DISTINCT, or ordering is introduced."
+        },
+        "requested_output": {
+          "status": "supported",
+          "rationale": "Both return job-title rows under the same comparison rule. Three and ten are numbers of returned rows, not scalar COUNT answers."
+        },
+        "execution_interpretation": {
+          "status": "supported",
+          "rationale": "The minimum-bound reading returns three title rows and the maximum-bound reading ten. Both columns have no nulls and every recorded minimum is at most its maximum. The three returned titles occur in the ten-title output."
+        }
+      },
+      "supported_claim": "For these two plausible salary-bound readings, choosing the bound changes the returned job-title rows on the checked database.",
+      "limitations": [
+        "The initial question does not identify which bound the user intended.",
+        "Currency and pay-period semantics are not independently specified.",
+        "The two supplied bounds do not establish exhaustive coverage of meanings such as actual employee salary."
+      ],
+      "within_case_review": {
+        "represented_column_choices": 2,
+        "unique_queries": 2,
+        "complete_query_texts_inspected": 2,
+        "all_represented_queries_inspected_for_meaning": true,
+        "new_queries_executed_by_this_reviewer": 0,
+        "execution_evidence": "Existing complete results and targeted read-only diagnostics in the cited packets. Reexecution is not semantic proof."
+      },
+      "meaning_coverage": {
+        "status": "unresolved",
+        "rationale": "The two supplied choices are inspected. Coverage of every plausible interpretation is not established."
+      },
+      "human_validation": false,
+      "reference_records": [
+        {
+          "sql_sha256": "4c932682d9afca06d9ae915c6e2ceb4d63407a3263570d3aef6f1fc2d7b9dfec",
+          "row_count": 3,
+          "column_count": 1,
+          "bag_signature": "ccc3b34219a29b8e1c34c949d184ddc45409808942e30826e91afa427cd94fa6",
+          "ordered_signature": "ad52e693fb70b628957a778785764aaca3ef42c7c6b5524a67ee6bb3ceb58a9a",
+          "empty": false,
+          "scalar_zero": false,
+          "fresh_readonly_matches_recorded": true
+        },
+        {
+          "sql_sha256": "c447115be59a25504d4da8f35202b517d50629272c0c5ce41275a6718e669fad",
+          "row_count": 10,
+          "column_count": 1,
+          "bag_signature": "3197b4b63f7646fa2e4cc3211dd4458df97b783f891ebfc1e5d2d06098bf5d04",
+          "ordered_signature": "beebef8251c6a57ce1ab0e30abf7d517e2958e62385993c31fa101ea2fea21de",
+          "empty": false,
+          "scalar_zero": false,
+          "fresh_readonly_matches_recorded": true
+        }
+      ],
+      "outcome": {
+        "status": "complete_execution",
+        "fixed_output_screened_eligible": true,
+        "all_alternatives_agree": false,
+        "all_empty": false,
+        "all_null": false,
+        "all_scalar_zero": false,
+        "any_pair_agrees": false,
+        "references_empty_source_relation": false,
+        "all_identified_source_relations_nonempty": true
+      },
+      "source_table_counts": [
+        {
+          "dataset": "spider",
+          "db_id": "hr_1",
+          "table": "jobs",
+          "ok": true,
+          "row_count": 19
+        }
+      ]
+    },
+    {
+      "case_id": "SPIDER-6615",
+      "bundle_id": "spider-0b55c18f41f14e7665f21f0f4dfa7d14cf98dc2e567412a95209d451bd6a7784",
+      "dataset": "spider",
+      "db_id": "music_2",
+      "source": {
+        "repository_file": "projects/ac_conversation/spider/final_data/spider_data.jsonl",
+        "data_commit": "fc5c2d09bc1ec580ad8001083a7760c2038a6ac3",
+        "source_file_sha256": "d1b6ed2ab7dba8e7d2f13129dbc69f8c5c7f1420ea49910bedde1d3f88dd9c9a",
+        "line_1based": 6615,
+        "all_bundle_source_lines": [
+          6615,
+          7227,
+          7839,
+          8451,
+          9063
+        ],
+        "public_acquisition_url": null,
+        "access_limit": "The annotation snapshot was inspected. A public URL resolving this commit/file is not established. The paper URL is bibliographic only.",
+        "paper_url": "https://aclanthology.org/2026.acl-industry.86/"
+      },
+      "database": {
+        "sha256": "1d2ab9310c84c5acb0c2b30f0ba52898d73a86a89c721131032260c827bdf8b9",
+        "bytes": 49152,
+        "relative_instance": "music_2/music_2.sqlite",
+        "source_url": "https://github.com/testzer0/AmbiQT/tree/2dd908bd4a7173f98fa6637758f4d41852722a5c",
+        "original_benchmark_snapshot_identity_verified": false
+      },
+      "meanings": [
+        {
+          "column": "Lastname",
+          "paraphrase": "Count distinct recorded instruments for musicians whose last name is Heilo."
+        },
+        {
+          "column": "Firstname",
+          "paraphrase": "Count distinct recorded instruments for musicians whose first name is Heilo."
+        }
+      ],
+      "verdict": "plausible_under_recorded_definitions",
+      "rubric": {
+        "question_faithfulness": {
+          "status": "supported_with_scope",
+          "rationale": "The unusual initial phrase personal detail does not select first name or last name. The two annotated fields support these name-based readings, without identifying a particular musician."
+        },
+        "candidate_plausibility": {
+          "status": "supported",
+          "rationale": "Firstname and Lastname are personal name attributes of the same Band entity. The candidate changes the attribute tested for the same Heilo string, not the joined entity key."
+        },
+        "units_and_roles": {
+          "status": "supported",
+          "rationale": "Both comparisons are text-name predicates. The output in both cases is a count of distinct instrument values."
+        },
+        "sql_faithfulness": {
+          "status": "supported",
+          "rationale": "Both queries preserve the instrument-to-band-member join, COUNT(DISTINCT instrument), and the Heilo literal. Only the name-column identifier changes."
+        },
+        "requested_output": {
+          "status": "supported",
+          "rationale": "Each aggregate returns one row containing zero. This is not an empty result set."
+        },
+        "execution_interpretation": {
+          "status": "supported",
+          "rationale": "Both referenced relations, Band and Instruments, have zero rows in the recorded instance. Their inner join is therefore empty under either predicate, and COUNT(DISTINCT instrument) returns zero. A filter that removes only empty query results retains this case."
+        }
+      },
+      "supported_claim": "Empty referenced relations produce the same scalar-zero answer for both name readings on this instance.",
+      "limitations": [
+        "The database evidence does not establish that a musician called Heilo exists or plays no instruments in the world.",
+        "Empty tables do not establish an incorrect snapshot, an unanswerable task, or general equivalence of the queries.",
+        "The singular musician wording does not establish unique name identification. The displayed query aggregates every matching database member under each reading."
+      ],
+      "within_case_review": {
+        "represented_column_choices": 2,
+        "unique_queries": 2,
+        "complete_query_texts_inspected": 2,
+        "all_represented_queries_inspected_for_meaning": true,
+        "new_queries_executed_by_this_reviewer": 0,
+        "execution_evidence": "Existing complete results and targeted read-only diagnostics in the cited packets. Reexecution is not semantic proof."
+      },
+      "meaning_coverage": {
+        "status": "unresolved",
+        "rationale": "The two supplied choices are inspected. Coverage of every plausible interpretation is not established."
+      },
+      "human_validation": false,
+      "reference_records": [
+        {
+          "sql_sha256": "1f497deadd48684779427a3a3ac388d152fb39b3be9eb70f08c2b68d915ca30a",
+          "row_count": 1,
+          "column_count": 1,
+          "bag_signature": "497b8ab0f0bd744f53624cab048f7d7774e969ea0ffd0da7f6280e6eb7c4e9b6",
+          "ordered_signature": "9f2ef3ea99683ce2bb33403eeae79228c11a74051f04be891be465a1ddbb05e2",
+          "empty": false,
+          "scalar_zero": true,
+          "fresh_readonly_matches_recorded": true
+        },
+        {
+          "sql_sha256": "a194256b96d583fe947061218f9c79cc1382666435d0c814aaa9f55e47e5b2bf",
+          "row_count": 1,
+          "column_count": 1,
+          "bag_signature": "497b8ab0f0bd744f53624cab048f7d7774e969ea0ffd0da7f6280e6eb7c4e9b6",
+          "ordered_signature": "9f2ef3ea99683ce2bb33403eeae79228c11a74051f04be891be465a1ddbb05e2",
+          "empty": false,
+          "scalar_zero": true,
+          "fresh_readonly_matches_recorded": true
+        }
+      ],
+      "outcome": {
+        "status": "complete_execution",
+        "fixed_output_screened_eligible": true,
+        "all_alternatives_agree": true,
+        "all_empty": false,
+        "all_null": false,
+        "all_scalar_zero": true,
+        "any_pair_agrees": true,
+        "references_empty_source_relation": true,
+        "all_identified_source_relations_nonempty": false
+      },
+      "source_table_counts": [
+        {
+          "dataset": "spider",
+          "db_id": "music_2",
+          "table": "Band",
+          "ok": true,
+          "row_count": 0
+        },
+        {
+          "dataset": "spider",
+          "db_id": "music_2",
+          "table": "Instruments",
+          "ok": true,
+          "row_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "SPIDER-6597",
+      "bundle_id": "spider-75122693d54fbb15b4b81107fe80de7a2b1277ac6da37f15f3cd36f4c75991db",
+      "dataset": "spider",
+      "db_id": "store_product",
+      "source": {
+        "repository_file": "projects/ac_conversation/spider/final_data/spider_data.jsonl",
+        "data_commit": "fc5c2d09bc1ec580ad8001083a7760c2038a6ac3",
+        "source_file_sha256": "d1b6ed2ab7dba8e7d2f13129dbc69f8c5c7f1420ea49910bedde1d3f88dd9c9a",
+        "line_1based": 6597,
+        "all_bundle_source_lines": [
+          6597,
+          7209,
+          7821,
+          8433,
+          9045
+        ],
+        "public_acquisition_url": null,
+        "access_limit": "The annotation snapshot was inspected. A public URL resolving this commit/file is not established. The paper URL is bibliographic only.",
+        "paper_url": "https://aclanthology.org/2026.acl-industry.86/"
+      },
+      "database": {
+        "sha256": "f36004a47e0a221b56b5eab99198f0f234161399f745545b9a39338ca77a64ba",
+        "bytes": 45056,
+        "relative_instance": "store_product/store_product.sqlite",
+        "source_url": "https://github.com/testzer0/AmbiQT/tree/2dd908bd4a7173f98fa6637758f4d41852722a5c",
+        "original_benchmark_snapshot_identity_verified": false
+      },
+      "meanings": [
+        {
+          "column": "pages_per_minute_color",
+          "paraphrase": "Return product names when the maximum page size is A4 or recorded color throughput is below 5."
+        },
+        {
+          "column": "dpi",
+          "paraphrase": "Return product names when the maximum page size is A4 or recorded resolution is below 5."
+        }
+      ],
+      "verdict": "uncertain",
+      "rubric": {
+        "question_faithfulness": {
+          "status": "uncertain",
+          "rationale": "Print performance can refer broadly to several properties, but the initial question does not identify the measure or units of 5. The annotation lists speed and resolution without establishing that both threshold interpretations fit the intended request."
+        },
+        "candidate_plausibility": {
+          "status": "uncertain",
+          "rationale": "The throughput reading has an immediate link to performance through the column name. Resolution is also a product property, but the shared unitless threshold is insufficient to establish a defensible resolution reading. It is not declared invalid solely because the threshold is unusual."
+        },
+        "units_and_roles": {
+          "status": "uncertain",
+          "rationale": "pages_per_minute_color and dpi denote differently measured properties. Both are declared REAL and stored as real values, which establishes numeric representation compatibility but not semantic interchangeability or appropriate units for 5."
+        },
+        "sql_faithfulness": {
+          "status": "supported_conditionally",
+          "rationale": "The identifier replacement preserves SELECT product, the A4 equality branch, OR, and <5 exactly. Each query implements its stated numerical predicate. Whether the dpi predicate faithfully implements the ambiguous natural-language meaning remains uncertain."
+        },
+        "requested_output": {
+          "status": "supported",
+          "rationale": "The projected product-name rows and their multiplicity remain unchanged. Both queries return the same four names."
+        },
+        "execution_interpretation": {
+          "status": "supported",
+          "rationale": "There are six products and four A4 products. Two satisfy the speed threshold, none satisfies dpi<5, and both full queries return four rows. The four A4 rows are included by both queries, so no additional row is added by either threshold branch. The fixed A4 branch accounts for the matching outputs on this instance."
+        }
+      },
+      "supported_claim": "The recorded outputs match because the fixed A4 branch already supplies the returned rows, while the meaning and unit compatibility of the substituted threshold remains unresolved.",
+      "limitations": [
+        "This remains one of the seven unresolved positive cases and is not relabeled as semantically validated or removed from the original rates.",
+        "Matching numeric storage types and output rows do not validate the two readings.",
+        "The result does not show that the two predicates are equivalent, that resolution is the intended measure, or that a different database would yield agreement."
+      ],
+      "within_case_review": {
+        "represented_column_choices": 2,
+        "unique_queries": 2,
+        "complete_query_texts_inspected": 2,
+        "all_represented_queries_inspected_for_meaning": true,
+        "new_queries_executed_by_this_reviewer": 0,
+        "execution_evidence": "Existing complete results and targeted read-only diagnostics in the cited packets. Reexecution is not semantic proof."
+      },
+      "meaning_coverage": {
+        "status": "unresolved",
+        "rationale": "The two supplied choices are inspected. Coverage of every plausible interpretation is not established."
+      },
+      "human_validation": false,
+      "reference_records": [
+        {
+          "sql_sha256": "2871f3f736ebad69b876d289d9640d338e1ab98f727304666f3085fd383f8bab",
+          "row_count": 4,
+          "column_count": 1,
+          "bag_signature": "1954bfcf44bfd717d86646264fd1755bac77361d4279e42bd55b95b53e40f95f",
+          "ordered_signature": "427dafb0a584618f5a0eb080a590a5a8be6ebaa39cc417e08afdaff7af77ee19",
+          "empty": false,
+          "scalar_zero": false,
+          "fresh_readonly_matches_recorded": true
+        },
+        {
+          "sql_sha256": "174bfcfe0a830890e2c6ff270f1a8d8fdc0145a4d327c08546594fb99e50b18e",
+          "row_count": 4,
+          "column_count": 1,
+          "bag_signature": "1954bfcf44bfd717d86646264fd1755bac77361d4279e42bd55b95b53e40f95f",
+          "ordered_signature": "427dafb0a584618f5a0eb080a590a5a8be6ebaa39cc417e08afdaff7af77ee19",
+          "empty": false,
+          "scalar_zero": false,
+          "fresh_readonly_matches_recorded": true
+        }
+      ],
+      "outcome": {
+        "status": "complete_execution",
+        "fixed_output_screened_eligible": true,
+        "all_alternatives_agree": true,
+        "all_empty": false,
+        "all_null": false,
+        "all_scalar_zero": false,
+        "any_pair_agrees": true,
+        "references_empty_source_relation": false,
+        "all_identified_source_relations_nonempty": true
+      },
+      "source_table_counts": [
+        {
+          "dataset": "spider",
+          "db_id": "store_product",
+          "table": "product",
+          "ok": true,
+          "row_count": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "category": "tbl-agg",
+    "model": "logical-beam",
+    "source_records": 101,
+    "validation_records": 101,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [],
+    "pool_size_distribution": {
+      "10": 96,
+      "6": 1,
+      "2": 4
+    },
+    "unique_source_question_strings": 101,
+    "unique_databases": 16,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "3101ca57bc550a46f473bf0db65338ed7bf53dc91820be5f5e5b221b54f2f058"
+  },
+  {
+    "category": "tbl-agg",
+    "model": "t5-3b-bw10",
+    "source_records": 101,
+    "validation_records": 101,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [],
+    "pool_size_distribution": {
+      "10": 101
+    },
+    "unique_source_question_strings": 101,
+    "unique_databases": 16,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "0dd1836106ff36a92a6bdc2ab2427e519ef9807a2d6ec4a6386cb85ccbee8123"
+  }
+]

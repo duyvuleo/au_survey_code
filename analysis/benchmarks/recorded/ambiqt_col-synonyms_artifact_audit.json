@@ -1,0 +1,51 @@
+[
+  {
+    "category": "col-synonyms",
+    "model": "logical-beam",
+    "source_records": 1240,
+    "validation_records": 1240,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      493,
+      494,
+      495,
+      496
+    ],
+    "pool_size_distribution": {
+      "10": 1130,
+      "9": 11,
+      "2": 67,
+      "8": 12,
+      "6": 5,
+      "3": 3,
+      "5": 3,
+      "7": 5,
+      "1": 2,
+      "4": 2
+    },
+    "unique_source_question_strings": 895,
+    "unique_databases": 20,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "1bfb04202364cc4423597a50dfcc9a41d5936bcf0bc19745300f6e2d52ea899f"
+  },
+  {
+    "category": "col-synonyms",
+    "model": "t5-3b-bw10",
+    "source_records": 1240,
+    "validation_records": 1240,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      493,
+      494,
+      495,
+      496
+    ],
+    "pool_size_distribution": {
+      "10": 1240
+    },
+    "unique_source_question_strings": 895,
+    "unique_databases": 20,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "3dd069fbaaf032949b9857e54a1a8dc57533b15571b3c81ac61528b26f49a1af"
+  }
+]

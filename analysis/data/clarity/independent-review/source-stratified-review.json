@@ -1,0 +1,203 @@
+[
+  {
+    "bundle_id": "spider-0294fc0c6beef38c860fe950afa51acfdc01d1412dbdc3cf8f0f2ebd32d7ff50",
+    "dataset": "spider",
+    "source_line": 3230,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "declared_type_family_mismatch",
+      "limit_or_offset_requires_selection_validation",
+      "outer_order_requires_tie_validation",
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "conditional_projection_and_selection",
+    "rationale": "room alternatives preserve the ORDER BY column substitution; apartment number/id/type changes output identity or kind. LIMIT and ordering require selection validation. Exclusion from fixed-output screen is appropriate.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-0131d32e1103eb453a8fc84971e00bd278d2d171e02d26ffd850c73d1f80dabf",
+    "dataset": "spider",
+    "source_line": 3236,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "declared_type_family_mismatch",
+      "facet_candidate_collision_product",
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "unresolved_facet_compatibility",
+    "rationale": "Both facets may choose Event_ID, yielding the same identifier in two output slots. Annotation groups alone do not establish the intended distinction between ID and event. Collision/type/projection flags are appropriate.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-001d92a9c6b09e2a71cdc58a1ab8c9a24e07548672dc72b6d8d099488c0808dd",
+    "dataset": "spider",
+    "source_line": 3786,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "unresolved_output_role",
+    "rationale": "Store name, phone and email are different attributes; the vague request does not independently establish all as the same requested output role. SQL construction preserves the literal stop and source join. Projection exclusion is appropriate.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-00f871724e908b96f777c4d9ab3163423c1233bd5f130de16da6098337a9013d",
+    "dataset": "spider",
+    "source_line": 3830,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "rationale": "Each status/outcome/type-code substitution is correctly coupled between SELECT and GROUP BY. The requested category notion varies with interpretation; fixed-output projection screening correctly excludes it.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-02466988a2eec5090d330ae74188b1e2e5ac8da910abbb1e25fec0ec70e701a6",
+    "dataset": "spider",
+    "source_line": 5898,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "multiple_relation_instances_or_scopes",
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "unresolved_role_and_unit_semantics",
+    "rationale": "Compensation is coupled across the outer predicate and nested MIN as the question repeats that concept. Salary versus commission percentage and employee versus manager reference still need role/unit adjudication; structural execution does not certify them.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-0bbaced1d1a7eb23ac017845c9465b05b805c7e5b49f5c62b45ccedd454e1a34",
+    "dataset": "spider",
+    "source_line": 5913,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "facet_candidate_collision_product",
+      "repeated_pivot_terms",
+      "set_operation_output_contract_requires_validation"
+    ],
+    "semantic_judgment": "unresolved_repeated_pivot_and_products",
+    "rationale": "The repeated month pivot and overlapping groups permit same-month self-comparisons. The source prompt cautions against repeated pivots corresponding to different columns. Keep product results as diagnostic, not validated alternative meanings.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-005a303fc340f7201a196f6cc61f99c9651edb22f6d7488a96f842c82d8982f9",
+    "dataset": "spider",
+    "source_line": 6501,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected",
+      "runtime_storage_family_anomaly"
+    ],
+    "semantic_judgment": "conditional_temporal_role",
+    "rationale": "Enrolment and completion are different event dates and the query refers to tests. Their exact intended role is not independently settled. Text storage in DATETIME-like columns is normal SQLite representation; the storage flag is a conservative screen limitation, not proof of corruption.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "spider-004323aaaafc5a91770770dc55480b7c8c3e7ca62acc3fab044fe621d23b1d39",
+    "dataset": "spider",
+    "source_line": 6718,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "rationale": "Regional grouping can refer to appellation or state, and SELECT/GROUP BY replacements are coupled. Geographic granularity and projected group keys change, so this is not a fixed-output comparison.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-02a4684ccf4723469194c00d6ea0b6161aeeb148fb45520cc646d3f05f49b8ec",
+    "dataset": "bird",
+    "source_line": 1997,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "limit_or_offset_requires_selection_validation",
+      "outer_order_requires_tie_validation",
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "conditional_projection_and_selection",
+    "rationale": "Grade-span and coordinate facets are independently represented; AST replacements match the annotations. The selected school and returned grade-span may change; outer ordering and LIMIT require tie/selection validation.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-061fa0407d5531f6b13ce28c063f4012d464d998bd897fbbbb5b6e54bcee62b9",
+    "dataset": "bird",
+    "source_line": 1998,
+    "recorded_status": "construction_unresolved",
+    "recorded_construction_flags": [],
+    "semantic_judgment": "algorithmic_lineage_unresolved",
+    "rationale": "An admfname replacement must propagate through the inner query, window-free grouped ranking and the derived-table output used by the outer join. Keeping this as derived-source lineage unresolved is justified; it does not establish that the source query is invalid.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-005a76f229fa4092cc1820fd054c092d3b31e5d2125c2ada0bccf665b36d784f",
+    "dataset": "bird",
+    "source_line": 2089,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "unresolved_output_role",
+    "rationale": "Bond type and bond ID occupy the same SQL slot but have different semantic roles. The vague word bond does not certify a shared output contract. Original molecule filter and join are preserved.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-0070ad9085500a458056661d6468a22904b4cc483e802314132385a2f3b228cb",
+    "dataset": "bird",
+    "source_line": 2139,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [],
+    "semantic_judgment": "plausible_annotation_based_readings",
+    "rationale": "Defensive versus attacking work rate is consistent with the unspecified work-rate term; the count of attribute-row IDs and rating bounds remain fixed. This supports this bounded annotation-based construction, not a corpus-wide validity claim.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-2677ad4094f58dc6c64da9e8a3ad1adb62fc85d58aedf85183186fc9379e4e31",
+    "dataset": "bird",
+    "source_line": 2791,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "unresolved_cross_attribute_entity_role",
+    "rationale": "Replacing only AdmLName1 by AdmLName2/3 while holding AdmFName1 fixed can pair names belonging to different administrators. This requires a compatibility judgment beyond column membership; the projection exclusion avoids using it as fixed-output evidence.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-20cfd5fb6b6776ede7d6b4692e9d289e19dc6ec10f3f6c3958c815f436afc846",
+    "dataset": "bird",
+    "source_line": 2818,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "contradictory_literal_product",
+      "facet_candidate_collision_product"
+    ],
+    "semantic_judgment": "unresolved_contradictory_products",
+    "rationale": "Overlapping first/last-name groups produce some same-column requirements for two unequal literals. The contradiction and collision flags are correct. Non-colliding swapped-name readings remain annotation-conditional; empty outputs are not proof of semantic validity.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-04611b4b7a67e57a61091278802a60d93c0c4b24ab468e954ff5153a1ed6dc4d",
+    "dataset": "bird",
+    "source_line": 3170,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "limit_or_offset_requires_selection_validation",
+      "outer_order_requires_tie_validation"
+    ],
+    "semantic_judgment": "conditional_units_and_selection",
+    "rationale": "The bound enzyme column changes while the patient-date output is retained, but activity/units and threshold interpretation need source-grounded justification. Latest-date ordering and LIMIT are independently screened.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  },
+  {
+    "bundle_id": "bird-00e4d5ad219fffe67c9338f2ee2aefb761f77e9101931990ffd4b6f7b47317d9",
+    "dataset": "bird",
+    "source_line": 3191,
+    "recorded_status": "complete_execution",
+    "recorded_construction_flags": [
+      "projected_output_affected"
+    ],
+    "semantic_judgment": "conditional_output_measurement",
+    "rationale": "The PT/APTT choice is correctly coupled in AVG and the threshold predicate. The output measurement changes, so numeric shape/type alone is not a common measurement contract; projection exclusion is appropriate.",
+    "inspection_depth": "source question, annotations, parent SQL, binding spans, generator code; first and last constructed SQL inspected when available; no exhaustive manual certification of every product"
+  }
+]

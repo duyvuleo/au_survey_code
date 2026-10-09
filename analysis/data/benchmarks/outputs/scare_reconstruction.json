@@ -1,0 +1,1264 @@
+{
+  "Two-Stage": {
+    "compatible_aggregates": 6,
+    "options": [
+      {
+        "C_AC": 844,
+        "A_AC": 854,
+        "C_AI": 446,
+        "A_AI": 816,
+        "TP_M": 382,
+        "predicted_M": 527,
+        "TP_U": 976,
+        "predicted_U": 1676,
+        "answerable_to_M_min": 71,
+        "answerable_to_M_max": 145,
+        "A": 1997,
+        "Af": 1670,
+        "C": 1290,
+        "A_nonanswerable": 327,
+        "answerable_coverage": 0.7952380952380952,
+        "answerable_correct_per_request": 0.6142857142857143,
+        "answerable_marginal_error": 0.18095238095238095,
+        "answerable_selective_error": 0.2275449101796407,
+        "all_sql_return_rate": 0.4754761904761905,
+        "native_policy_marginal_failure": 0.16833333333333333,
+        "native_policy_selective_failure": 0.3540310465698548,
+        "sql_M_min": 253,
+        "sql_M_max": 327,
+        "sql_U_min": 0,
+        "sql_U_max": 74
+      },
+      {
+        "C_AC": 844,
+        "A_AC": 854,
+        "C_AI": 446,
+        "A_AI": 816,
+        "TP_M": 382,
+        "predicted_M": 527,
+        "TP_U": 976,
+        "predicted_U": 1677,
+        "answerable_to_M_min": 71,
+        "answerable_to_M_max": 145,
+        "A": 1996,
+        "Af": 1670,
+        "C": 1290,
+        "A_nonanswerable": 326,
+        "answerable_coverage": 0.7952380952380952,
+        "answerable_correct_per_request": 0.6142857142857143,
+        "answerable_marginal_error": 0.18095238095238095,
+        "answerable_selective_error": 0.2275449101796407,
+        "all_sql_return_rate": 0.47523809523809524,
+        "native_policy_marginal_failure": 0.1680952380952381,
+        "native_policy_selective_failure": 0.35370741482965934,
+        "sql_M_min": 252,
+        "sql_M_max": 326,
+        "sql_U_min": 0,
+        "sql_U_max": 74
+      },
+      {
+        "C_AC": 844,
+        "A_AC": 854,
+        "C_AI": 446,
+        "A_AI": 816,
+        "TP_M": 382,
+        "predicted_M": 527,
+        "TP_U": 976,
+        "predicted_U": 1678,
+        "answerable_to_M_min": 71,
+        "answerable_to_M_max": 145,
+        "A": 1995,
+        "Af": 1670,
+        "C": 1290,
+        "A_nonanswerable": 325,
+        "answerable_coverage": 0.7952380952380952,
+        "answerable_correct_per_request": 0.6142857142857143,
+        "answerable_marginal_error": 0.18095238095238095,
+        "answerable_selective_error": 0.2275449101796407,
+        "all_sql_return_rate": 0.475,
+        "native_policy_marginal_failure": 0.16785714285714284,
+        "native_policy_selective_failure": 0.3533834586466165,
+        "sql_M_min": 251,
+        "sql_M_max": 325,
+        "sql_U_min": 0,
+        "sql_U_max": 74
+      },
+      {
+        "C_AC": 844,
+        "A_AC": 854,
+        "C_AI": 446,
+        "A_AI": 816,
+        "TP_M": 382,
+        "predicted_M": 527,
+        "TP_U": 977,
+        "predicted_U": 1678,
+        "answerable_to_M_min": 72,
+        "answerable_to_M_max": 145,
+        "A": 1995,
+        "Af": 1670,
+        "C": 1290,
+        "A_nonanswerable": 325,
+        "answerable_coverage": 0.7952380952380952,
+        "answerable_correct_per_request": 0.6142857142857143,
+        "answerable_marginal_error": 0.18095238095238095,
+        "answerable_selective_error": 0.2275449101796407,
+        "all_sql_return_rate": 0.475,
+        "native_policy_marginal_failure": 0.16785714285714284,
+        "native_policy_selective_failure": 0.3533834586466165,
+        "sql_M_min": 252,
+        "sql_M_max": 325,
+        "sql_U_min": 0,
+        "sql_U_max": 73
+      },
+      {
+        "C_AC": 844,
+        "A_AC": 854,
+        "C_AI": 446,
+        "A_AI": 816,
+        "TP_M": 382,
+        "predicted_M": 527,
+        "TP_U": 977,
+        "predicted_U": 1679,
+        "answerable_to_M_min": 72,
+        "answerable_to_M_max": 145,
+        "A": 1994,
+        "Af": 1670,
+        "C": 1290,
+        "A_nonanswerable": 324,
+        "answerable_coverage": 0.7952380952380952,
+        "answerable_correct_per_request": 0.6142857142857143,
+        "answerable_marginal_error": 0.18095238095238095,
+        "answerable_selective_error": 0.2275449101796407,
+        "all_sql_return_rate": 0.4747619047619048,
+        "native_policy_marginal_failure": 0.1676190476190476,
+        "native_policy_selective_failure": 0.3530591775325978,
+        "sql_M_min": 251,
+        "sql_M_max": 324,
+        "sql_U_min": 0,
+        "sql_U_max": 73
+      },
+      {
+        "C_AC": 844,
+        "A_AC": 854,
+        "C_AI": 446,
+        "A_AI": 816,
+        "TP_M": 382,
+        "predicted_M": 527,
+        "TP_U": 977,
+        "predicted_U": 1680,
+        "answerable_to_M_min": 72,
+        "answerable_to_M_max": 145,
+        "A": 1993,
+        "Af": 1670,
+        "C": 1290,
+        "A_nonanswerable": 323,
+        "answerable_coverage": 0.7952380952380952,
+        "answerable_correct_per_request": 0.6142857142857143,
+        "answerable_marginal_error": 0.18095238095238095,
+        "answerable_selective_error": 0.2275449101796407,
+        "all_sql_return_rate": 0.4745238095238095,
+        "native_policy_marginal_failure": 0.16738095238095238,
+        "native_policy_selective_failure": 0.35273457099849476,
+        "sql_M_min": 250,
+        "sql_M_max": 323,
+        "sql_U_min": 0,
+        "sql_U_max": 73
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        844,
+        844
+      ],
+      "A_AC": [
+        854,
+        854
+      ],
+      "C_AI": [
+        446,
+        446
+      ],
+      "A_AI": [
+        816,
+        816
+      ],
+      "TP_M": [
+        382,
+        382
+      ],
+      "predicted_M": [
+        527,
+        527
+      ],
+      "TP_U": [
+        976,
+        977
+      ],
+      "predicted_U": [
+        1676,
+        1680
+      ],
+      "answerable_to_M_min": [
+        71,
+        72
+      ],
+      "answerable_to_M_max": [
+        145,
+        145
+      ],
+      "A": [
+        1993,
+        1997
+      ],
+      "Af": [
+        1670,
+        1670
+      ],
+      "C": [
+        1290,
+        1290
+      ],
+      "A_nonanswerable": [
+        323,
+        327
+      ],
+      "answerable_coverage": [
+        0.7952380952380952,
+        0.7952380952380952
+      ],
+      "answerable_correct_per_request": [
+        0.6142857142857143,
+        0.6142857142857143
+      ],
+      "answerable_marginal_error": [
+        0.18095238095238095,
+        0.18095238095238095
+      ],
+      "answerable_selective_error": [
+        0.2275449101796407,
+        0.2275449101796407
+      ],
+      "all_sql_return_rate": [
+        0.4745238095238095,
+        0.4754761904761905
+      ],
+      "native_policy_marginal_failure": [
+        0.16738095238095238,
+        0.16833333333333333
+      ],
+      "native_policy_selective_failure": [
+        0.35273457099849476,
+        0.3540310465698548
+      ],
+      "sql_M_min": [
+        250,
+        253
+      ],
+      "sql_M_max": [
+        323,
+        327
+      ],
+      "sql_U_min": [
+        0,
+        0
+      ],
+      "sql_U_max": [
+        73,
+        74
+      ]
+    }
+  },
+  "Single-Turn": {
+    "compatible_aggregates": 1,
+    "options": [
+      {
+        "C_AC": 1028,
+        "A_AC": 1045,
+        "C_AI": 521,
+        "A_AI": 1025,
+        "TP_M": 332,
+        "predicted_M": 393,
+        "TP_U": 742,
+        "predicted_U": 882,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 30,
+        "A": 2925,
+        "Af": 2070,
+        "C": 1549,
+        "A_nonanswerable": 855,
+        "answerable_coverage": 0.9857142857142858,
+        "answerable_correct_per_request": 0.7376190476190476,
+        "answerable_marginal_error": 0.2480952380952381,
+        "answerable_selective_error": 0.25169082125603864,
+        "all_sql_return_rate": 0.6964285714285714,
+        "native_policy_marginal_failure": 0.32761904761904764,
+        "native_policy_selective_failure": 0.47042735042735045,
+        "sql_M_min": 578,
+        "sql_M_max": 608,
+        "sql_U_min": 247,
+        "sql_U_max": 277
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        1028,
+        1028
+      ],
+      "A_AC": [
+        1045,
+        1045
+      ],
+      "C_AI": [
+        521,
+        521
+      ],
+      "A_AI": [
+        1025,
+        1025
+      ],
+      "TP_M": [
+        332,
+        332
+      ],
+      "predicted_M": [
+        393,
+        393
+      ],
+      "TP_U": [
+        742,
+        742
+      ],
+      "predicted_U": [
+        882,
+        882
+      ],
+      "answerable_to_M_min": [
+        0,
+        0
+      ],
+      "answerable_to_M_max": [
+        30,
+        30
+      ],
+      "A": [
+        2925,
+        2925
+      ],
+      "Af": [
+        2070,
+        2070
+      ],
+      "C": [
+        1549,
+        1549
+      ],
+      "A_nonanswerable": [
+        855,
+        855
+      ],
+      "answerable_coverage": [
+        0.9857142857142858,
+        0.9857142857142858
+      ],
+      "answerable_correct_per_request": [
+        0.7376190476190476,
+        0.7376190476190476
+      ],
+      "answerable_marginal_error": [
+        0.2480952380952381,
+        0.2480952380952381
+      ],
+      "answerable_selective_error": [
+        0.25169082125603864,
+        0.25169082125603864
+      ],
+      "all_sql_return_rate": [
+        0.6964285714285714,
+        0.6964285714285714
+      ],
+      "native_policy_marginal_failure": [
+        0.32761904761904764,
+        0.32761904761904764
+      ],
+      "native_policy_selective_failure": [
+        0.47042735042735045,
+        0.47042735042735045
+      ],
+      "sql_M_min": [
+        578,
+        578
+      ],
+      "sql_M_max": [
+        608,
+        608
+      ],
+      "sql_U_min": [
+        247,
+        247
+      ],
+      "sql_U_max": [
+        277,
+        277
+      ]
+    }
+  },
+  "Single-Turn-Veri": {
+    "compatible_aggregates": 1,
+    "options": [
+      {
+        "C_AC": 1030,
+        "A_AC": 1045,
+        "C_AI": 547,
+        "A_AI": 1030,
+        "TP_M": 340,
+        "predicted_M": 382,
+        "TP_U": 761,
+        "predicted_U": 906,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 25,
+        "A": 2912,
+        "Af": 2075,
+        "C": 1577,
+        "A_nonanswerable": 837,
+        "answerable_coverage": 0.9880952380952381,
+        "answerable_correct_per_request": 0.7509523809523809,
+        "answerable_marginal_error": 0.23714285714285716,
+        "answerable_selective_error": 0.24,
+        "all_sql_return_rate": 0.6933333333333334,
+        "native_policy_marginal_failure": 0.31785714285714284,
+        "native_policy_selective_failure": 0.4584478021978022,
+        "sql_M_min": 565,
+        "sql_M_max": 590,
+        "sql_U_min": 247,
+        "sql_U_max": 272
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        1030,
+        1030
+      ],
+      "A_AC": [
+        1045,
+        1045
+      ],
+      "C_AI": [
+        547,
+        547
+      ],
+      "A_AI": [
+        1030,
+        1030
+      ],
+      "TP_M": [
+        340,
+        340
+      ],
+      "predicted_M": [
+        382,
+        382
+      ],
+      "TP_U": [
+        761,
+        761
+      ],
+      "predicted_U": [
+        906,
+        906
+      ],
+      "answerable_to_M_min": [
+        0,
+        0
+      ],
+      "answerable_to_M_max": [
+        25,
+        25
+      ],
+      "A": [
+        2912,
+        2912
+      ],
+      "Af": [
+        2075,
+        2075
+      ],
+      "C": [
+        1577,
+        1577
+      ],
+      "A_nonanswerable": [
+        837,
+        837
+      ],
+      "answerable_coverage": [
+        0.9880952380952381,
+        0.9880952380952381
+      ],
+      "answerable_correct_per_request": [
+        0.7509523809523809,
+        0.7509523809523809
+      ],
+      "answerable_marginal_error": [
+        0.23714285714285716,
+        0.23714285714285716
+      ],
+      "answerable_selective_error": [
+        0.24,
+        0.24
+      ],
+      "all_sql_return_rate": [
+        0.6933333333333334,
+        0.6933333333333334
+      ],
+      "native_policy_marginal_failure": [
+        0.31785714285714284,
+        0.31785714285714284
+      ],
+      "native_policy_selective_failure": [
+        0.4584478021978022,
+        0.4584478021978022
+      ],
+      "sql_M_min": [
+        565,
+        565
+      ],
+      "sql_M_max": [
+        590,
+        590
+      ],
+      "sql_U_min": [
+        247,
+        247
+      ],
+      "sql_U_max": [
+        272,
+        272
+      ]
+    }
+  },
+  "Multi-Turn-SelfRef": {
+    "compatible_aggregates": 1,
+    "options": [
+      {
+        "C_AC": 1021,
+        "A_AC": 1044,
+        "C_AI": 540,
+        "A_AI": 1030,
+        "TP_M": 345,
+        "predicted_M": 386,
+        "TP_U": 763,
+        "predicted_U": 914,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 26,
+        "A": 2900,
+        "Af": 2074,
+        "C": 1561,
+        "A_nonanswerable": 826,
+        "answerable_coverage": 0.9876190476190476,
+        "answerable_correct_per_request": 0.7433333333333333,
+        "answerable_marginal_error": 0.24428571428571427,
+        "answerable_selective_error": 0.24734811957569913,
+        "all_sql_return_rate": 0.6904761904761905,
+        "native_policy_marginal_failure": 0.3188095238095238,
+        "native_policy_selective_failure": 0.4617241379310345,
+        "sql_M_min": 554,
+        "sql_M_max": 580,
+        "sql_U_min": 246,
+        "sql_U_max": 272
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        1021,
+        1021
+      ],
+      "A_AC": [
+        1044,
+        1044
+      ],
+      "C_AI": [
+        540,
+        540
+      ],
+      "A_AI": [
+        1030,
+        1030
+      ],
+      "TP_M": [
+        345,
+        345
+      ],
+      "predicted_M": [
+        386,
+        386
+      ],
+      "TP_U": [
+        763,
+        763
+      ],
+      "predicted_U": [
+        914,
+        914
+      ],
+      "answerable_to_M_min": [
+        0,
+        0
+      ],
+      "answerable_to_M_max": [
+        26,
+        26
+      ],
+      "A": [
+        2900,
+        2900
+      ],
+      "Af": [
+        2074,
+        2074
+      ],
+      "C": [
+        1561,
+        1561
+      ],
+      "A_nonanswerable": [
+        826,
+        826
+      ],
+      "answerable_coverage": [
+        0.9876190476190476,
+        0.9876190476190476
+      ],
+      "answerable_correct_per_request": [
+        0.7433333333333333,
+        0.7433333333333333
+      ],
+      "answerable_marginal_error": [
+        0.24428571428571427,
+        0.24428571428571427
+      ],
+      "answerable_selective_error": [
+        0.24734811957569913,
+        0.24734811957569913
+      ],
+      "all_sql_return_rate": [
+        0.6904761904761905,
+        0.6904761904761905
+      ],
+      "native_policy_marginal_failure": [
+        0.3188095238095238,
+        0.3188095238095238
+      ],
+      "native_policy_selective_failure": [
+        0.4617241379310345,
+        0.4617241379310345
+      ],
+      "sql_M_min": [
+        554,
+        554
+      ],
+      "sql_M_max": [
+        580,
+        580
+      ],
+      "sql_U_min": [
+        246,
+        246
+      ],
+      "sql_U_max": [
+        272,
+        272
+      ]
+    }
+  },
+  "Single-Turn-Cls": {
+    "compatible_aggregates": 4,
+    "options": [
+      {
+        "C_AC": 1003,
+        "A_AC": 1025,
+        "C_AI": 556,
+        "A_AI": 989,
+        "TP_M": 411,
+        "predicted_M": 471,
+        "TP_U": 909,
+        "predicted_U": 1205,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 60,
+        "A": 2524,
+        "Af": 2014,
+        "C": 1559,
+        "A_nonanswerable": 510,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7423809523809524,
+        "answerable_marginal_error": 0.21666666666666667,
+        "answerable_selective_error": 0.22591857000993049,
+        "all_sql_return_rate": 0.6009523809523809,
+        "native_policy_marginal_failure": 0.22976190476190475,
+        "native_policy_selective_failure": 0.3823296354992076,
+        "sql_M_min": 369,
+        "sql_M_max": 429,
+        "sql_U_min": 81,
+        "sql_U_max": 141
+      },
+      {
+        "C_AC": 1003,
+        "A_AC": 1025,
+        "C_AI": 556,
+        "A_AI": 989,
+        "TP_M": 411,
+        "predicted_M": 471,
+        "TP_U": 909,
+        "predicted_U": 1206,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 60,
+        "A": 2523,
+        "Af": 2014,
+        "C": 1559,
+        "A_nonanswerable": 509,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7423809523809524,
+        "answerable_marginal_error": 0.21666666666666667,
+        "answerable_selective_error": 0.22591857000993049,
+        "all_sql_return_rate": 0.6007142857142858,
+        "native_policy_marginal_failure": 0.22952380952380952,
+        "native_policy_selective_failure": 0.38208481965913593,
+        "sql_M_min": 368,
+        "sql_M_max": 428,
+        "sql_U_min": 81,
+        "sql_U_max": 141
+      },
+      {
+        "C_AC": 1003,
+        "A_AC": 1025,
+        "C_AI": 557,
+        "A_AI": 989,
+        "TP_M": 411,
+        "predicted_M": 471,
+        "TP_U": 909,
+        "predicted_U": 1205,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 60,
+        "A": 2524,
+        "Af": 2014,
+        "C": 1560,
+        "A_nonanswerable": 510,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7428571428571429,
+        "answerable_marginal_error": 0.21619047619047618,
+        "answerable_selective_error": 0.22542204568023833,
+        "all_sql_return_rate": 0.6009523809523809,
+        "native_policy_marginal_failure": 0.22952380952380952,
+        "native_policy_selective_failure": 0.38193343898573695,
+        "sql_M_min": 369,
+        "sql_M_max": 429,
+        "sql_U_min": 81,
+        "sql_U_max": 141
+      },
+      {
+        "C_AC": 1003,
+        "A_AC": 1025,
+        "C_AI": 557,
+        "A_AI": 989,
+        "TP_M": 411,
+        "predicted_M": 471,
+        "TP_U": 909,
+        "predicted_U": 1206,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 60,
+        "A": 2523,
+        "Af": 2014,
+        "C": 1560,
+        "A_nonanswerable": 509,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7428571428571429,
+        "answerable_marginal_error": 0.21619047619047618,
+        "answerable_selective_error": 0.22542204568023833,
+        "all_sql_return_rate": 0.6007142857142858,
+        "native_policy_marginal_failure": 0.2292857142857143,
+        "native_policy_selective_failure": 0.3816884661117717,
+        "sql_M_min": 368,
+        "sql_M_max": 428,
+        "sql_U_min": 81,
+        "sql_U_max": 141
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        1003,
+        1003
+      ],
+      "A_AC": [
+        1025,
+        1025
+      ],
+      "C_AI": [
+        556,
+        557
+      ],
+      "A_AI": [
+        989,
+        989
+      ],
+      "TP_M": [
+        411,
+        411
+      ],
+      "predicted_M": [
+        471,
+        471
+      ],
+      "TP_U": [
+        909,
+        909
+      ],
+      "predicted_U": [
+        1205,
+        1206
+      ],
+      "answerable_to_M_min": [
+        0,
+        0
+      ],
+      "answerable_to_M_max": [
+        60,
+        60
+      ],
+      "A": [
+        2523,
+        2524
+      ],
+      "Af": [
+        2014,
+        2014
+      ],
+      "C": [
+        1559,
+        1560
+      ],
+      "A_nonanswerable": [
+        509,
+        510
+      ],
+      "answerable_coverage": [
+        0.959047619047619,
+        0.959047619047619
+      ],
+      "answerable_correct_per_request": [
+        0.7423809523809524,
+        0.7428571428571429
+      ],
+      "answerable_marginal_error": [
+        0.21619047619047618,
+        0.21666666666666667
+      ],
+      "answerable_selective_error": [
+        0.22542204568023833,
+        0.22591857000993049
+      ],
+      "all_sql_return_rate": [
+        0.6007142857142858,
+        0.6009523809523809
+      ],
+      "native_policy_marginal_failure": [
+        0.2292857142857143,
+        0.22976190476190475
+      ],
+      "native_policy_selective_failure": [
+        0.3816884661117717,
+        0.3823296354992076
+      ],
+      "sql_M_min": [
+        368,
+        369
+      ],
+      "sql_M_max": [
+        428,
+        429
+      ],
+      "sql_U_min": [
+        81,
+        81
+      ],
+      "sql_U_max": [
+        141,
+        141
+      ]
+    }
+  },
+  "Single-Turn-Veri-Cls": {
+    "compatible_aggregates": 4,
+    "options": [
+      {
+        "C_AC": 1007,
+        "A_AC": 1027,
+        "C_AI": 565,
+        "A_AI": 987,
+        "TP_M": 409,
+        "predicted_M": 470,
+        "TP_U": 911,
+        "predicted_U": 1203,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 61,
+        "A": 2527,
+        "Af": 2014,
+        "C": 1572,
+        "A_nonanswerable": 513,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7485714285714286,
+        "answerable_marginal_error": 0.21047619047619048,
+        "answerable_selective_error": 0.21946375372393248,
+        "all_sql_return_rate": 0.6016666666666667,
+        "native_policy_marginal_failure": 0.22738095238095238,
+        "native_policy_selective_failure": 0.3779184804115552,
+        "sql_M_min": 374,
+        "sql_M_max": 435,
+        "sql_U_min": 78,
+        "sql_U_max": 139
+      },
+      {
+        "C_AC": 1007,
+        "A_AC": 1027,
+        "C_AI": 565,
+        "A_AI": 987,
+        "TP_M": 409,
+        "predicted_M": 470,
+        "TP_U": 911,
+        "predicted_U": 1204,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 61,
+        "A": 2526,
+        "Af": 2014,
+        "C": 1572,
+        "A_nonanswerable": 512,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7485714285714286,
+        "answerable_marginal_error": 0.21047619047619048,
+        "answerable_selective_error": 0.21946375372393248,
+        "all_sql_return_rate": 0.6014285714285714,
+        "native_policy_marginal_failure": 0.22714285714285715,
+        "native_policy_selective_failure": 0.37767220902612825,
+        "sql_M_min": 373,
+        "sql_M_max": 434,
+        "sql_U_min": 78,
+        "sql_U_max": 139
+      },
+      {
+        "C_AC": 1007,
+        "A_AC": 1027,
+        "C_AI": 565,
+        "A_AI": 987,
+        "TP_M": 410,
+        "predicted_M": 471,
+        "TP_U": 911,
+        "predicted_U": 1203,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 61,
+        "A": 2526,
+        "Af": 2014,
+        "C": 1572,
+        "A_nonanswerable": 512,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7485714285714286,
+        "answerable_marginal_error": 0.21047619047619048,
+        "answerable_selective_error": 0.21946375372393248,
+        "all_sql_return_rate": 0.6014285714285714,
+        "native_policy_marginal_failure": 0.22714285714285715,
+        "native_policy_selective_failure": 0.37767220902612825,
+        "sql_M_min": 373,
+        "sql_M_max": 434,
+        "sql_U_min": 78,
+        "sql_U_max": 139
+      },
+      {
+        "C_AC": 1007,
+        "A_AC": 1027,
+        "C_AI": 565,
+        "A_AI": 987,
+        "TP_M": 410,
+        "predicted_M": 471,
+        "TP_U": 911,
+        "predicted_U": 1204,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 61,
+        "A": 2525,
+        "Af": 2014,
+        "C": 1572,
+        "A_nonanswerable": 511,
+        "answerable_coverage": 0.959047619047619,
+        "answerable_correct_per_request": 0.7485714285714286,
+        "answerable_marginal_error": 0.21047619047619048,
+        "answerable_selective_error": 0.21946375372393248,
+        "all_sql_return_rate": 0.6011904761904762,
+        "native_policy_marginal_failure": 0.22690476190476191,
+        "native_policy_selective_failure": 0.37742574257425743,
+        "sql_M_min": 372,
+        "sql_M_max": 433,
+        "sql_U_min": 78,
+        "sql_U_max": 139
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        1007,
+        1007
+      ],
+      "A_AC": [
+        1027,
+        1027
+      ],
+      "C_AI": [
+        565,
+        565
+      ],
+      "A_AI": [
+        987,
+        987
+      ],
+      "TP_M": [
+        409,
+        410
+      ],
+      "predicted_M": [
+        470,
+        471
+      ],
+      "TP_U": [
+        911,
+        911
+      ],
+      "predicted_U": [
+        1203,
+        1204
+      ],
+      "answerable_to_M_min": [
+        0,
+        0
+      ],
+      "answerable_to_M_max": [
+        61,
+        61
+      ],
+      "A": [
+        2525,
+        2527
+      ],
+      "Af": [
+        2014,
+        2014
+      ],
+      "C": [
+        1572,
+        1572
+      ],
+      "A_nonanswerable": [
+        511,
+        513
+      ],
+      "answerable_coverage": [
+        0.959047619047619,
+        0.959047619047619
+      ],
+      "answerable_correct_per_request": [
+        0.7485714285714286,
+        0.7485714285714286
+      ],
+      "answerable_marginal_error": [
+        0.21047619047619048,
+        0.21047619047619048
+      ],
+      "answerable_selective_error": [
+        0.21946375372393248,
+        0.21946375372393248
+      ],
+      "all_sql_return_rate": [
+        0.6011904761904762,
+        0.6016666666666667
+      ],
+      "native_policy_marginal_failure": [
+        0.22690476190476191,
+        0.22738095238095238
+      ],
+      "native_policy_selective_failure": [
+        0.37742574257425743,
+        0.3779184804115552
+      ],
+      "sql_M_min": [
+        372,
+        374
+      ],
+      "sql_M_max": [
+        433,
+        435
+      ],
+      "sql_U_min": [
+        78,
+        78
+      ],
+      "sql_U_max": [
+        139,
+        139
+      ]
+    }
+  },
+  "Multi-Turn-SelfRef-Cls": {
+    "compatible_aggregates": 2,
+    "options": [
+      {
+        "C_AC": 1027,
+        "A_AC": 1044,
+        "C_AI": 556,
+        "A_AI": 1030,
+        "TP_M": 345,
+        "predicted_M": 392,
+        "TP_U": 763,
+        "predicted_U": 916,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 26,
+        "A": 2892,
+        "Af": 2074,
+        "C": 1583,
+        "A_nonanswerable": 818,
+        "answerable_coverage": 0.9876190476190476,
+        "answerable_correct_per_request": 0.7538095238095238,
+        "answerable_marginal_error": 0.2338095238095238,
+        "answerable_selective_error": 0.23674059787849566,
+        "all_sql_return_rate": 0.6885714285714286,
+        "native_policy_marginal_failure": 0.31166666666666665,
+        "native_policy_selective_failure": 0.45262793914246197,
+        "sql_M_min": 552,
+        "sql_M_max": 578,
+        "sql_U_min": 240,
+        "sql_U_max": 266
+      },
+      {
+        "C_AC": 1027,
+        "A_AC": 1044,
+        "C_AI": 557,
+        "A_AI": 1030,
+        "TP_M": 345,
+        "predicted_M": 392,
+        "TP_U": 763,
+        "predicted_U": 916,
+        "answerable_to_M_min": 0,
+        "answerable_to_M_max": 26,
+        "A": 2892,
+        "Af": 2074,
+        "C": 1584,
+        "A_nonanswerable": 818,
+        "answerable_coverage": 0.9876190476190476,
+        "answerable_correct_per_request": 0.7542857142857143,
+        "answerable_marginal_error": 0.23333333333333334,
+        "answerable_selective_error": 0.23625843780135006,
+        "all_sql_return_rate": 0.6885714285714286,
+        "native_policy_marginal_failure": 0.31142857142857144,
+        "native_policy_selective_failure": 0.45228215767634855,
+        "sql_M_min": 552,
+        "sql_M_max": 578,
+        "sql_U_min": 240,
+        "sql_U_max": 266
+      }
+    ],
+    "bounds": {
+      "C_AC": [
+        1027,
+        1027
+      ],
+      "A_AC": [
+        1044,
+        1044
+      ],
+      "C_AI": [
+        556,
+        557
+      ],
+      "A_AI": [
+        1030,
+        1030
+      ],
+      "TP_M": [
+        345,
+        345
+      ],
+      "predicted_M": [
+        392,
+        392
+      ],
+      "TP_U": [
+        763,
+        763
+      ],
+      "predicted_U": [
+        916,
+        916
+      ],
+      "answerable_to_M_min": [
+        0,
+        0
+      ],
+      "answerable_to_M_max": [
+        26,
+        26
+      ],
+      "A": [
+        2892,
+        2892
+      ],
+      "Af": [
+        2074,
+        2074
+      ],
+      "C": [
+        1583,
+        1584
+      ],
+      "A_nonanswerable": [
+        818,
+        818
+      ],
+      "answerable_coverage": [
+        0.9876190476190476,
+        0.9876190476190476
+      ],
+      "answerable_correct_per_request": [
+        0.7538095238095238,
+        0.7542857142857143
+      ],
+      "answerable_marginal_error": [
+        0.23333333333333334,
+        0.2338095238095238
+      ],
+      "answerable_selective_error": [
+        0.23625843780135006,
+        0.23674059787849566
+      ],
+      "all_sql_return_rate": [
+        0.6885714285714286,
+        0.6885714285714286
+      ],
+      "native_policy_marginal_failure": [
+        0.31142857142857144,
+        0.31166666666666665
+      ],
+      "native_policy_selective_failure": [
+        0.45228215767634855,
+        0.45262793914246197
+      ],
+      "sql_M_min": [
+        552,
+        552
+      ],
+      "sql_M_max": [
+        578,
+        578
+      ],
+      "sql_U_min": [
+        240,
+        240
+      ],
+      "sql_U_max": [
+        266,
+        266
+      ]
+    }
+  }
+}

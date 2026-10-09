@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-05",
+  "unit": "selected evaluation setting",
+  "origin": {
+    "source": "Published benchmark protocols and evaluation code cited in the setting records."
+  },
+  "scope": "Descriptive audit of inspected benchmark designs and reporting, extended by the separate numerical and artifact analyses in experiments/2026-10-05. Null means not assessed for this setting, not absence of capability.",
+  "eligible_populations": {
+    "clarification": "Eight specified conversational settings. BIRD-History is retrieval context, not user clarification.",
+    "coverage_risk": "Four selected settings: CLARITY multi-turn, TrustSQL, SCARE, ABISS predicted-category. Does not assert exhaustive eligibility.",
+    "interpretation_recovery": "AmbiQT and AMBROSIA, for simultaneous alternative recovery. TIDE-Bench intent drift is a changed request."
+  },
+  "qualifications": {
+    "Derivable": "Paired coverage and selective risk recoverable for checked populations. Two inconsistent TrustSQL cells excluded: Advising T5-Error_M and ATIS CLS_P-MAC-SQL.",
+    "By category": "SCARE reconstruction separately within initially correct and initially incorrect answerable categories.",
+    "SQL matching": "Recovery metric uses SQL matching, without a separate meaning-level score. Natural-language meaning annotations may still exist.",
+    "No check found": "AmbiQT four generators at commit 2dd908bd4a7173f98fa6637758f4d41852722a5c. Does not establish equal outputs.",
+    "Not recoverable": "Inspected published tables do not provide aligned statistics. Not a claim about protocol capability.",
+    "System-selected": "Protocol permits system-generated/selected questions. Does not establish quality of clarification.",
+    "Required": "AMBROSIA construction requires distinct, nonempty full gold results. Execution found two duplicate-reference exceptions. Not a guarantee under every prediction matcher or output projection."
+  },
+  "records": [
+    {
+      "setting": "AmbiQT",
+      "citation_key": "M01",
+      "family": "AmbiQT",
+      "clarification": null,
+      "coverage_risk": null,
+      "distinct_gold_results": "No check found",
+      "meaning_recovery": "SQL matching"
+    },
+    {
+      "setting": "AMBROSIA",
+      "citation_key": "M02",
+      "family": "AMBROSIA",
+      "clarification": null,
+      "coverage_risk": null,
+      "distinct_gold_results": "Required",
+      "meaning_recovery": "SQL matching"
+    },
+    {
+      "setting": "PRACTIQ: SQL prediction",
+      "citation_key": "A06",
+      "family": "PRACTIQ",
+      "clarification": "Supplied history",
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "CLARITY: multi-turn",
+      "citation_key": "M05",
+      "family": "CLARITY",
+      "clarification": "Supplied history",
+      "coverage_risk": "Not recoverable",
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "Sphinteract: main",
+      "citation_key": "PA-Sphinteract",
+      "family": "Sphinteract",
+      "clarification": "System-selected",
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "BIRD-History",
+      "citation_key": "PersonaBIRDHistory",
+      "family": "BIRD-History",
+      "clarification": null,
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "TrustSQL",
+      "citation_key": "S05",
+      "family": "TrustSQL",
+      "clarification": null,
+      "coverage_risk": "Derivable",
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "SCARE",
+      "citation_key": "S14",
+      "family": "SCARE",
+      "clarification": null,
+      "coverage_risk": "By category",
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "ABISS: predicted category",
+      "citation_key": "A11",
+      "family": "ABISS",
+      "clarification": "System-selected",
+      "coverage_risk": "Not recoverable",
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "TIDE-Bench: full",
+      "citation_key": "A12",
+      "family": "TIDE-Bench",
+      "clarification": "System-selected",
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "TIDE-Bench: L1-primed",
+      "citation_key": "A12",
+      "family": "TIDE-Bench",
+      "clarification": "Supplied + system",
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "BIRD-INTERACT: c-Interact",
+      "citation_key": "A08",
+      "family": "BIRD-INTERACT",
+      "clarification": "System-selected",
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    },
+    {
+      "setting": "BIRD-INTERACT: a-Interact",
+      "citation_key": "A08",
+      "family": "BIRD-INTERACT",
+      "clarification": "System-selected",
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null
+    }
+  ],
+  "grouping": "11 source studies. The source Overleaf draft called these benchmark families, but the list includes Sphinteract system experiments.",
+  "verification_boundary": "The 13-setting design audit remains distinct from numerical reconstructions and saved-output/gold-query checks. Those checks, exact versions and exclusions are recorded in experiments/2026-10-05. No new model inference."
+}

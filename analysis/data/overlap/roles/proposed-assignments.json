@@ -1,0 +1,1070 @@
+[
+  {
+    "setting_id": "M01-top5-ambiguity",
+    "paper_id": "M01",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "M02-multi-reading",
+    "paper_id": "M02",
+    "direct": {
+      "status": "P",
+      "stage": "construction and analysis"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction/evaluation"
+    }
+  },
+  {
+    "setting_id": "M03-ambiqt-filtered",
+    "paper_id": "M03",
+    "direct": {
+      "status": "P",
+      "stage": "described alternative-output-comparison method/design; condition-specific implementation unverified"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "training-reference validation and parser diagnostic"
+    }
+  },
+  {
+    "setting_id": "M03-ambrosia",
+    "paper_id": "M03",
+    "direct": {
+      "status": "P",
+      "stage": "described alternative-output-comparison method/design; condition-specific implementation unverified"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "training-reference validation and parser diagnostic"
+    }
+  },
+  {
+    "setting_id": "M04-demo",
+    "paper_id": "M04",
+    "direct": {
+      "status": "N",
+      "stage": "interactive demonstration"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "implemented demonstration"
+    }
+  },
+  {
+    "setting_id": "M05-single-turn",
+    "paper_id": "M05",
+    "direct": {
+      "status": "N",
+      "stage": "construction and task evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction and task evaluation"
+    }
+  },
+  {
+    "setting_id": "M05-supplied-dialogue",
+    "paper_id": "M05",
+    "direct": {
+      "status": "N",
+      "stage": "construction and task evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction and task evaluation"
+    }
+  },
+  {
+    "setting_id": "M05-detection",
+    "paper_id": "M05",
+    "direct": {
+      "status": "N",
+      "stage": "construction and task evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction and task evaluation"
+    }
+  },
+  {
+    "setting_id": "M06-raw-schema",
+    "paper_id": "M06",
+    "direct": {
+      "status": "N",
+      "stage": "fixed-context generation evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "fixed-context generation evaluation"
+    }
+  },
+  {
+    "setting_id": "M06-pipeline",
+    "paper_id": "M06",
+    "direct": {
+      "status": "N",
+      "stage": "retrieval/planning method"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method"
+    }
+  },
+  {
+    "setting_id": "M06-gold-tables",
+    "paper_id": "M06",
+    "direct": {
+      "status": "N",
+      "stage": "fixed-context generation evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "fixed-context generation evaluation"
+    }
+  },
+  {
+    "setting_id": "M07-reviewed-setting",
+    "paper_id": "M07",
+    "direct": {
+      "status": "U",
+      "stage": "source-access limited"
+    },
+    "verification": {
+      "status": "U",
+      "stage": "source-access limited"
+    }
+  },
+  {
+    "setting_id": "M08-reviewed-setting",
+    "paper_id": "M08",
+    "direct": {
+      "status": "U",
+      "stage": "source-access limited"
+    },
+    "verification": {
+      "status": "U",
+      "stage": "source-access limited"
+    }
+  },
+  {
+    "setting_id": "S01-classification",
+    "paper_id": "S01",
+    "direct": {
+      "status": "N",
+      "stage": "classification evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "classification evaluation"
+    }
+  },
+  {
+    "setting_id": "S02-mimic3",
+    "paper_id": "S02",
+    "direct": {
+      "status": "N",
+      "stage": "selective SQL generation evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method and evaluation"
+    }
+  },
+  {
+    "setting_id": "S02-eicu",
+    "paper_id": "S02",
+    "direct": {
+      "status": "N",
+      "stage": "selective SQL generation evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method and evaluation"
+    }
+  },
+  {
+    "setting_id": "S03-shared-task",
+    "paper_id": "S03",
+    "direct": {
+      "status": "N",
+      "stage": "benchmark task and evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "benchmark evaluation"
+    }
+  },
+  {
+    "setting_id": "S04-reviewed-setting",
+    "paper_id": "S04",
+    "direct": {
+      "status": "N",
+      "stage": "generation, detection, and grounding evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "method/component evaluation"
+    }
+  },
+  {
+    "setting_id": "S05-penalty",
+    "paper_id": "S05",
+    "direct": {
+      "status": "N",
+      "stage": "reliability benchmark and evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "benchmark evaluation and response methods"
+    }
+  },
+  {
+    "setting_id": "S06-ambrosia-generated",
+    "paper_id": "S06",
+    "direct": {
+      "status": "U",
+      "stage": "construction procedure unclear"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction and recovery evaluation"
+    }
+  },
+  {
+    "setting_id": "S06-beaver-generated",
+    "paper_id": "S06",
+    "direct": {
+      "status": "U",
+      "stage": "construction procedure unclear"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction and recovery evaluation"
+    }
+  },
+  {
+    "setting_id": "S07-reviewed-setting",
+    "paper_id": "S07",
+    "direct": {
+      "status": "N",
+      "stage": "generation/refusal and repair evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "S08-triagesql-binary",
+    "paper_id": "S08",
+    "direct": {
+      "status": "N",
+      "stage": "binary gating evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "binary answerability-classification evaluation"
+    }
+  },
+  {
+    "setting_id": "S08-ambrosia-binary",
+    "paper_id": "S08",
+    "direct": {
+      "status": "N",
+      "stage": "binary gating evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "binary answerability-classification evaluation"
+    }
+  },
+  {
+    "setting_id": "S08-enterprise-binary",
+    "paper_id": "S08",
+    "direct": {
+      "status": "N",
+      "stage": "binary gating evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "binary answerability-classification evaluation"
+    }
+  },
+  {
+    "setting_id": "S09-question-only",
+    "paper_id": "S09",
+    "direct": {
+      "status": "N",
+      "stage": "grounding/generation evaluation"
+    },
+    "verification": {
+      "status": "U",
+      "stage": "agent verification attribution unclear"
+    }
+  },
+  {
+    "setting_id": "S09-document",
+    "paper_id": "S09",
+    "direct": {
+      "status": "N",
+      "stage": "grounding/generation evaluation"
+    },
+    "verification": {
+      "status": "U",
+      "stage": "agent verification attribution unclear"
+    }
+  },
+  {
+    "setting_id": "S09-evidence",
+    "paper_id": "S09",
+    "direct": {
+      "status": "N",
+      "stage": "grounding/generation evaluation"
+    },
+    "verification": {
+      "status": "U",
+      "stage": "agent verification attribution unclear"
+    }
+  },
+  {
+    "setting_id": "S09-expert-subset",
+    "paper_id": "S09",
+    "direct": {
+      "status": "N",
+      "stage": "grounding/generation evaluation"
+    },
+    "verification": {
+      "status": "U",
+      "stage": "agent verification attribution unclear"
+    }
+  },
+  {
+    "setting_id": "S12-reviewed-setting",
+    "paper_id": "S12",
+    "direct": {
+      "status": "U",
+      "stage": "primary abstract only"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "abstract-reported syntax-correction comparison"
+    }
+  },
+  {
+    "setting_id": "S13-answerable-execution",
+    "paper_id": "S13",
+    "direct": {
+      "status": "N",
+      "stage": "answerable SQL execution evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluator and SQL-error diagnostic"
+    }
+  },
+  {
+    "setting_id": "S13-refusal-utility",
+    "paper_id": "S13",
+    "direct": {
+      "status": "N",
+      "stage": "SQL-return reliability evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "reliability evaluation"
+    }
+  },
+  {
+    "setting_id": "S14-preservation",
+    "paper_id": "S14",
+    "direct": {
+      "status": "N",
+      "stage": "candidate verification/correction evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method and evaluation"
+    }
+  },
+  {
+    "setting_id": "S14-correction",
+    "paper_id": "S14",
+    "direct": {
+      "status": "N",
+      "stage": "candidate verification/correction evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method and evaluation"
+    }
+  },
+  {
+    "setting_id": "S14-ambiguity-classification",
+    "paper_id": "S14",
+    "direct": {
+      "status": "N",
+      "stage": "response-label classification"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "response-label classification"
+    }
+  },
+  {
+    "setting_id": "S14-unanswerable-classification",
+    "paper_id": "S14",
+    "direct": {
+      "status": "N",
+      "stage": "response-label classification"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "response-label classification"
+    }
+  },
+  {
+    "setting_id": "C02-test-suite",
+    "paper_id": "C02",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C05-program-pair-tests",
+    "paper_id": "C05",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C06::bird-verification",
+    "paper_id": "C06",
+    "direct": {
+      "status": "P",
+      "stage": "post-verification interpretation audit"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C07::bird-k5",
+    "paper_id": "C07",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C08::sql-filtering",
+    "paper_id": "C08",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C09::clinical-generated",
+    "paper_id": "C09",
+    "direct": {
+      "status": "P",
+      "stage": "method/diagnostic analysis"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C10::generated-heldout",
+    "paper_id": "C10",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C11::group-rank-resample",
+    "paper_id": "C11",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C12::signal-comparison",
+    "paper_id": "C12",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C13::metamorphic-detection",
+    "paper_id": "C13",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C15::oracle-swap",
+    "paper_id": "C15",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "C15::expert-audit",
+    "paper_id": "C15",
+    "direct": {
+      "status": "N",
+      "stage": "expert correctness audit"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "expert correctness audit"
+    }
+  },
+  {
+    "setting_id": "C16::enriched",
+    "paper_id": "C16",
+    "direct": {
+      "status": "N",
+      "stage": "selected evaluator audit"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluator audit and selective routing"
+    }
+  },
+  {
+    "setting_id": "C16::uniform",
+    "paper_id": "C16",
+    "direct": {
+      "status": "N",
+      "stage": "uniform evaluator audit"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "uniform evaluator audit"
+    }
+  },
+  {
+    "setting_id": "C16::active-disagreement",
+    "paper_id": "C16",
+    "direct": {
+      "status": "N",
+      "stage": "selected judge-disagreement audit"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "selected judge-disagreement audit"
+    }
+  },
+  {
+    "setting_id": "PersonaLinkedIn2025::system-design",
+    "paper_id": "PersonaLinkedIn2025",
+    "direct": {
+      "status": "N",
+      "stage": "system design"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "system design"
+    }
+  },
+  {
+    "setting_id": "PersonaLinkedIn2025::benchmark-ablations",
+    "paper_id": "PersonaLinkedIn2025",
+    "direct": {
+      "status": "N",
+      "stage": "component evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "component evaluation"
+    }
+  },
+  {
+    "setting_id": "PersonaLinkedIn2025::expert-assessment",
+    "paper_id": "PersonaLinkedIn2025",
+    "direct": {
+      "status": "N",
+      "stage": "expert response assessment"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "expert response assessment"
+    }
+  },
+  {
+    "setting_id": "PersonaRubikSQL2025::knowledge-base-design",
+    "paper_id": "PersonaRubikSQL2025",
+    "direct": {
+      "status": "N",
+      "stage": "knowledge-base and inference design"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "knowledge-base and inference design"
+    }
+  },
+  {
+    "setting_id": "PersonaRubikSQL2025::public-benchmark-evaluation",
+    "paper_id": "PersonaRubikSQL2025",
+    "direct": {
+      "status": "N",
+      "stage": "public-benchmark evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "public-benchmark evaluation"
+    }
+  },
+  {
+    "setting_id": "PersonaRubikSQL2025::rubikbench-design",
+    "paper_id": "PersonaRubikSQL2025",
+    "direct": {
+      "status": "N",
+      "stage": "benchmark design"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluator design within the proposed benchmark"
+    }
+  },
+  {
+    "setting_id": "PersonaBusinessLogic2026::data-synthesis",
+    "paper_id": "PersonaBusinessLogic2026",
+    "direct": {
+      "status": "N",
+      "stage": "data construction and quality assessment"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "construction and data-quality evaluation"
+    }
+  },
+  {
+    "setting_id": "PersonaBusinessLogic2026::downstream-soql",
+    "paper_id": "PersonaBusinessLogic2026",
+    "direct": {
+      "status": "N",
+      "stage": "downstream generation evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "downstream generation evaluation"
+    }
+  },
+  {
+    "setting_id": "PersonaTahoe2026::user-scoped-design",
+    "paper_id": "PersonaTahoe2026",
+    "direct": {
+      "status": "N",
+      "stage": "user-scoped architecture"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "user-scoped architecture"
+    }
+  },
+  {
+    "setting_id": "PersonaTahoe2026::development-evaluation",
+    "paper_id": "PersonaTahoe2026",
+    "direct": {
+      "status": "N",
+      "stage": "development evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "development evaluation"
+    }
+  },
+  {
+    "setting_id": "PersonaTahoe2026::held-out-evaluation",
+    "paper_id": "PersonaTahoe2026",
+    "direct": {
+      "status": "N",
+      "stage": "held-out evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "held-out evaluation"
+    }
+  },
+  {
+    "setting_id": "PersonaBIRDHistory::history-retrieval",
+    "paper_id": "PersonaBIRDHistory",
+    "direct": {
+      "status": "N",
+      "stage": "history-grounded generation and retrieval evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "correctness-linked retrieval analysis"
+    }
+  },
+  {
+    "setting_id": "A01::mas-human",
+    "paper_id": "A01",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A02::simulated",
+    "paper_id": "A02",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A02::human",
+    "paper_id": "A02",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A03::simulator",
+    "paper_id": "A03",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A03::human",
+    "paper_id": "A03",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A04::woz-corpus",
+    "paper_id": "A04",
+    "direct": {
+      "status": "N",
+      "stage": "construction"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "construction"
+    }
+  },
+  {
+    "setting_id": "A04::offline-baselines",
+    "paper_id": "A04",
+    "direct": {
+      "status": "N",
+      "stage": "evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A05::simulated",
+    "paper_id": "A05",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A05::human-annotation",
+    "paper_id": "A05",
+    "direct": {
+      "status": "P",
+      "stage": "illustrated-human-protocol"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/audit"
+    }
+  },
+  {
+    "setting_id": "A06::classification",
+    "paper_id": "A06",
+    "direct": {
+      "status": "N",
+      "stage": "evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A06::supplied-dialogue-sql",
+    "paper_id": "A06",
+    "direct": {
+      "status": "N",
+      "stage": "evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A07::ambiqt-gold-simulator",
+    "paper_id": "A07",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A07::spider-low-confidence",
+    "paper_id": "A07",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A09::algorithm",
+    "paper_id": "A09",
+    "direct": {
+      "status": "P",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A09::human-interface",
+    "paper_id": "A09",
+    "direct": {
+      "status": "P",
+      "stage": "method/human-evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method"
+    }
+  },
+  {
+    "setting_id": "A10::no-log",
+    "paper_id": "A10",
+    "direct": {
+      "status": "P",
+      "stage": "method/illustrative-comparison"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A10::synthetic-log",
+    "paper_id": "A10",
+    "direct": {
+      "status": "P",
+      "stage": "method/illustrative-comparison"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A11::gold-category",
+    "paper_id": "A11",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A11::predicted-category",
+    "paper_id": "A11",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A11::taxonomy-only-free",
+    "paper_id": "A11",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A12::full",
+    "paper_id": "A12",
+    "direct": {
+      "status": "N",
+      "stage": "construction/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A12::l1-primed",
+    "paper_id": "A12",
+    "direct": {
+      "status": "N",
+      "stage": "evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "evaluation"
+    }
+  },
+  {
+    "setting_id": "A15::branching",
+    "paper_id": "A15",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  },
+  {
+    "setting_id": "A15::usability",
+    "paper_id": "A15",
+    "direct": {
+      "status": "N",
+      "stage": "human-evaluation"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "human-evaluation"
+    }
+  },
+  {
+    "setting_id": "PA-Sphinteract::ambiguity-study",
+    "paper_id": "PA-Sphinteract",
+    "direct": {
+      "status": "P",
+      "stage": "audit"
+    },
+    "verification": {
+      "status": "N",
+      "stage": "audit"
+    }
+  },
+  {
+    "setting_id": "PA-Sphinteract::oracle-feedback",
+    "paper_id": "PA-Sphinteract",
+    "direct": {
+      "status": "N",
+      "stage": "method/evaluation"
+    },
+    "verification": {
+      "status": "P",
+      "stage": "method/evaluation"
+    }
+  }
+]

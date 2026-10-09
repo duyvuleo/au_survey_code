@@ -1,0 +1,318 @@
+{
+  "spider": {
+    "intake_bundles": 2220,
+    "category_bundles": {
+      "lexical column ambiguity multiple": 39,
+      "lexical column ambiguity single": 483,
+      "semantic column ambiguity multiple": 57,
+      "semantic column ambiguity single": 611,
+      "value ambiguity multiple": 9,
+      "value ambiguity single": 1021
+    },
+    "status_counts": {
+      "complete_execution": 1637,
+      "parent_execution_failed": 1,
+      "construction_unresolved": 582
+    },
+    "construction_unresolved_reasons": {
+      "target_scope_missing": 38,
+      "selected_table_identity_lost": 31,
+      "ambiguous_or_unknown_unqualified_column": 1,
+      "value_layout_or_candidate_table_membership_unresolved": 510,
+      "overlapping_selected_bindings": 2
+    },
+    "populations": {
+      "complete_execution_diagnostic": {
+        "N": 1637,
+        "conversation_records": 6382,
+        "complete_reference_sets": 1637,
+        "unanimous_agreement": 138,
+        "any_pair_agreement": 316,
+        "unanimous_rate": 0.08430054978619425,
+        "all_empty_agreements": 46,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 4,
+        "empty_source_relation_agreements": 30,
+        "executed_query_instances": 4981,
+        "failed_reference_instances": 0
+      },
+      "complete_column_execution_diagnostic": {
+        "N": 1147,
+        "conversation_records": 5770,
+        "complete_reference_sets": 1147,
+        "unanimous_agreement": 105,
+        "any_pair_agreement": 228,
+        "unanimous_rate": 0.09154315605928509,
+        "all_empty_agreements": 42,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 4,
+        "empty_source_relation_agreements": 30,
+        "executed_query_instances": 3561,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_screened": {
+        "N": 176,
+        "conversation_records": 880,
+        "complete_reference_sets": 176,
+        "unanimous_agreement": 24,
+        "any_pair_agreement": 64,
+        "unanimous_rate": 0.13636363636363635,
+        "all_empty_agreements": 14,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 2,
+        "empty_source_relation_agreements": 13,
+        "executed_query_instances": 486,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonempty_results": {
+        "N": 162,
+        "conversation_records": 810,
+        "complete_reference_sets": 162,
+        "unanimous_agreement": 10,
+        "any_pair_agreement": 50,
+        "unanimous_rate": 0.06172839506172839,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 2,
+        "empty_source_relation_agreements": 1,
+        "executed_query_instances": 458,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonempty_source_relations": {
+        "N": 163,
+        "conversation_records": 815,
+        "complete_reference_sets": 163,
+        "unanimous_agreement": 11,
+        "any_pair_agreement": 51,
+        "unanimous_rate": 0.06748466257668712,
+        "all_empty_agreements": 2,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 1,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 460,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonempty_source_and_results": {
+        "N": 161,
+        "conversation_records": 805,
+        "complete_reference_sets": 161,
+        "unanimous_agreement": 9,
+        "any_pair_agreement": 49,
+        "unanimous_rate": 0.055900621118012424,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 1,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 456,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonnull_nonempty_results": {
+        "N": 162,
+        "conversation_records": 810,
+        "complete_reference_sets": 162,
+        "unanimous_agreement": 10,
+        "any_pair_agreement": 50,
+        "unanimous_rate": 0.06172839506172839,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 2,
+        "empty_source_relation_agreements": 1,
+        "executed_query_instances": 458,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_single_target_occurrence": {
+        "N": 169,
+        "conversation_records": 845,
+        "complete_reference_sets": 169,
+        "unanimous_agreement": 24,
+        "any_pair_agreement": 64,
+        "unanimous_rate": 0.14201183431952663,
+        "all_empty_agreements": 14,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 2,
+        "empty_source_relation_agreements": 13,
+        "executed_query_instances": 468,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_single_occurrence_nonempty_source": {
+        "N": 156,
+        "conversation_records": 780,
+        "complete_reference_sets": 156,
+        "unanimous_agreement": 11,
+        "any_pair_agreement": 51,
+        "unanimous_rate": 0.07051282051282051,
+        "all_empty_agreements": 2,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 1,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 442,
+        "failed_reference_instances": 0
+      }
+    }
+  },
+  "bird": {
+    "intake_bundles": 908,
+    "category_bundles": {
+      "lexical column ambiguity multiple": 13,
+      "lexical column ambiguity single": 145,
+      "semantic column ambiguity multiple": 32,
+      "semantic column ambiguity single": 260,
+      "value ambiguity multiple": 50,
+      "value ambiguity single": 408
+    },
+    "status_counts": {
+      "complete_execution": 748,
+      "construction_unresolved": 152,
+      "parent_execution_failed": 3,
+      "alternative_execution_incomplete": 5
+    },
+    "construction_unresolved_reasons": {
+      "derived_source_lineage_unresolved": 3,
+      "derived_target_scope_missing": 1,
+      "target_scope_missing": 2,
+      "less_than_two_column_readings": 1,
+      "selected_table_identity_lost": 20,
+      "value_layout_or_candidate_table_membership_unresolved": 113,
+      "variant_product_cap": 2,
+      "overlapping_selected_bindings": 10
+    },
+    "populations": {
+      "complete_execution_diagnostic": {
+        "N": 748,
+        "conversation_records": 3784,
+        "complete_reference_sets": 748,
+        "unanimous_agreement": 71,
+        "any_pair_agreement": 330,
+        "unanimous_rate": 0.09491978609625669,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 4285,
+        "failed_reference_instances": 0
+      },
+      "complete_column_execution_diagnostic": {
+        "N": 439,
+        "conversation_records": 2195,
+        "complete_reference_sets": 439,
+        "unanimous_agreement": 50,
+        "any_pair_agreement": 180,
+        "unanimous_rate": 0.11389521640091116,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 1993,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_screened": {
+        "N": 143,
+        "conversation_records": 715,
+        "complete_reference_sets": 143,
+        "unanimous_agreement": 15,
+        "any_pair_agreement": 53,
+        "unanimous_rate": 0.1048951048951049,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 479,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonempty_results": {
+        "N": 143,
+        "conversation_records": 715,
+        "complete_reference_sets": 143,
+        "unanimous_agreement": 15,
+        "any_pair_agreement": 53,
+        "unanimous_rate": 0.1048951048951049,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 479,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonempty_source_relations": {
+        "N": 143,
+        "conversation_records": 715,
+        "complete_reference_sets": 143,
+        "unanimous_agreement": 15,
+        "any_pair_agreement": 53,
+        "unanimous_rate": 0.1048951048951049,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 479,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonempty_source_and_results": {
+        "N": 143,
+        "conversation_records": 715,
+        "complete_reference_sets": 143,
+        "unanimous_agreement": 15,
+        "any_pair_agreement": 53,
+        "unanimous_rate": 0.1048951048951049,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 479,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_nonnull_nonempty_results": {
+        "N": 143,
+        "conversation_records": 715,
+        "complete_reference_sets": 143,
+        "unanimous_agreement": 15,
+        "any_pair_agreement": 53,
+        "unanimous_rate": 0.1048951048951049,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 479,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_single_target_occurrence": {
+        "N": 129,
+        "conversation_records": 645,
+        "complete_reference_sets": 129,
+        "unanimous_agreement": 12,
+        "any_pair_agreement": 49,
+        "unanimous_rate": 0.09302325581395349,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 439,
+        "failed_reference_instances": 0
+      },
+      "fixed_output_single_occurrence_nonempty_source": {
+        "N": 129,
+        "conversation_records": 645,
+        "complete_reference_sets": 129,
+        "unanimous_agreement": 12,
+        "any_pair_agreement": 49,
+        "unanimous_rate": 0.09302325581395349,
+        "all_empty_agreements": 0,
+        "all_null_agreements": 0,
+        "scalar_zero_agreements": 0,
+        "empty_source_relation_agreements": 0,
+        "executed_query_instances": 439,
+        "failed_reference_instances": 0
+      }
+    }
+  },
+  "independent_targeted_review": {
+    "reviewed_cases": 39,
+    "judgments": {
+      "plausible_annotation_based_readings": 32,
+      "role_or_unit_plausibility_unresolved": 5,
+      "candidate_context_compatibility_unresolved": 2
+    },
+    "current_primary_positive_cases_in_review": 39,
+    "selection": "Targeted positive cohort, not a corpus validation sample; no corrected semantic-rate denominator is inferred."
+  }
+}

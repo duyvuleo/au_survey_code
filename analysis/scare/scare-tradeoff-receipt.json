@@ -1,0 +1,849 @@
+{
+  "status": "passed independent exact-arithmetic check of frozen aggregate inputs",
+  "population": {
+    "N": 2100,
+    "initially_correct_answerable_triples": 1050,
+    "initially_incorrect_answerable_triples": 1050,
+    "unit": "question-candidate triple, not necessarily a unique question",
+    "model": "Gemini-2.5-Flash"
+  },
+  "methods": {
+    "Two-Stage": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 6,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 844,
+          "returned_AC": 854,
+          "wrong_AC": 10,
+          "withheld_AC": 196,
+          "C_AI": 446,
+          "returned_AI": 816,
+          "wrong_AI": 370,
+          "withheld_AI": 234,
+          "N": 2100,
+          "correct": 1290,
+          "wrong": 380,
+          "returned": 1670,
+          "withheld": 430
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    "Single-Turn": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 1,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 1028,
+          "returned_AC": 1045,
+          "wrong_AC": 17,
+          "withheld_AC": 5,
+          "C_AI": 521,
+          "returned_AI": 1025,
+          "wrong_AI": 504,
+          "withheld_AI": 25,
+          "N": 2100,
+          "correct": 1549,
+          "wrong": 521,
+          "returned": 2070,
+          "withheld": 30
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    "Single-Turn-Veri": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 1,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 1030,
+          "returned_AC": 1045,
+          "wrong_AC": 15,
+          "withheld_AC": 5,
+          "C_AI": 547,
+          "returned_AI": 1030,
+          "wrong_AI": 483,
+          "withheld_AI": 20,
+          "N": 2100,
+          "correct": 1577,
+          "wrong": 498,
+          "returned": 2075,
+          "withheld": 25
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    "Multi-Turn-SelfRef": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 1,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 1021,
+          "returned_AC": 1044,
+          "wrong_AC": 23,
+          "withheld_AC": 6,
+          "C_AI": 540,
+          "returned_AI": 1030,
+          "wrong_AI": 490,
+          "withheld_AI": 20,
+          "N": 2100,
+          "correct": 1561,
+          "wrong": 513,
+          "returned": 2074,
+          "withheld": 26
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    "Single-Turn-Cls": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 4,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 1003,
+          "returned_AC": 1025,
+          "wrong_AC": 22,
+          "withheld_AC": 25,
+          "C_AI": 556,
+          "returned_AI": 989,
+          "wrong_AI": 433,
+          "withheld_AI": 61,
+          "N": 2100,
+          "correct": 1559,
+          "wrong": 455,
+          "returned": 2014,
+          "withheld": 86
+        },
+        {
+          "C_AC": 1003,
+          "returned_AC": 1025,
+          "wrong_AC": 22,
+          "withheld_AC": 25,
+          "C_AI": 557,
+          "returned_AI": 989,
+          "wrong_AI": 432,
+          "withheld_AI": 61,
+          "N": 2100,
+          "correct": 1560,
+          "wrong": 454,
+          "returned": 2014,
+          "withheld": 86
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    "Single-Turn-Veri-Cls": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 4,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 1007,
+          "returned_AC": 1027,
+          "wrong_AC": 20,
+          "withheld_AC": 23,
+          "C_AI": 565,
+          "returned_AI": 987,
+          "wrong_AI": 422,
+          "withheld_AI": 63,
+          "N": 2100,
+          "correct": 1572,
+          "wrong": 442,
+          "returned": 2014,
+          "withheld": 86
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    "Multi-Turn-SelfRef-Cls": {
+      "model": "Gemini-2.5-Flash",
+      "n_per_answerable_stratum": 1050,
+      "verified_full_reconstruction_options": 2,
+      "distinct_answerable_count_options": [
+        {
+          "C_AC": 1027,
+          "returned_AC": 1044,
+          "wrong_AC": 17,
+          "withheld_AC": 6,
+          "C_AI": 556,
+          "returned_AI": 1030,
+          "wrong_AI": 474,
+          "withheld_AI": 20,
+          "N": 2100,
+          "correct": 1583,
+          "wrong": 491,
+          "returned": 2074,
+          "withheld": 26
+        },
+        {
+          "C_AC": 1027,
+          "returned_AC": 1044,
+          "wrong_AC": 17,
+          "withheld_AC": 6,
+          "C_AI": 557,
+          "returned_AI": 1030,
+          "wrong_AI": 473,
+          "withheld_AI": 20,
+          "N": 2100,
+          "correct": 1584,
+          "wrong": 490,
+          "returned": 2074,
+          "withheld": 26
+        }
+      ],
+      "rounding_tolerance_percentage_points": "1/20",
+      "published_source": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf#page=7",
+      "recorded_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    }
+  },
+  "verification": {
+    "all_seven_methods_enumerated": 7,
+    "full_rounding_compatible_options": 19,
+    "feasible_class_matrices": 1077,
+    "saved_options_exact_match": true,
+    "pairwise_full_option_combinations": 24,
+    "distinct_global_answerable_count_scenarios": 4
+  },
+  "pairwise_result": {
+    "reference_method": "Two-Stage",
+    "comparison_method": "Single-Turn-Veri-Cls",
+    "correct_difference": 282,
+    "wrong_difference": 62,
+    "returned_difference": 344,
+    "withheld_difference": -344,
+    "correct_difference_percentage_points": {
+      "exact": "94/7",
+      "decimal": 13.428571428571429
+    },
+    "wrong_difference_percentage_points": {
+      "exact": "62/21",
+      "decimal": 2.9523809523809526
+    },
+    "returned_difference_percentage_points": {
+      "exact": "344/21",
+      "decimal": 16.38095238095238
+    },
+    "utility": "U_lambda = (C - lambda * W) / 2100, correct reward 1, wrong reward -lambda, withheld reward 0, lambda >= 0",
+    "difference": "U_lambda(Single-Turn-Veri-Cls) - U_lambda(Two-Stage) = (282 - 62 * lambda) / 2100",
+    "equal_utility_lambda": {
+      "exact": "141/31",
+      "decimal": 4.548387096774194
+    },
+    "common_utility_at_crossing": {
+      "exact": "-453/2170",
+      "decimal": -0.20875576036866358
+    },
+    "ranking_below_crossing": "Single-Turn-Veri-Cls",
+    "ranking_at_crossing": "tie",
+    "ranking_above_crossing": "Two-Stage",
+    "invariant_across_all_saved_and_independently_enumerated_options": true
+  },
+  "other_method_boundary": {
+    "low_penalty_competitor": "Multi-Turn-SelfRef-Cls",
+    "low_penalty_crossings_vs_veri_cls": [
+      {
+        "exact": "11/49",
+        "decimal": 0.22448979591836735
+      },
+      {
+        "exact": "1/4",
+        "decimal": 0.25
+      }
+    ],
+    "always_withhold_exceeds_all_seven_for_lambda_greater_than": {
+      "exact": "786/221",
+      "decimal": 3.5565610859728505
+    },
+    "always_withhold_boundary_note": "Always-Withhold is an analytic zero-utility comparator, not one of the seven reported SCARE methods. It ties Single-Turn-Veri-Cls at the boundary.",
+    "scenarios": [
+      {
+        "scenario": 1,
+        "count_choices": {
+          "Two-Stage": {
+            "correct": 1290,
+            "wrong": 380
+          },
+          "Single-Turn": {
+            "correct": 1549,
+            "wrong": 521
+          },
+          "Single-Turn-Veri": {
+            "correct": 1577,
+            "wrong": 498
+          },
+          "Multi-Turn-SelfRef": {
+            "correct": 1561,
+            "wrong": 513
+          },
+          "Single-Turn-Cls": {
+            "correct": 1559,
+            "wrong": 455
+          },
+          "Single-Turn-Veri-Cls": {
+            "correct": 1572,
+            "wrong": 442
+          },
+          "Multi-Turn-SelfRef-Cls": {
+            "correct": 1583,
+            "wrong": 491
+          }
+        },
+        "among_seven_reported_methods": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "11/49",
+              "upper_exclusive": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "141/31",
+              "upper_exclusive": null,
+              "winners": [
+                "Two-Stage"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls",
+                "Two-Stage"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 12
+        },
+        "with_analytic_always_withhold": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "11/49",
+              "upper_exclusive": "786/221",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "786/221",
+              "upper_exclusive": null,
+              "winners": [
+                "Always-Withhold (analytic comparator)"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "786/221",
+              "winners": [
+                "Always-Withhold (analytic comparator)",
+                "Single-Turn-Veri-Cls"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 19
+        }
+      },
+      {
+        "scenario": 2,
+        "count_choices": {
+          "Two-Stage": {
+            "correct": 1290,
+            "wrong": 380
+          },
+          "Single-Turn": {
+            "correct": 1549,
+            "wrong": 521
+          },
+          "Single-Turn-Veri": {
+            "correct": 1577,
+            "wrong": 498
+          },
+          "Multi-Turn-SelfRef": {
+            "correct": 1561,
+            "wrong": 513
+          },
+          "Single-Turn-Cls": {
+            "correct": 1559,
+            "wrong": 455
+          },
+          "Single-Turn-Veri-Cls": {
+            "correct": 1572,
+            "wrong": 442
+          },
+          "Multi-Turn-SelfRef-Cls": {
+            "correct": 1584,
+            "wrong": 490
+          }
+        },
+        "among_seven_reported_methods": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "1/4",
+              "upper_exclusive": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "141/31",
+              "upper_exclusive": null,
+              "winners": [
+                "Two-Stage"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls",
+                "Two-Stage"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 12
+        },
+        "with_analytic_always_withhold": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "1/4",
+              "upper_exclusive": "786/221",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "786/221",
+              "upper_exclusive": null,
+              "winners": [
+                "Always-Withhold (analytic comparator)"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "786/221",
+              "winners": [
+                "Always-Withhold (analytic comparator)",
+                "Single-Turn-Veri-Cls"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 19
+        }
+      },
+      {
+        "scenario": 3,
+        "count_choices": {
+          "Two-Stage": {
+            "correct": 1290,
+            "wrong": 380
+          },
+          "Single-Turn": {
+            "correct": 1549,
+            "wrong": 521
+          },
+          "Single-Turn-Veri": {
+            "correct": 1577,
+            "wrong": 498
+          },
+          "Multi-Turn-SelfRef": {
+            "correct": 1561,
+            "wrong": 513
+          },
+          "Single-Turn-Cls": {
+            "correct": 1560,
+            "wrong": 454
+          },
+          "Single-Turn-Veri-Cls": {
+            "correct": 1572,
+            "wrong": 442
+          },
+          "Multi-Turn-SelfRef-Cls": {
+            "correct": 1583,
+            "wrong": 491
+          }
+        },
+        "among_seven_reported_methods": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "11/49",
+              "upper_exclusive": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "141/31",
+              "upper_exclusive": null,
+              "winners": [
+                "Two-Stage"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls",
+                "Two-Stage"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 12
+        },
+        "with_analytic_always_withhold": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "11/49",
+              "upper_exclusive": "786/221",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "786/221",
+              "upper_exclusive": null,
+              "winners": [
+                "Always-Withhold (analytic comparator)"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "11/49",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "786/221",
+              "winners": [
+                "Always-Withhold (analytic comparator)",
+                "Single-Turn-Veri-Cls"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 19
+        }
+      },
+      {
+        "scenario": 4,
+        "count_choices": {
+          "Two-Stage": {
+            "correct": 1290,
+            "wrong": 380
+          },
+          "Single-Turn": {
+            "correct": 1549,
+            "wrong": 521
+          },
+          "Single-Turn-Veri": {
+            "correct": 1577,
+            "wrong": 498
+          },
+          "Multi-Turn-SelfRef": {
+            "correct": 1561,
+            "wrong": 513
+          },
+          "Single-Turn-Cls": {
+            "correct": 1560,
+            "wrong": 454
+          },
+          "Single-Turn-Veri-Cls": {
+            "correct": 1572,
+            "wrong": 442
+          },
+          "Multi-Turn-SelfRef-Cls": {
+            "correct": 1584,
+            "wrong": 490
+          }
+        },
+        "among_seven_reported_methods": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "1/4",
+              "upper_exclusive": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "141/31",
+              "upper_exclusive": null,
+              "winners": [
+                "Two-Stage"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "141/31",
+              "winners": [
+                "Single-Turn-Veri-Cls",
+                "Two-Stage"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 12
+        },
+        "with_analytic_always_withhold": {
+          "domain": "lambda >= 0",
+          "open_intervals": [
+            {
+              "lower_exclusive": "0",
+              "upper_exclusive": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "1/4",
+              "upper_exclusive": "786/221",
+              "winners": [
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lower_exclusive": "786/221",
+              "upper_exclusive": null,
+              "winners": [
+                "Always-Withhold (analytic comparator)"
+              ]
+            }
+          ],
+          "top_ties_and_zero": [
+            {
+              "lambda": "0",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls"
+              ]
+            },
+            {
+              "lambda": "1/4",
+              "winners": [
+                "Multi-Turn-SelfRef-Cls",
+                "Single-Turn-Veri-Cls"
+              ]
+            },
+            {
+              "lambda": "786/221",
+              "winners": [
+                "Always-Withhold (analytic comparator)",
+                "Single-Turn-Veri-Cls"
+              ]
+            }
+          ],
+          "all_line_crossings_checked": 19
+        }
+      }
+    ]
+  },
+  "assumptions": [
+    "Published percentages are interpreted with the frozen plus/minus 0.05 percentage-point compatibility rule.",
+    "Per-category denominators are 1050 and category statistics are reconstructed as pooled counts.",
+    "All method outcomes, benchmark examples and the equal AC/AI mixture remain fixed while lambda varies.",
+    "Only answerable triples enter this utility. Ambiguity/unanswerability classification rewards and costs are excluded.",
+    "The utility is an analytical choice, not a native SCARE metric or an estimated deployment cost.",
+    "Aggregate differences do not identify paired case-level fixes, newly caused errors or individual outcome transitions.",
+    "Rounding compatibility is not sampling uncertainty or a confidence interval."
+  ],
+  "source_locators": [
+    {
+      "path": "analysis/data/benchmarks/inputs/scare_table3.csv",
+      "lines": [
+        1,
+        8
+      ]
+    },
+    {
+      "lines": [
+        364,
+        382
+      ],
+      "supports": "Coverage, preservation and correction denominator definitions",
+      "recorded_source_text": "S14.txt",
+      "source_text_included": false,
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf",
+      "source_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    },
+    {
+      "lines": [
+        399,
+        415
+      ],
+      "supports": "Table 3 reported percentages",
+      "recorded_source_text": "S14.txt",
+      "source_text_included": false,
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v297/main/assets/lee26b/lee26b.pdf",
+      "source_pdf_sha256": "abd9c0c84ff22d2d5dc09b611ae68446178041717b0c044179e0d51efade733c"
+    }
+  ],
+  "input_sha256": {
+    "analysis/data/benchmarks/inputs/scare_table3.csv": "a4cc60420f0115888cc1d5a00539694a78af67b9acd7468da76c84ddd06d8da5",
+    "analysis/data/benchmarks/outputs/scare_reconstruction.json": "ca6ad17151f63f2be09557052d7921ff0559ed705f1b95aa77917a43fd6b0fb7"
+  },
+  "no_model_or_SQL_execution": true,
+  "canonical_inputs_unchanged": true
+}

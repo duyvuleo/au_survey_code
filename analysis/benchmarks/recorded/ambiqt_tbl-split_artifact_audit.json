@@ -1,0 +1,50 @@
+[
+  {
+    "category": "tbl-split",
+    "model": "logical-beam",
+    "source_records": 288,
+    "validation_records": 288,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      108,
+      109,
+      110,
+      111
+    ],
+    "pool_size_distribution": {
+      "10": 251,
+      "9": 3,
+      "8": 8,
+      "5": 2,
+      "7": 5,
+      "6": 1,
+      "1": 2,
+      "2": 15,
+      "3": 1
+    },
+    "unique_source_question_strings": 131,
+    "unique_databases": 18,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "ff75718d053bfa1d788c1954398796bda200ec7fe2825c331b8954afc897d381"
+  },
+  {
+    "category": "tbl-split",
+    "model": "t5-3b-bw10",
+    "source_records": 288,
+    "validation_records": 288,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      108,
+      109,
+      110,
+      111
+    ],
+    "pool_size_distribution": {
+      "10": 288
+    },
+    "unique_source_question_strings": 131,
+    "unique_databases": 18,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "0996b88b95a91f81f601eef999960d51ce4cd9888ddcbfd22354cbfa22d3a69a"
+  }
+]

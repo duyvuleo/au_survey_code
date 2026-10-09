@@ -1,0 +1,22 @@
+{
+  "replay_ambiqt.py": {
+    "original_sha256": "b72c011c1431d1a1f06853e422c0bcb16f22a79e405758881a63bfd708e04e48",
+    "adapter_sha256": "dc21dde9cfbebdcbe07922f40ab016aead2b07f3a6351dc5ff713fa91da53c65"
+  },
+  "summarize_replay.py": {
+    "original_sha256": "a10922b014927af628ab9139c667144620b01c5dbf4c1a7f71d39c0e007e7c19",
+    "adapter_sha256": "a1b67f5f855aefd8f015bcea4a90db4a2ce2007e07a08195418beccdefda7878"
+  },
+  "validate_native_replay.py": {
+    "original_sha256": "dfeb635bc01ad131693cc23cfd86af9de03b1eea82050a06fc266d0032359443",
+    "adapter_sha256": "2d6447077e95839a1e900a2698b177ba4a228e66ded5e442b7144f9c20169651"
+  },
+  "audit_ambrosia.py": {
+    "original_sha256": "67009a562947df2f37f01cb0e8cd1278263d5d8972617908ab46e43896d2e18d",
+    "adapter_sha256": "cbe2619ff1957a4c9eefc94707f95d43784a4b478b3e1c484308a84abf5618bf"
+  },
+  "ambrosia_oracle.py": {
+    "original_sha256": "ea3b237ea6cd351f539c5df07f65d6789bf11c68e5be0cc51be6d1d0a300fac6",
+    "adapter_sha256": "3b613774fc96f22dcacad2ffb37b1373484c3dada499632b44836cc8038170c0"
+  }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "category": "col-synonyms",
+    "model": "logical-beam",
+    "source_records": 1240,
+    "validation_records": 1240,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      493,
+      494,
+      495,
+      496
+    ],
+    "pool_size_distribution": {
+      "10": 1130,
+      "9": 11,
+      "2": 67,
+      "8": 12,
+      "6": 5,
+      "3": 3,
+      "5": 3,
+      "7": 5,
+      "1": 2,
+      "4": 2
+    },
+    "unique_source_question_strings": 895,
+    "unique_databases": 20,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "1bfb04202364cc4423597a50dfcc9a41d5936bcf0bc19745300f6e2d52ea899f"
+  },
+  {
+    "category": "col-synonyms",
+    "model": "t5-3b-bw10",
+    "source_records": 1240,
+    "validation_records": 1240,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      493,
+      494,
+      495,
+      496
+    ],
+    "pool_size_distribution": {
+      "10": 1240
+    },
+    "unique_source_question_strings": 895,
+    "unique_databases": 20,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "3dd069fbaaf032949b9857e54a1a8dc57533b15571b3c81ac61528b26f49a1af"
+  },
+  {
+    "category": "tbl-synonyms",
+    "model": "logical-beam",
+    "source_records": 1417,
+    "validation_records": 1417,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      654,
+      655
+    ],
+    "pool_size_distribution": {
+      "10": 1312,
+      "2": 61,
+      "9": 7,
+      "6": 9,
+      "7": 7,
+      "8": 9,
+      "1": 6,
+      "4": 1,
+      "5": 2,
+      "3": 3
+    },
+    "unique_source_question_strings": 896,
+    "unique_databases": 20,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "3e2fef855e2c66f3d356fa0fc4b1ca5572dfde26eda64c2cc8fc7ebac113cc7c"
+  },
+  {
+    "category": "tbl-synonyms",
+    "model": "t5-3b-bw10",
+    "source_records": 1417,
+    "validation_records": 1417,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      654,
+      655
+    ],
+    "pool_size_distribution": {
+      "10": 1417
+    },
+    "unique_source_question_strings": 896,
+    "unique_databases": 20,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "bdb02ac87e543815989c494ca5d22bae26ac4a2bd32227fc4fda401130645d5f"
+  },
+  {
+    "category": "tbl-split",
+    "model": "logical-beam",
+    "source_records": 288,
+    "validation_records": 288,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      108,
+      109,
+      110,
+      111
+    ],
+    "pool_size_distribution": {
+      "10": 251,
+      "9": 3,
+      "8": 8,
+      "5": 2,
+      "7": 5,
+      "6": 1,
+      "1": 2,
+      "2": 15,
+      "3": 1
+    },
+    "unique_source_question_strings": 131,
+    "unique_databases": 18,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "ff75718d053bfa1d788c1954398796bda200ec7fe2825c331b8954afc897d381"
+  },
+  {
+    "category": "tbl-split",
+    "model": "t5-3b-bw10",
+    "source_records": 288,
+    "validation_records": 288,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [
+      108,
+      109,
+      110,
+      111
+    ],
+    "pool_size_distribution": {
+      "10": 288
+    },
+    "unique_source_question_strings": 131,
+    "unique_databases": 18,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "0996b88b95a91f81f601eef999960d51ce4cd9888ddcbfd22354cbfa22d3a69a"
+  },
+  {
+    "category": "tbl-agg",
+    "model": "logical-beam",
+    "source_records": 101,
+    "validation_records": 101,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [],
+    "pool_size_distribution": {
+      "10": 96,
+      "6": 1,
+      "2": 4
+    },
+    "unique_source_question_strings": 101,
+    "unique_databases": 16,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "3101ca57bc550a46f473bf0db65338ed7bf53dc91820be5f5e5b221b54f2f058"
+  },
+  {
+    "category": "tbl-agg",
+    "model": "t5-3b-bw10",
+    "source_records": 101,
+    "validation_records": 101,
+    "mismatched_identity_indices": [],
+    "gold_failed_indices": [],
+    "pool_size_distribution": {
+      "10": 101
+    },
+    "unique_source_question_strings": 101,
+    "unique_databases": 16,
+    "caught_evaluator_exceptions": {},
+    "source_sha256": "0dd1836106ff36a92a6bdc2ab2427e519ef9807a2d6ec4a6386cb85ccbee8123"
+  }
+]

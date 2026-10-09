@@ -1,0 +1,722 @@
+[
+  {
+    "category": "col-synonyms",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 91.66666666666667,
+    "native_printed_pct": 91.67,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 75.0,
+    "native_printed_pct": 75.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 70.83333333333333,
+    "native_printed_pct": 70.83,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 66.66666666666667,
+    "native_printed_pct": 66.67,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 50.0,
+    "native_printed_pct": 50.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 50.0,
+    "native_printed_pct": 50.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 66.66666666666667,
+    "native_printed_pct": 66.67,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 50.0,
+    "native_printed_pct": 50.0,
+    "pass": true
+  },
+  {
+    "category": "col-synonyms",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 50.0,
+    "native_printed_pct": 50.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 22,
+    "wrapper_pct": 86.36363636363636,
+    "native_printed_pct": 86.36,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 22,
+    "wrapper_pct": 68.18181818181819,
+    "native_printed_pct": 68.18,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 22,
+    "wrapper_pct": 77.27272727272727,
+    "native_printed_pct": 77.27,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 22,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 22,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 22,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 22,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 22,
+    "wrapper_pct": 90.9090909090909,
+    "native_printed_pct": 90.91,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 22,
+    "wrapper_pct": 90.9090909090909,
+    "native_printed_pct": 90.91,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 22,
+    "wrapper_pct": 90.9090909090909,
+    "native_printed_pct": 90.91,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 22,
+    "wrapper_pct": 72.72727272727273,
+    "native_printed_pct": 72.73,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 22,
+    "wrapper_pct": 81.81818181818181,
+    "native_printed_pct": 81.82,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 22,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 22,
+    "wrapper_pct": 90.9090909090909,
+    "native_printed_pct": 90.91,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 22,
+    "wrapper_pct": 90.9090909090909,
+    "native_printed_pct": 90.91,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 22,
+    "wrapper_pct": 90.9090909090909,
+    "native_printed_pct": 90.91,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 22,
+    "wrapper_pct": 72.72727272727273,
+    "native_printed_pct": 72.73,
+    "pass": true
+  },
+  {
+    "category": "tbl-synonyms",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 22,
+    "wrapper_pct": 81.81818181818181,
+    "native_printed_pct": 81.82,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 95.83333333333333,
+    "native_printed_pct": 95.83,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 79.16666666666667,
+    "native_printed_pct": 79.17,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 79.16666666666667,
+    "native_printed_pct": 79.17,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 58.333333333333336,
+    "native_printed_pct": 58.33,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 75.0,
+    "native_printed_pct": 75.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 75.0,
+    "native_printed_pct": 75.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 83.33333333333333,
+    "native_printed_pct": 83.33,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 24,
+    "wrapper_pct": 58.333333333333336,
+    "native_printed_pct": 58.33,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 24,
+    "wrapper_pct": 75.0,
+    "native_printed_pct": 75.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-split",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 24,
+    "wrapper_pct": 75.0,
+    "native_printed_pct": 75.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 20,
+    "wrapper_pct": 95.0,
+    "native_printed_pct": 95.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 20,
+    "wrapper_pct": 40.0,
+    "native_printed_pct": 40.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 1,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 20,
+    "wrapper_pct": 40.0,
+    "native_printed_pct": 40.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 20,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 20,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 1,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 20,
+    "wrapper_pct": 0.0,
+    "native_printed_pct": 0.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 20,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 20,
+    "wrapper_pct": 45.0,
+    "native_printed_pct": 45.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 5,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 20,
+    "wrapper_pct": 45.0,
+    "native_printed_pct": 45.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 20,
+    "wrapper_pct": 35.0,
+    "native_printed_pct": 35.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 20,
+    "wrapper_pct": 30.0,
+    "native_printed_pct": 30.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 5,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 20,
+    "wrapper_pct": 30.0,
+    "native_printed_pct": 30.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "exact",
+    "N": 20,
+    "wrapper_pct": 100.0,
+    "native_printed_pct": 100.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "native_exec",
+    "N": 20,
+    "wrapper_pct": 55.0,
+    "native_printed_pct": 55.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 10,
+    "outcome": "either",
+    "metric": "direct_exec",
+    "N": 20,
+    "wrapper_pct": 45.0,
+    "native_printed_pct": 45.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "exact",
+    "N": 20,
+    "wrapper_pct": 35.0,
+    "native_printed_pct": 35.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "native_exec",
+    "N": 20,
+    "wrapper_pct": 30.0,
+    "native_printed_pct": 30.0,
+    "pass": true
+  },
+  {
+    "category": "tbl-agg",
+    "budget": 10,
+    "outcome": "both",
+    "metric": "direct_exec",
+    "N": 20,
+    "wrapper_pct": 30.0,
+    "native_printed_pct": 30.0,
+    "pass": true
+  }
+]

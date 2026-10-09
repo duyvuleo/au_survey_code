@@ -1,0 +1,32 @@
+[
+  {
+    "case": "row_association",
+    "native": true,
+    "row_bag_equal": false,
+    "origin": "synthetic comparator test; not a benchmark record"
+  },
+  {
+    "case": "column_position",
+    "native": true,
+    "row_bag_equal": false,
+    "origin": "synthetic comparator test; not a benchmark record"
+  },
+  {
+    "case": "shape",
+    "native": true,
+    "row_bag_equal": false,
+    "origin": "synthetic comparator test; not a benchmark record"
+  },
+  {
+    "case": "ordered_column_position",
+    "native": true,
+    "row_bag_equal": false,
+    "origin": "synthetic comparator test; not a benchmark record"
+  },
+  {
+    "case": "empty",
+    "native": false,
+    "row_bag_equal": true,
+    "origin": "synthetic comparator test; not a benchmark record"
+  }
+]

@@ -1,0 +1,3206 @@
+[
+  {
+    "setting_id": "M01-top5-ambiguity",
+    "paper_id": "M01",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M02-multi-reading",
+    "paper_id": "M02",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M03-ambiqt-filtered",
+    "paper_id": "M03",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M03-ambrosia",
+    "paper_id": "M03",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M04-demo",
+    "paper_id": "M04",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M05-single-turn",
+    "paper_id": "M05",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M05-supplied-dialogue",
+    "paper_id": "M05",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M05-detection",
+    "paper_id": "M05",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M06-raw-schema",
+    "paper_id": "M06",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M06-pipeline",
+    "paper_id": "M06",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M06-gold-tables",
+    "paper_id": "M06",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "M07-reviewed-setting",
+    "paper_id": "M07",
+    "states": {
+      "I": "P",
+      "B": "U",
+      "C": "U",
+      "A": "U"
+    },
+    "connections": {
+      "IB": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "CA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "M08-reviewed-setting",
+    "paper_id": "M08",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "U",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "S01-classification",
+    "paper_id": "S01",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "P"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S02-mimic3",
+    "paper_id": "S02",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S02-eicu",
+    "paper_id": "S02",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S03-shared-task",
+    "paper_id": "S03",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S04-reviewed-setting",
+    "paper_id": "S04",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S05-penalty",
+    "paper_id": "S05",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S06-ambrosia-generated",
+    "paper_id": "S06",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "U",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "S06-beaver-generated",
+    "paper_id": "S06",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "U",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "S07-reviewed-setting",
+    "paper_id": "S07",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S08-triagesql-binary",
+    "paper_id": "S08",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "U",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S08-ambrosia-binary",
+    "paper_id": "S08",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S08-enterprise-binary",
+    "paper_id": "S08",
+    "states": {
+      "I": "U",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S09-question-only",
+    "paper_id": "S09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "U"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S09-document",
+    "paper_id": "S09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "U"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S09-evidence",
+    "paper_id": "S09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "U"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S09-expert-subset",
+    "paper_id": "S09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "U"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S12-reviewed-setting",
+    "paper_id": "S12",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "U",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "CA": {
+        "integration": "U",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "S13-answerable-execution",
+    "paper_id": "S13",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S13-refusal-utility",
+    "paper_id": "S13",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S14-preservation",
+    "paper_id": "S14",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S14-correction",
+    "paper_id": "S14",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S14-ambiguity-classification",
+    "paper_id": "S14",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "S14-unanswerable-classification",
+    "paper_id": "S14",
+    "states": {
+      "I": "N",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C02-test-suite",
+    "paper_id": "C02",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C05-program-pair-tests",
+    "paper_id": "C05",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C06::bird-verification",
+    "paper_id": "C06",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C07::bird-k5",
+    "paper_id": "C07",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C08::sql-filtering",
+    "paper_id": "C08",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C09::clinical-generated",
+    "paper_id": "C09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      }
+    }
+  },
+  {
+    "setting_id": "C10::generated-heldout",
+    "paper_id": "C10",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C11::group-rank-resample",
+    "paper_id": "C11",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C12::signal-comparison",
+    "paper_id": "C12",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C13::metamorphic-detection",
+    "paper_id": "C13",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C15::oracle-swap",
+    "paper_id": "C15",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C15::expert-audit",
+    "paper_id": "C15",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C16::enriched",
+    "paper_id": "C16",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C16::uniform",
+    "paper_id": "C16",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "C16::active-disagreement",
+    "paper_id": "C16",
+    "states": {
+      "I": "N",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A01::mas-human",
+    "paper_id": "A01",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A02::simulated",
+    "paper_id": "A02",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A02::human",
+    "paper_id": "A02",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A03::simulator",
+    "paper_id": "A03",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A03::human",
+    "paper_id": "A03",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A04::woz-corpus",
+    "paper_id": "A04",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A04::offline-baselines",
+    "paper_id": "A04",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A05::simulated",
+    "paper_id": "A05",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A05::human-annotation",
+    "paper_id": "A05",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A06::classification",
+    "paper_id": "A06",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A06::supplied-dialogue-sql",
+    "paper_id": "A06",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A07::ambiqt-gold-simulator",
+    "paper_id": "A07",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A07::spider-low-confidence",
+    "paper_id": "A07",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A09::algorithm",
+    "paper_id": "A09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      }
+    }
+  },
+  {
+    "setting_id": "A09::human-interface",
+    "paper_id": "A09",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      }
+    }
+  },
+  {
+    "setting_id": "A10::no-log",
+    "paper_id": "A10",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "A10::synthetic-log",
+    "paper_id": "A10",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      }
+    }
+  },
+  {
+    "setting_id": "A11::gold-category",
+    "paper_id": "A11",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A11::predicted-category",
+    "paper_id": "A11",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A11::taxonomy-only-free",
+    "paper_id": "A11",
+    "states": {
+      "I": "P",
+      "B": "P",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "P",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A12::full",
+    "paper_id": "A12",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A12::l1-primed",
+    "paper_id": "A12",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A15::branching",
+    "paper_id": "A15",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "A15::usability",
+    "paper_id": "A15",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaLinkedIn2025::system-design",
+    "paper_id": "PersonaLinkedIn2025",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaLinkedIn2025::benchmark-ablations",
+    "paper_id": "PersonaLinkedIn2025",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaLinkedIn2025::expert-assessment",
+    "paper_id": "PersonaLinkedIn2025",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaRubikSQL2025::knowledge-base-design",
+    "paper_id": "PersonaRubikSQL2025",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaRubikSQL2025::public-benchmark-evaluation",
+    "paper_id": "PersonaRubikSQL2025",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaRubikSQL2025::rubikbench-design",
+    "paper_id": "PersonaRubikSQL2025",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaBusinessLogic2026::data-synthesis",
+    "paper_id": "PersonaBusinessLogic2026",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaBusinessLogic2026::downstream-soql",
+    "paper_id": "PersonaBusinessLogic2026",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaTahoe2026::user-scoped-design",
+    "paper_id": "PersonaTahoe2026",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaTahoe2026::development-evaluation",
+    "paper_id": "PersonaTahoe2026",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaTahoe2026::held-out-evaluation",
+    "paper_id": "PersonaTahoe2026",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "U"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PA-Sphinteract::ambiguity-study",
+    "paper_id": "PA-Sphinteract",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "P",
+      "A": "N"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "IA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PA-Sphinteract::oracle-feedback",
+    "paper_id": "PA-Sphinteract",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  },
+  {
+    "setting_id": "PersonaBIRDHistory::history-retrieval",
+    "paper_id": "PersonaBIRDHistory",
+    "states": {
+      "I": "P",
+      "B": "N",
+      "C": "N",
+      "A": "P"
+    },
+    "connections": {
+      "IB": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "IA": {
+        "integration": "P",
+        "relationship_evaluation": "P"
+      },
+      "BC": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "BA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      },
+      "CA": {
+        "integration": "N",
+        "relationship_evaluation": "N"
+      }
+    }
+  }
+]

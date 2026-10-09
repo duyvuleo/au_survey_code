@@ -1,0 +1,198 @@
+dataset,category,population,N,conversation_records,complete_reference_sets,unanimous_agreement,any_pair_agreement,unanimous_rate,all_empty_agreements,all_null_agreements,scalar_zero_agreements,empty_source_relation_agreements,executed_query_instances,failed_reference_instances
+spider,all,complete_execution_diagnostic,1637,6382,1637,138,316,0.08430054978619425,46,0,4,30,4981,0
+spider,lexical column ambiguity multiple,complete_execution_diagnostic,38,190,38,0,14,0.0,0,0,0,0,218,0
+spider,lexical column ambiguity single,complete_execution_diagnostic,468,2370,468,46,55,0.09829059829059829,22,0,0,16,1039,0
+spider,semantic column ambiguity multiple,complete_execution_diagnostic,51,255,51,3,29,0.058823529411764705,0,0,2,0,739,0
+spider,semantic column ambiguity single,complete_execution_diagnostic,590,2955,590,56,130,0.09491525423728814,20,0,2,14,1565,0
+spider,value ambiguity multiple,complete_execution_diagnostic,2,10,2,0,2,0.0,0,0,0,0,29,0
+spider,value ambiguity single,complete_execution_diagnostic,488,602,488,33,86,0.06762295081967214,4,0,0,0,1391,0
+spider,all,complete_column_execution_diagnostic,1147,5770,1147,105,228,0.09154315605928509,42,0,4,30,3561,0
+spider,lexical column ambiguity multiple,complete_column_execution_diagnostic,38,190,38,0,14,0.0,0,0,0,0,218,0
+spider,lexical column ambiguity single,complete_column_execution_diagnostic,468,2370,468,46,55,0.09829059829059829,22,0,0,16,1039,0
+spider,semantic column ambiguity multiple,complete_column_execution_diagnostic,51,255,51,3,29,0.058823529411764705,0,0,2,0,739,0
+spider,semantic column ambiguity single,complete_column_execution_diagnostic,590,2955,590,56,130,0.09491525423728814,20,0,2,14,1565,0
+spider,value ambiguity multiple,complete_column_execution_diagnostic,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,complete_column_execution_diagnostic,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_screened,176,880,176,24,64,0.13636363636363635,14,0,2,13,486,0
+spider,lexical column ambiguity multiple,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_screened,22,110,22,5,6,0.22727272727272727,5,0,0,4,48,0
+spider,semantic column ambiguity multiple,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_screened,154,770,154,19,58,0.12337662337662338,9,0,2,9,438,0
+spider,value ambiguity multiple,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_nonempty_results,162,810,162,10,50,0.06172839506172839,0,0,2,1,458,0
+spider,lexical column ambiguity multiple,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_nonempty_results,17,85,17,0,1,0.0,0,0,0,0,38,0
+spider,semantic column ambiguity multiple,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_nonempty_results,145,725,145,10,49,0.06896551724137931,0,0,2,1,420,0
+spider,value ambiguity multiple,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_nonempty_source_relations,163,815,163,11,51,0.06748466257668712,2,0,1,0,460,0
+spider,lexical column ambiguity multiple,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_nonempty_source_relations,18,90,18,1,2,0.05555555555555555,1,0,0,0,40,0
+spider,semantic column ambiguity multiple,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_nonempty_source_relations,145,725,145,10,49,0.06896551724137931,1,0,1,0,420,0
+spider,value ambiguity multiple,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_nonempty_source_and_results,161,805,161,9,49,0.055900621118012424,0,0,1,0,456,0
+spider,lexical column ambiguity multiple,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_nonempty_source_and_results,17,85,17,0,1,0.0,0,0,0,0,38,0
+spider,semantic column ambiguity multiple,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_nonempty_source_and_results,144,720,144,9,48,0.0625,0,0,1,0,418,0
+spider,value ambiguity multiple,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_nonnull_nonempty_results,162,810,162,10,50,0.06172839506172839,0,0,2,1,458,0
+spider,lexical column ambiguity multiple,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_nonnull_nonempty_results,17,85,17,0,1,0.0,0,0,0,0,38,0
+spider,semantic column ambiguity multiple,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_nonnull_nonempty_results,145,725,145,10,49,0.06896551724137931,0,0,2,1,420,0
+spider,value ambiguity multiple,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_single_target_occurrence,169,845,169,24,64,0.14201183431952663,14,0,2,13,468,0
+spider,lexical column ambiguity multiple,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_single_target_occurrence,21,105,21,5,6,0.23809523809523808,5,0,0,4,46,0
+spider,semantic column ambiguity multiple,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_single_target_occurrence,148,740,148,19,58,0.12837837837837837,9,0,2,9,422,0
+spider,value ambiguity multiple,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+spider,all,fixed_output_single_occurrence_nonempty_source,156,780,156,11,51,0.07051282051282051,2,0,1,0,442,0
+spider,lexical column ambiguity multiple,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+spider,lexical column ambiguity single,fixed_output_single_occurrence_nonempty_source,17,85,17,1,2,0.058823529411764705,1,0,0,0,38,0
+spider,semantic column ambiguity multiple,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+spider,semantic column ambiguity single,fixed_output_single_occurrence_nonempty_source,139,695,139,10,49,0.07194244604316546,1,0,1,0,404,0
+spider,value ambiguity multiple,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+spider,value ambiguity single,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+spider,database:activity_1,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:aircraft,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,4,0
+spider,database:allergy_1,fixed_output_screened,7,35,7,0,0,0.0,0,0,0,0,14,0
+spider,database:apartment_rentals,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:baseball_1,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,6,0
+spider,database:behavior_monitoring,fixed_output_screened,6,30,6,0,5,0.0,0,0,0,0,18,0
+spider,database:bike_1,fixed_output_screened,6,30,6,0,0,0.0,0,0,0,0,12,0
+spider,database:candidate_poll,fixed_output_screened,5,25,5,0,0,0.0,0,0,0,0,12,0
+spider,database:city_record,fixed_output_screened,2,10,2,2,2,1.0,0,0,0,0,22,0
+spider,database:climbing,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:college_1,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:college_3,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:county_public_safety,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,12,0
+spider,database:cre_Doc_Tracking_DB,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,3,0
+spider,database:cre_Docs_and_Epenses,fixed_output_screened,3,15,3,0,0,0.0,0,0,0,0,6,0
+spider,database:csu_1,fixed_output_screened,4,20,4,0,0,0.0,0,0,0,0,8,0
+spider,database:customer_complaints,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,6,0
+spider,database:department_store,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,6,0
+spider,database:document_management,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:driving_school,fixed_output_screened,5,25,5,0,3,0.0,0,0,0,0,17,0
+spider,database:e_government,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,3,0
+spider,database:e_learning,fixed_output_screened,2,10,2,0,1,0.0,0,0,0,0,6,0
+spider,database:election,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,8,0
+spider,database:epinions_1,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:farm,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:film_rank,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:flight_1,fixed_output_screened,5,25,5,0,0,0.0,0,0,0,0,10,0
+spider,database:flight_4,fixed_output_screened,4,20,4,0,2,0.0,0,0,0,0,13,0
+spider,database:flight_company,fixed_output_screened,1,5,1,1,1,1.0,0,0,0,0,2,0
+spider,database:formula_1,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,3,0
+spider,database:gas_company,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,8,0
+spider,database:gymnast,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,14,0
+spider,database:hr_1,fixed_output_screened,7,35,7,0,0,0.0,0,0,0,0,14,0
+spider,database:icfp_1,fixed_output_screened,7,35,7,0,0,0.0,0,0,0,0,14,0
+spider,database:inn_1,fixed_output_screened,4,20,4,2,2,0.5,2,0,0,0,8,0
+spider,database:loan_1,fixed_output_screened,7,35,7,0,0,0.0,0,0,0,0,14,0
+spider,database:machine_repair,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:mountain_photos,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:music_1,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:music_2,fixed_output_screened,12,60,12,12,12,1.0,11,0,1,12,24,0
+spider,database:party_people,fixed_output_screened,3,15,3,0,0,0.0,0,0,0,0,6,0
+spider,database:perpetrator,fixed_output_screened,1,5,1,1,1,1.0,0,0,0,0,2,0
+spider,database:phone_1,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:product_catalog,fixed_output_screened,4,20,4,0,0,0.0,0,0,0,0,11,0
+spider,database:products_gen_characteristics,fixed_output_screened,9,45,9,4,6,0.4444444444444444,0,0,1,0,21,0
+spider,database:sakila_1,fixed_output_screened,1,5,1,1,1,1.0,1,0,0,1,2,0
+spider,database:school_finance,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:soccer_1,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,41,0
+spider,database:sports_competition,fixed_output_screened,2,10,2,0,2,0.0,0,0,0,0,8,0
+spider,database:station_weather,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,4,0
+spider,database:store_1,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,3,0
+spider,database:store_product,fixed_output_screened,2,10,2,1,1,0.5,0,0,0,0,4,0
+spider,database:storm_record,fixed_output_screened,2,10,2,0,0,0.0,0,0,0,0,4,0
+spider,database:tracking_grants_for_research,fixed_output_screened,7,35,7,0,0,0.0,0,0,0,0,14,0
+spider,database:tracking_orders,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,3,0
+spider,database:tracking_share_transactions,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:tracking_software_problems,fixed_output_screened,3,15,3,0,0,0.0,0,0,0,0,6,0
+spider,database:train_station,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,3,0
+spider,database:twitter_1,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+spider,database:wine_1,fixed_output_screened,7,35,7,0,5,0.0,0,0,0,0,19,0
+spider,database:workshop_paper,fixed_output_screened,1,5,1,0,0,0.0,0,0,0,0,2,0
+bird,all,complete_execution_diagnostic,748,3784,748,71,330,0.09491978609625669,0,0,0,0,4285,0
+bird,lexical column ambiguity multiple,complete_execution_diagnostic,10,50,10,1,10,0.1,0,0,0,0,53,0
+bird,lexical column ambiguity single,complete_execution_diagnostic,142,710,142,22,42,0.15492957746478872,0,0,0,0,415,0
+bird,semantic column ambiguity multiple,complete_execution_diagnostic,32,160,32,1,26,0.03125,0,0,0,0,472,0
+bird,semantic column ambiguity single,complete_execution_diagnostic,255,1275,255,26,102,0.10196078431372549,0,0,0,0,1053,0
+bird,value ambiguity multiple,complete_execution_diagnostic,26,130,26,0,25,0.0,0,0,0,0,676,0
+bird,value ambiguity single,complete_execution_diagnostic,283,1459,283,21,125,0.07420494699646643,0,0,0,0,1616,0
+bird,all,complete_column_execution_diagnostic,439,2195,439,50,180,0.11389521640091116,0,0,0,0,1993,0
+bird,lexical column ambiguity multiple,complete_column_execution_diagnostic,10,50,10,1,10,0.1,0,0,0,0,53,0
+bird,lexical column ambiguity single,complete_column_execution_diagnostic,142,710,142,22,42,0.15492957746478872,0,0,0,0,415,0
+bird,semantic column ambiguity multiple,complete_column_execution_diagnostic,32,160,32,1,26,0.03125,0,0,0,0,472,0
+bird,semantic column ambiguity single,complete_column_execution_diagnostic,255,1275,255,26,102,0.10196078431372549,0,0,0,0,1053,0
+bird,value ambiguity multiple,complete_column_execution_diagnostic,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,complete_column_execution_diagnostic,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_screened,143,715,143,15,53,0.1048951048951049,0,0,0,0,479,0
+bird,lexical column ambiguity multiple,fixed_output_screened,1,5,1,0,1,0.0,0,0,0,0,4,0
+bird,lexical column ambiguity single,fixed_output_screened,40,200,40,4,11,0.1,0,0,0,0,112,0
+bird,semantic column ambiguity multiple,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_screened,102,510,102,11,41,0.10784313725490197,0,0,0,0,363,0
+bird,value ambiguity multiple,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_screened,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_nonempty_results,143,715,143,15,53,0.1048951048951049,0,0,0,0,479,0
+bird,lexical column ambiguity multiple,fixed_output_nonempty_results,1,5,1,0,1,0.0,0,0,0,0,4,0
+bird,lexical column ambiguity single,fixed_output_nonempty_results,40,200,40,4,11,0.1,0,0,0,0,112,0
+bird,semantic column ambiguity multiple,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_nonempty_results,102,510,102,11,41,0.10784313725490197,0,0,0,0,363,0
+bird,value ambiguity multiple,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_nonempty_source_relations,143,715,143,15,53,0.1048951048951049,0,0,0,0,479,0
+bird,lexical column ambiguity multiple,fixed_output_nonempty_source_relations,1,5,1,0,1,0.0,0,0,0,0,4,0
+bird,lexical column ambiguity single,fixed_output_nonempty_source_relations,40,200,40,4,11,0.1,0,0,0,0,112,0
+bird,semantic column ambiguity multiple,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_nonempty_source_relations,102,510,102,11,41,0.10784313725490197,0,0,0,0,363,0
+bird,value ambiguity multiple,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_nonempty_source_relations,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_nonempty_source_and_results,143,715,143,15,53,0.1048951048951049,0,0,0,0,479,0
+bird,lexical column ambiguity multiple,fixed_output_nonempty_source_and_results,1,5,1,0,1,0.0,0,0,0,0,4,0
+bird,lexical column ambiguity single,fixed_output_nonempty_source_and_results,40,200,40,4,11,0.1,0,0,0,0,112,0
+bird,semantic column ambiguity multiple,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_nonempty_source_and_results,102,510,102,11,41,0.10784313725490197,0,0,0,0,363,0
+bird,value ambiguity multiple,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_nonempty_source_and_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_nonnull_nonempty_results,143,715,143,15,53,0.1048951048951049,0,0,0,0,479,0
+bird,lexical column ambiguity multiple,fixed_output_nonnull_nonempty_results,1,5,1,0,1,0.0,0,0,0,0,4,0
+bird,lexical column ambiguity single,fixed_output_nonnull_nonempty_results,40,200,40,4,11,0.1,0,0,0,0,112,0
+bird,semantic column ambiguity multiple,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_nonnull_nonempty_results,102,510,102,11,41,0.10784313725490197,0,0,0,0,363,0
+bird,value ambiguity multiple,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_nonnull_nonempty_results,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_single_target_occurrence,129,645,129,12,49,0.09302325581395349,0,0,0,0,439,0
+bird,lexical column ambiguity multiple,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+bird,lexical column ambiguity single,fixed_output_single_target_occurrence,34,170,34,2,9,0.058823529411764705,0,0,0,0,98,0
+bird,semantic column ambiguity multiple,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_single_target_occurrence,95,475,95,10,40,0.10526315789473684,0,0,0,0,341,0
+bird,value ambiguity multiple,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_single_target_occurrence,0,0,0,0,0,,0,0,0,0,0,0
+bird,all,fixed_output_single_occurrence_nonempty_source,129,645,129,12,49,0.09302325581395349,0,0,0,0,439,0
+bird,lexical column ambiguity multiple,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+bird,lexical column ambiguity single,fixed_output_single_occurrence_nonempty_source,34,170,34,2,9,0.058823529411764705,0,0,0,0,98,0
+bird,semantic column ambiguity multiple,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+bird,semantic column ambiguity single,fixed_output_single_occurrence_nonempty_source,95,475,95,10,40,0.10526315789473684,0,0,0,0,341,0
+bird,value ambiguity multiple,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+bird,value ambiguity single,fixed_output_single_occurrence_nonempty_source,0,0,0,0,0,,0,0,0,0,0,0
+bird,database:california_schools,fixed_output_screened,10,50,10,5,8,0.5,0,0,0,0,28,0
+bird,database:card_games,fixed_output_screened,23,115,23,5,15,0.21739130434782608,0,0,0,0,98,0
+bird,database:codebase_community,fixed_output_screened,10,50,10,0,4,0.0,0,0,0,0,33,0
+bird,database:european_football_2,fixed_output_screened,14,70,14,0,2,0.0,0,0,0,0,69,0
+bird,database:financial,fixed_output_screened,5,25,5,0,0,0.0,0,0,0,0,10,0
+bird,database:formula_1,fixed_output_screened,3,15,3,1,2,0.3333333333333333,0,0,0,0,8,0
+bird,database:student_club,fixed_output_screened,4,20,4,0,2,0.0,0,0,0,0,11,0
+bird,database:superhero,fixed_output_screened,9,45,9,0,0,0.0,0,0,0,0,18,0
+bird,database:thrombosis_prediction,fixed_output_screened,59,295,59,4,17,0.06779661016949153,0,0,0,0,189,0
+bird,database:toxicology,fixed_output_screened,6,30,6,0,3,0.0,0,0,0,0,15,0
