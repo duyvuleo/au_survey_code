@@ -121,12 +121,17 @@
     "S13",
     "S14"
   ],
-  "benchmark_audit_settings": 13,
-  "benchmark_audit_studies": 11,
+  "benchmark_audit_settings": 12,
+  "benchmark_audit_studies": 10,
   "excluded_literature": {
     "PlanPool2026": {
       "publication_date": "2026-10-02",
       "reason": "After the fixed analysis-corpus publication cutoff; included only in the literature discussion."
     }
-  }
+  },
+  "benchmark_audit_context_only_studies": [
+    "PersonaBIRDHistory"
+  ],
+  "benchmark_audit_grouping": "Sphinteract CQs and CQs & ES count as one audit group; Simple feedback excluded. Perspective-map membership unchanged.",
+  "benchmark_audit_updated": "2026-10-10"
 }

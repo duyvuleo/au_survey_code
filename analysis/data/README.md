@@ -12,7 +12,7 @@ These are fixed inputs to the submission's recorded-result checks. Files under a
 | [overlap/relationships/source-records.json](overlap/relationships/source-records.json) | Definitions, perspective judgments, relationship rationales, and source locators for the 89 settings |
 | [overlap/relationships/reviews/](overlap/relationships/reviews/) | Two anonymized forms for 36 setting–pair cases, personal-verification confirmation, criteria, and source-based resolution decisions |
 | [overlap/roles/](overlap/roles/) | Direct-comparison and supporting-verification roles, six main overlap rows, and definition-sensitivity summaries |
-| [benchmarks/benchmark-audit.json](benchmarks/benchmark-audit.json) | 13 selected evaluation settings, eligibility rules, and qualifications for the descriptive audit |
+| [benchmarks/benchmark-audit.json](benchmarks/benchmark-audit.json) | 12 audited settings from 10 studies, grouped findings, and BIRD-History as a separate retrieval-only comparison |
 | [benchmarks/inputs/](benchmarks/inputs/) | Seven SCARE methods transcribed from rounded scores and 56 TrustSQL method–dataset count records |
 | [benchmarks/outputs/](benchmarks/outputs/) | Stored SCARE reconstructions, TrustSQL source comparisons, and the two excluded inconsistent TrustSQL cells |
 | [clarity/outputs/](clarity/outputs/) | 3,128 ambiguity bundles, 77,046 reference-pair comparisons, population rates, and an agreement summary |

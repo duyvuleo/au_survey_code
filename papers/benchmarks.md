@@ -1,22 +1,23 @@
 # Benchmarks and evaluation
 
-These 13 settings from 11 studies are the descriptive audit population. A dash means outside the specified check, not that a benchmark lacks the capability. Interpret entries using the [audit criteria and qualifications](../analysis/data/benchmarks/benchmark-audit.json).
+Table 1 groups findings for **12 audited settings from 10 studies**. A setting can appear under more than one check. Sphinteract's clarification-question (CQs) variants, with and without early stopping (ES), count as one group. Simple feedback is excluded. The [audit records](../analysis/data/benchmarks/benchmark-audit.json) define the groups and their limits.
 
-| Setting | Clarification | Coverage and risk | Distinct gold results | Meaning recovery |
-|---|---|---|---|---|
-| [AmbiQT](https://aclanthology.org/2023.emnlp-main.436/) | — | — | No check found | SQL matching |
-| [AMBROSIA](https://arxiv.org/abs/2406.19073) | — | — | Required | SQL matching |
-| [PRACTIQ: SQL prediction](https://aclanthology.org/2025.naacl-long.13/) | Given history | — | — | — |
-| [CLARITY: multi-turn](https://aclanthology.org/2026.acl-industry.86/) | Given history | Not recoverable | — | — |
-| [Sphinteract: main](https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf) | System-selected | — | — | — |
-| [BIRD-History](https://arxiv.org/abs/2608.29345) | — | — | — | — |
-| [TrustSQL](https://arxiv.org/abs/2403.15879) | — | Derivable | — | — |
-| [SCARE](https://proceedings.mlr.press/v297/lee26b.html) | — | By category | — | — |
-| [ABISS: predicted category](https://arxiv.org/abs/2607.23340) | System-selected | Not recoverable | — | — |
-| [TIDE-Bench: full](https://arxiv.org/abs/2608.29543) | System-selected | — | — | — |
-| [TIDE-Bench: L1-primed](https://arxiv.org/abs/2608.29543) | Given + system | — | — | — |
-| [BIRD-INTERACT: c-Interact](https://proceedings.iclr.cc/paper_files/paper/2026/hash/496b549556509bbb9770bf9d335c5800-Abstract-Conference.html) | System-selected | — | — | — |
-| [BIRD-INTERACT: a-Interact](https://proceedings.iclr.cc/paper_files/paper/2026/hash/496b549556509bbb9770bf9d335c5800-Abstract-Conference.html) | System-selected | — | — | — |
+| Audit check | Finding | Settings audited |
+|---|---|---|
+| Clarification | Given history | [PRACTIQ: SQL prediction](https://aclanthology.org/2025.naacl-long.13/), [CLARITY: multi-turn](https://aclanthology.org/2026.acl-industry.86/) |
+| Clarification | Model-generated questions | [Sphinteract: CQs / CQs & ES](https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf), [ABISS: predicted category](https://arxiv.org/abs/2607.23340), [TIDE-Bench: full](https://arxiv.org/abs/2608.29543), [BIRD-INTERACT: c-Interact and a-Interact](https://proceedings.iclr.cc/paper_files/paper/2026/hash/496b549556509bbb9770bf9d335c5800-Abstract-Conference.html) |
+| Clarification | Given + generated | [TIDE-Bench: L1-primed](https://arxiv.org/abs/2608.29543) gives first-layer resolution before the model asks about the second layer. |
+| Coverage / risk | Derivable | [TrustSQL: consistent cells](https://arxiv.org/abs/2403.15879), [SCARE: two answerable categories](https://proceedings.mlr.press/v297/lee26b.html) |
+| Coverage / risk | Insufficient aggregates | [CLARITY: multi-turn](https://aclanthology.org/2026.acl-industry.86/), [ABISS: predicted category](https://arxiv.org/abs/2607.23340) |
+| Reference outputs | No distinctness check found | [AmbiQT: inspected generators](https://aclanthology.org/2023.emnlp-main.436/) |
+| Reference outputs | Distinct, nonempty required | [AMBROSIA: construction rule](https://arxiv.org/abs/2406.19073) |
+| Recovery scoring | Execution match | [AmbiQT](https://aclanthology.org/2023.emnlp-main.436/), [AMBROSIA](https://arxiv.org/abs/2406.19073) |
+
+Coverage and risk use the same test population and each benchmark's error definition. TrustSQL excludes two inconsistent cells. SCARE calculations account for rounded published scores. “Insufficient aggregates” describes the inspected reporting, not the capability of the protocol.
+
+Two AMBROSIA test requests contain duplicate reference SQL entries. AmbiQT also reports exact-set matching. Neither recovery score independently measures meaning coverage.
+
+[BIRD-History](https://arxiv.org/abs/2608.29345) remains in the appendix comparison table as a retrieval-only setting. It is outside this audit because none of these checks was applied to it. Its exclusion does not remove it from the literature collection or the separate perspective analysis.
 
 ## Numerical analyses
 

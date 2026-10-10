@@ -8,14 +8,14 @@ python3 analysis/run.py
 
 Use Python 3.10 or later; no dependency installation is needed. The command makes no network requests or model calls and does not execute SQL against external databases. It exits with code `0` when every check passes and with code `1` when a check fails.
 
-The literature discussion includes work published through 05 October 2026. These analyses use a fixed corpus with a publication cutoff of 01 October 2026. PlanPool is excluded. The 89-setting map, 13-setting audit, and recorded human review retain their membership.
+The literature discussion includes work published through 05 October 2026. These analyses use a fixed corpus with a publication cutoff of 01 October 2026. PlanPool is excluded. The 89-setting map and recorded human review retain their membership. The descriptive audit contains 12 settings from 10 studies. BIRD-History remains a retrieval-only comparison outside that audit.
 
 ## Paper results and code
 
 | Paper result | Code used by the default run | Inputs | Generated result |
 |---|---|---|---|
 | Perspective connections, Jaccard overlap, and Consequence sensitivity | `run.py` | [Fixed setting assignments and counts](data/overlap/) | `reproduced/perspective-calculations.json` |
-| Descriptive audit of 13 evaluation settings | [Benchmark audit check](checks/check_benchmark_audit.py) | [Audit records and qualifications](data/benchmarks/benchmark-audit.json) | `reproduced/benchmark-audit.json` |
+| Descriptive audit of 12 evaluation settings | [Benchmark audit check](checks/check_benchmark_audit.py) | [Audit records and qualifications](data/benchmarks/benchmark-audit.json) | `reproduced/benchmark-audit.json` |
 | SCARE response counts and coverage/error ranges | `run.py` | [Published-score inputs](data/benchmarks/inputs/scare_table3.csv) | `reproduced/scare-reconstruction.json` |
 | SCARE response tradeoffs | [Tradeoff calculation](scare/check_tradeoff.py) | [Recorded tradeoff receipt](scare/scare-tradeoff-receipt.json) and the score inputs above | `analysis/scare/reproduced/scare-tradeoff-receipt.json` |
 | TrustSQL count/score consistency, coverage, and excluded cells | `run.py` | [Transcribed counts](data/benchmarks/inputs/trustsql_count_records.csv) and [stored comparisons](data/benchmarks/outputs/) | `reproduced/trustsql-reconstruction.json` |

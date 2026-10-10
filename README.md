@@ -25,7 +25,7 @@ Browse the [complete paper list](papers/README.md) for titles and source links, 
 
 ## Benchmarks and evaluation
 
-The [benchmark guide](papers/benchmarks.md) compares **13 selected settings from 11 studies**, including alternative recovery, provided clarification, interactive resolution, and answer-or-abstain evaluation.
+The [benchmark guide](papers/benchmarks.md) compares **12 audited settings from 10 studies**, including alternative recovery, provided clarification, interactive resolution, and answer-or-withhold evaluation.
 
 The accompanying analyses cover:
 

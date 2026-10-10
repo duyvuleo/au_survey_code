@@ -2,7 +2,8 @@
   "date": "2026-10-05",
   "unit": "selected evaluation setting",
   "origin": {
-    "source": "Published benchmark protocols and evaluation code cited in the setting records."
+    "source": "Published benchmark protocols and evaluation code cited in the setting records.",
+    "revision": "Table 1 audit grouping, 10 October 2026."
   },
   "scope": "Descriptive audit of inspected benchmark designs and reporting, extended by the separate numerical and artifact analyses in experiments/2026-10-05. Null means not assessed for this setting, not absence of capability.",
   "eligible_populations": {
@@ -11,13 +12,14 @@
     "interpretation_recovery": "AmbiQT and AMBROSIA, for simultaneous alternative recovery. TIDE-Bench intent drift is a changed request."
   },
   "qualifications": {
-    "Derivable": "Paired coverage and selective risk recoverable for checked populations. Two inconsistent TrustSQL cells excluded: Advising T5-Error_M and ATIS CLS_P-MAC-SQL.",
-    "By category": "SCARE reconstruction separately within initially correct and initially incorrect answerable categories.",
-    "SQL matching": "Recovery metric uses SQL matching, without a separate meaning-level score. Natural-language meaning annotations may still exist.",
-    "No check found": "AmbiQT four generators at commit 2dd908bd4a7173f98fa6637758f4d41852722a5c. Does not establish equal outputs.",
-    "Not recoverable": "Inspected published tables do not provide aligned statistics. Not a claim about protocol capability.",
-    "System-selected": "Protocol permits system-generated/selected questions. Does not establish quality of clarification.",
-    "Required": "AMBROSIA construction requires distinct, nonempty full gold results. Execution found two duplicate-reference exceptions. Not a guarantee under every prediction matcher or output projection."
+    "Given history": "Completed clarification history is provided before SQL generation; this does not test question selection.",
+    "Model-generated questions": "The protocol allows the model to generate clarification questions. This does not by itself establish their quality.",
+    "Given + generated": "TIDE-Bench L1-primed gives first-layer resolution before the model asks about the second layer.",
+    "Derivable": "SQL-attempt coverage and error among attempts can be calculated for the same population using benchmark-specific error definitions. TrustSQL excludes two inconsistent cells. SCARE treats the two answerable categories separately and accounts for rounded scores.",
+    "Insufficient aggregates": "The inspected reports lack aligned statistics needed for both measures on the same population; this is a reporting limit, not a claim about protocol capability.",
+    "No distinctness check found": "The four inspected AmbiQT generators at revision 2dd908bd4a7173f98fa6637758f4d41852722a5c do not check whether alternative reference outputs differ. This does not establish equal outputs.",
+    "Distinct, nonempty required": "AMBROSIA construction requires distinct, nonempty full reference outputs. Two duplicate-reference exceptions were found. The rule need not hold under every prediction matcher or output projection.",
+    "Execution match": "Both recovery benchmarks use execution matching. AmbiQT also reports exact-set matching. Neither is an independent score of meaning coverage."
   },
   "records": [
     {
@@ -26,8 +28,11 @@
       "family": "AmbiQT",
       "clarification": null,
       "coverage_risk": null,
-      "distinct_gold_results": "No check found",
-      "meaning_recovery": "SQL matching"
+      "distinct_gold_results": "No distinctness check found",
+      "meaning_recovery": "Execution match",
+      "additional_recovery_scoring": [
+        "Exact-set match"
+      ]
     },
     {
       "setting": "AMBROSIA",
@@ -35,14 +40,14 @@
       "family": "AMBROSIA",
       "clarification": null,
       "coverage_risk": null,
-      "distinct_gold_results": "Required",
-      "meaning_recovery": "SQL matching"
+      "distinct_gold_results": "Distinct, nonempty required",
+      "meaning_recovery": "Execution match"
     },
     {
       "setting": "PRACTIQ: SQL prediction",
       "citation_key": "A06",
       "family": "PRACTIQ",
-      "clarification": "Supplied history",
+      "clarification": "Given history",
       "coverage_risk": null,
       "distinct_gold_results": null,
       "meaning_recovery": null
@@ -51,28 +56,32 @@
       "setting": "CLARITY: multi-turn",
       "citation_key": "M05",
       "family": "CLARITY",
-      "clarification": "Supplied history",
-      "coverage_risk": "Not recoverable",
+      "clarification": "Given history",
+      "coverage_risk": "Insufficient aggregates",
       "distinct_gold_results": null,
       "meaning_recovery": null
     },
     {
-      "setting": "Sphinteract: main",
+      "setting": "Sphinteract: CQs / CQs & ES",
       "citation_key": "PA-Sphinteract",
       "family": "Sphinteract",
-      "clarification": "System-selected",
+      "clarification": "Model-generated questions",
       "coverage_risk": null,
       "distinct_gold_results": null,
-      "meaning_recovery": null
-    },
-    {
-      "setting": "BIRD-History",
-      "citation_key": "PersonaBIRDHistory",
-      "family": "BIRD-History",
-      "clarification": null,
-      "coverage_risk": null,
-      "distinct_gold_results": null,
-      "meaning_recovery": null
+      "meaning_recovery": null,
+      "included_variants": [
+        "CQs",
+        "CQs & ES"
+      ],
+      "excluded_variants": [
+        "Simple feedback"
+      ],
+      "grouping_reason": "Both variants generate clarification questions; early stopping differs. Counted together only in this descriptive audit.",
+      "source_locators": [
+        "Sections 6.2.1-6.2.3",
+        "Section 7.2.3",
+        "Table 2"
+      ]
     },
     {
       "setting": "TrustSQL",
@@ -81,23 +90,25 @@
       "clarification": null,
       "coverage_risk": "Derivable",
       "distinct_gold_results": null,
-      "meaning_recovery": null
+      "meaning_recovery": null,
+      "coverage_risk_scope": "Consistent method-dataset cells only. Two inconsistent cells are excluded."
     },
     {
       "setting": "SCARE",
       "citation_key": "S14",
       "family": "SCARE",
       "clarification": null,
-      "coverage_risk": "By category",
+      "coverage_risk": "Derivable",
       "distinct_gold_results": null,
-      "meaning_recovery": null
+      "meaning_recovery": null,
+      "coverage_risk_scope": "Two answerable categories, calculated separately with rounding-compatible source scores."
     },
     {
       "setting": "ABISS: predicted category",
       "citation_key": "A11",
       "family": "ABISS",
-      "clarification": "System-selected",
-      "coverage_risk": "Not recoverable",
+      "clarification": "Model-generated questions",
+      "coverage_risk": "Insufficient aggregates",
       "distinct_gold_results": null,
       "meaning_recovery": null
     },
@@ -105,7 +116,7 @@
       "setting": "TIDE-Bench: full",
       "citation_key": "A12",
       "family": "TIDE-Bench",
-      "clarification": "System-selected",
+      "clarification": "Model-generated questions",
       "coverage_risk": null,
       "distinct_gold_results": null,
       "meaning_recovery": null
@@ -114,7 +125,7 @@
       "setting": "TIDE-Bench: L1-primed",
       "citation_key": "A12",
       "family": "TIDE-Bench",
-      "clarification": "Supplied + system",
+      "clarification": "Given + generated",
       "coverage_risk": null,
       "distinct_gold_results": null,
       "meaning_recovery": null
@@ -123,7 +134,7 @@
       "setting": "BIRD-INTERACT: c-Interact",
       "citation_key": "A08",
       "family": "BIRD-INTERACT",
-      "clarification": "System-selected",
+      "clarification": "Model-generated questions",
       "coverage_risk": null,
       "distinct_gold_results": null,
       "meaning_recovery": null
@@ -132,12 +143,140 @@
       "setting": "BIRD-INTERACT: a-Interact",
       "citation_key": "A08",
       "family": "BIRD-INTERACT",
-      "clarification": "System-selected",
+      "clarification": "Model-generated questions",
       "coverage_risk": null,
       "distinct_gold_results": null,
       "meaning_recovery": null
     }
   ],
-  "grouping": "11 source studies. The source Overleaf draft called these benchmark families, but the list includes Sphinteract system experiments.",
-  "verification_boundary": "The 13-setting design audit remains distinct from numerical reconstructions and saved-output/gold-query checks. Those checks, exact versions and exclusions are recorded in experiments/2026-10-05. No new model inference."
+  "grouping": "12 audited settings from 10 studies. Sphinteract CQs and CQs & ES form one audit group; Simple feedback is excluded. TIDE-Bench and BIRD-INTERACT each contribute two protocols. A setting can appear under several checks.",
+  "local_presentation": {
+    "main": "Perspective connection analysis and benchmark reconstructions, connected to the existing audit",
+    "appendix": "Full 13-setting matrix with citations for every benchmark, plus criteria and derivations",
+    "main_section_label": "sec:evaluation",
+    "full_table_label": "tab:benchmark-audit-details"
+  },
+  "verification_boundary": "This 12-setting audit describes selected protocols and reporting. It is separate from the 89-setting perspective map and numerical benchmark analyses. Source checks and record consistency do not rerun models or validate all interpretations.",
+  "updated": "2026-10-10",
+  "context_only_comparisons": [
+    {
+      "setting": "BIRD-History",
+      "citation_key": "PersonaBIRDHistory",
+      "family": "BIRD-History",
+      "clarification": null,
+      "coverage_risk": null,
+      "distinct_gold_results": null,
+      "meaning_recovery": null,
+      "reason_excluded_from_audit": "Retrieval-only comparison. None of the four Table 1 checks was applied. Retained in the appendix comparison table and literature collection."
+    }
+  ],
+  "presentation_rows": [
+    {
+      "dimension": "Clarification",
+      "field": "clarification",
+      "finding": "Given history",
+      "settings": [
+        "PRACTIQ: SQL prediction",
+        "CLARITY: multi-turn"
+      ],
+      "display_settings": "PRACTIQ (SQL prediction); CLARITY (multi-turn)"
+    },
+    {
+      "dimension": "Clarification",
+      "field": "clarification",
+      "finding": "Model-generated questions",
+      "settings": [
+        "Sphinteract: CQs / CQs & ES",
+        "ABISS: predicted category",
+        "TIDE-Bench: full",
+        "BIRD-INTERACT: c-Interact",
+        "BIRD-INTERACT: a-Interact"
+      ],
+      "display_settings": "Sphinteract (CQs / CQs & ES); ABISS (predicted category); TIDE-Bench (full); BIRD-INTERACT (c-Interact, a-Interact)"
+    },
+    {
+      "dimension": "Clarification",
+      "field": "clarification",
+      "finding": "Given + generated",
+      "settings": [
+        "TIDE-Bench: L1-primed"
+      ],
+      "display_settings": "TIDE-Bench (L1-primed: given L1; model asks about L2)"
+    },
+    {
+      "dimension": "Coverage / risk",
+      "field": "coverage_risk",
+      "finding": "Derivable",
+      "settings": [
+        "TrustSQL",
+        "SCARE"
+      ],
+      "display_settings": "TrustSQL (consistent cells); SCARE (two answerable categories)"
+    },
+    {
+      "dimension": "Coverage / risk",
+      "field": "coverage_risk",
+      "finding": "Insufficient aggregates",
+      "settings": [
+        "CLARITY: multi-turn",
+        "ABISS: predicted category"
+      ],
+      "display_settings": "CLARITY (multi-turn); ABISS (predicted category)"
+    },
+    {
+      "dimension": "Reference outputs",
+      "field": "distinct_gold_results",
+      "finding": "No distinctness check found",
+      "settings": [
+        "AmbiQT"
+      ],
+      "display_settings": "AmbiQT: inspected generators"
+    },
+    {
+      "dimension": "Reference outputs",
+      "field": "distinct_gold_results",
+      "finding": "Distinct, nonempty required",
+      "settings": [
+        "AMBROSIA"
+      ],
+      "display_settings": "AMBROSIA: construction rule"
+    },
+    {
+      "dimension": "Recovery scoring",
+      "field": "meaning_recovery",
+      "finding": "Execution match",
+      "settings": [
+        "AmbiQT",
+        "AMBROSIA"
+      ],
+      "display_settings": "AmbiQT; AMBROSIA"
+    }
+  ],
+  "source_checks": {
+    "Sphinteract": {
+      "url": "https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf",
+      "locators": [
+        "Sections 6.2.1-6.2.3",
+        "Section 7.2.3",
+        "Table 2"
+      ],
+      "inspected": "Retained publisher PDF and extracted text",
+      "pdf_sha256": "81cd97464dfc2b95ee76fffd42d9b611968e98b5f58e13035773d1aa502bbb3d"
+    },
+    "AmbiQT": {
+      "url": "https://aclanthology.org/2023.emnlp-main.436/",
+      "locators": [
+        "Sections 5-6",
+        "Table 3"
+      ],
+      "inspected": "Existing primary-source extraction; execution and exact-set metrics already recorded."
+    },
+    "TIDE-Bench": {
+      "url": "https://arxiv.org/abs/2608.29543",
+      "locators": [
+        "Section 4.1"
+      ],
+      "inspected": "Existing primary-source extraction of full-dialogue and L1-primed protocols."
+    }
+  }
 }
