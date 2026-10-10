@@ -9,12 +9,12 @@ The reading families below include both direct answer comparison and supporting 
 - **Annotate plausible interpretations:** [AmbiQT](https://aclanthology.org/2023.emnlp-main.436/) (2023); [AMBROSIA](https://arxiv.org/abs/2406.19073) (2024).
 - **Generate and expand alternatives:** [LogicalBeam](https://aclanthology.org/2023.emnlp-main.436/) (2023); [DFPL](https://aclanthology.org/2025.findings-acl.863/) (2025).
 - **Ground schema and value references:** [TACO](https://arxiv.org/abs/2606.14201) (2026); [VALASQL](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_9) (2026).
-- **Characterize conversational uncertainty:** [CLARITY](https://aclanthology.org/2026.acl-industry.86/) (2026); [TIDE-Bench](https://arxiv.org/abs/2608.29543) (2026).
+- **Characterize conversational uncertainty:** [CLARITY](https://aclanthology.org/2026.acl-industry.86/) (2026; [code and data](https://github.com/duyvuleo/clarity)); [TIDE-Bench](https://arxiv.org/abs/2608.29543) (2026).
 
 ## Answerability: Can each meaning be answered?
 
 - **Classify request status:** [TriageSQL](https://arxiv.org/abs/2010.12634) (2020); [LatentRefusal](https://arxiv.org/abs/2601.10398) (2026).
-- **Locate problematic facets:** [NoisySP / DTE](https://aclanthology.org/2023.findings-acl.352/) (2023); [CLARITY](https://aclanthology.org/2026.acl-industry.86/) (2026).
+- **Locate problematic facets:** [NoisySP / DTE](https://aclanthology.org/2023.findings-acl.352/) (2023); [CLARITY](https://aclanthology.org/2026.acl-industry.86/) (2026; [code and data](https://github.com/duyvuleo/clarity)).
 - **Ground in supporting context:** [EntSQL](https://arxiv.org/abs/2606.03363) (2026); [BIRD-History](https://arxiv.org/abs/2608.29345) (2026).
 - **Evaluate feasibility with correctness:** [SCARE: input SQL](https://proceedings.mlr.press/v297/lee26b.html) (2026); [TrustSQL: generated SQL](https://arxiv.org/abs/2403.15879) (2024).
 

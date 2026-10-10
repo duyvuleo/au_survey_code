@@ -47,4 +47,4 @@ Source-table transcription, interpretation validity, scientific coding judgments
 - [CLARITY](clarity/README.md): construct and execute query alternatives, or rerun the four worked-case diagnostics.
 - [SCARE](scare/README.md): inspect the fixed-response tradeoff calculation; this is already included in the default run and needs no external data.
 
-Obtain external data through the upstream access procedures and follow their licenses. For CLARITY, contact authors directly for obtaining its code and dataset. Optional replay outputs may contain source text, SQL, and local paths and should be kept out of the submission archive.
+Obtain external data through the upstream access procedures and follow their licenses. CLARITY code and annotations are available in the [public repository](https://github.com/duyvuleo/clarity). The [replay guide](clarity/README.md) records the checked revision and input hashes. Optional replay outputs may contain source text, SQL, and local paths and should be kept out of the submission archive.

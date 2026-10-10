@@ -25,6 +25,6 @@ Two AMBROSIA test requests contain duplicate reference SQL entries. AmbiQT also 
 - **TrustSQL:** check published count/score consistency and report request coverage alongside conditional accuracy.
 - **AmbiQT:** inspect reference execution and compare interpretation recovery at fixed candidate budgets.
 - **AMBROSIA:** check duplicate references and how output-comparison rules affect gold-query matching.
-- **CLARITY:** compare query alternatives derived from annotations, with explicit exclusions and checks of source-table contents.
+- **CLARITY:** compare query alternatives derived from annotations, with explicit exclusions and checks of source-table contents. [Code and annotations](https://github.com/duyvuleo/clarity) are public; the [replay guide](../analysis/clarity/README.md) identifies the matching revision.
 
 See [analysis instructions](../analysis/README.md) for code, pinned inputs, and scope.

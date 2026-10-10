@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-10",
+  "repository": "https://github.com/duyvuleo/clarity",
+  "revision": "82512627914e5bf37b433d6fd992947ee85ca107",
+  "repository_is_public": true,
+  "files": [
+    {
+      "dataset": "spider",
+      "path": "data/spider/annotations.jsonl",
+      "bytes": 13896497,
+      "sha256": "d1b6ed2ab7dba8e7d2f13129dbc69f8c5c7f1420ea49910bedde1d3f88dd9c9a",
+      "records": 12098,
+      "matches_frozen_analysis_input": true
+    },
+    {
+      "dataset": "bird",
+      "path": "data/bird/annotations.jsonl",
+      "bytes": 9305291,
+      "sha256": "cc69c8060d80535f360b3f62b4803011b3c514e240590663fc75330e8998bb9a",
+      "records": 7170,
+      "matches_frozen_analysis_input": true
+    }
+  ],
+  "scope": "Downloaded annotation bytes match the survey input hashes. Database snapshots and original model runs were not verified.",
+  "pinned_url": "https://github.com/duyvuleo/clarity/tree/82512627914e5bf37b433d6fd992947ee85ca107",
+  "database_scope": "SQLite databases are not included in the CLARITY repository. Use the separately pinned Spider/BIRD database files. Original author database snapshot identity remains unverified."
+}

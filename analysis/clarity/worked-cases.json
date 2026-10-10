@@ -1,7 +1,7 @@
 {
   "selection": "Four outcome-selected illustrations; not a representative or outcome-blind sample.",
   "scope": "Both represented queries inspected in each case. Missing-meaning coverage is unresolved. Independent human validation is not included. No corrected semantic rate is inferred.",
-  "source_text": "Raw requests, conversation text, SQL strings and databases omitted. Source-file lines and hashes identify the inspected records; exact public annotation acquisition is unverified.",
+  "source_text": "Raw requests, conversation text, SQL strings and databases are omitted. Source-file lines and hashes identify the inspected records. The matching public annotations and revision are recorded in public-source.json.",
   "cases": [
     {
       "case_id": "BIRD-3014",

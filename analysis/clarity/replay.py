@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 sys.dont_write_bytecode = True
 HERE = Path(__file__).resolve().parent
 from expected_sources import ANNOTATIONS, DATABASES, METADATA
-from replay_config import output_dir
+from replay_config import output_dir, annotation_path
 
 
 def sha(path):
@@ -23,15 +23,22 @@ def sha(path):
     return h.hexdigest()
 
 
+def check_annotations(root):
+    for dataset, record in ANNOTATIONS.items():
+        path = annotation_path(dataset, root)
+        if sha(path) != record["sha256"]:
+            raise ValueError(f"Annotation input does not match the frozen SHA-256: {dataset}")
+
+
 def check_sources(args, parser):
     for field in ("annotations_root", "spider_databases", "bird_databases"):
         value = getattr(args, field)
         if value is None or not value.is_dir():
             parser.error(f"--{field.replace('_', '-')} must name an existing external directory")
-    for dataset, record in ANNOTATIONS.items():
-        path = args.annotations_root / record["relative_path"]
-        if not path.is_file() or sha(path) != record["sha256"]:
-            parser.error(f"Annotation input does not match the frozen SHA-256: {dataset}")
+    try:
+        check_annotations(args.annotations_root)
+    except (OSError, ValueError) as exc:
+        parser.error(str(exc))
     for identity, record in DATABASES.items():
         dataset = identity.split("/", 1)[0]
         root = args.spider_databases if dataset == "spider" else args.bird_databases

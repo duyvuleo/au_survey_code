@@ -12,13 +12,24 @@ Inputs are in `analysis/data/clarity/` and this directory. The command checks re
 
 ## Optional SQL execution
 
-Provide matching annotations and databases separately. Required layouts are `ANNOTATIONS/{spider,bird}/final_data/{spider,bird}_data.jsonl` and `DATABASES/DB_ID/DB_ID.sqlite`. Hashes are in `expected_sources.py`. The public download location for the exact annotations is unverified. Database sources are the [AmbiQT snapshot](https://github.com/testzer0/AmbiQT/tree/2dd908bd4a7173f98fa6637758f4d41852722a5c) and [BIRD development archive](https://bird-bench.oss-cn-beijing.aliyuncs.com/dev.zip).
+CLARITY code and annotations are available at [https://github.com/duyvuleo/clarity](https://github.com/duyvuleo/clarity). We checked [revision `8251262`](https://github.com/duyvuleo/clarity/tree/82512627914e5bf37b433d6fd992947ee85ca107) on 10 October 2026. The public `data/spider/annotations.jsonl` and `data/bird/annotations.jsonl` files match the frozen SHA-256 hashes in `expected_sources.py`: 12,098 Spider records and 7,170 BIRD records. The [verification record](public-source.json) gives the full revision and hashes.
+
+To use those files, clone the repository and select the checked revision:
+
+```sh
+git clone https://github.com/duyvuleo/clarity.git
+git -C clarity checkout 82512627914e5bf37b433d6fd992947ee85ca107
+```
+
+Pass the checkout's `data` directory as `--annotations-root`. The earlier `ANNOTATIONS/{spider,bird}/final_data/{spider,bird}_data.jsonl` layout is also accepted. Both layouts must match the same frozen hashes. If both layouts exist with different contents, the replay stops.
+
+SQLite databases are separate. Required database paths are `DATABASES/DB_ID/DB_ID.sqlite`. Use the [AmbiQT snapshot](https://github.com/testzer0/AmbiQT/tree/2dd908bd4a7173f98fa6637758f4d41852722a5c) for the Spider files used here and the [BIRD development archive](https://bird-bench.oss-cn-beijing.aliyuncs.com/dev.zip). The source checks enforce the database hashes in `expected_sources.py`. Matching the annotations does not verify CLARITY's original database snapshots or reproduce its published model scores.
 
 The recorded environment uses Python 3.14.7, SQLite 3.53.4, and SQLGlot 30.21.0.
 
 ```sh
 python3 analysis/clarity/replay.py check-inputs \
-  --annotations-root /path/to/annotations \
+  --annotations-root /path/to/clarity/data \
   --spider-databases /path/to/spider/database \
   --bird-databases /path/to/bird/dev_databases
 ```

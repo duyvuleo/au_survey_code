@@ -69,4 +69,4 @@ reproduced/              # Generated locally; excluded from the ZIP
 
 The [input guide](analysis/data/README.md) describes the data conventions and provenance records. Some individual scripts also write into their own `reproduced/` subdirectories.
 
-Upstream code and datasets retain their original access and use terms. Download them through the links in the replay guides. For CLARITY, contact authors directly for obtaining its code and dataset.
+Upstream code and datasets retain their original access and use terms. Download them through the links in the replay guides. CLARITY code and annotations are available in the [public repository](https://github.com/duyvuleo/clarity). The [replay guide](analysis/clarity/README.md) records the checked revision and input hashes.

@@ -14,7 +14,7 @@ from sqlglot import exp
 from sqlglot.optimizer.scope import traverse_scope,Scope
 
 HERE=Path(__file__).resolve().parent
-from replay_config import annotations_root, spider_databases, bird_databases, output_dir
+from replay_config import annotations_root, annotation_path, spider_databases, bird_databases, output_dir
 from frozen_protocol import PROTOCOL_SHA256
 DATA=annotations_root()
 SPIDER=spider_databases()
@@ -265,7 +265,7 @@ def main():
  arg=argparse.ArgumentParser();arg.add_argument('--dataset',choices=['spider','bird','both'],default='both');args=arg.parse_args()
  inputs=[];intake=[];groups={}
  for ds in ['spider','bird'] if args.dataset=='both' else [args.dataset]:
-  p=DATA/ds/'final_data'/f'{ds}_data.jsonl';lines=p.read_text().splitlines();inputs.append({'dataset':ds,'path':str(p),'sha256':sha(p)})
+  p=annotation_path(ds,DATA);lines=p.read_text().splitlines();inputs.append({'dataset':ds,'path':str(p),'sha256':sha(p)})
   cats=Counter()
   for line,s in enumerate(lines,1):
    if not s.strip():continue

@@ -33,7 +33,7 @@ These are fixed inputs to the submission's recorded-result checks. Files under a
 
 ## Provenance and use
 
-Published-table inputs retain source identifiers and transcription metadata where recorded. External replay identities are in [benchmark input hashes](../benchmarks/expected_sources.json) and [CLARITY input hashes](../clarity/expected_sources.py); the [frozen CLARITY protocol](../clarity/PROTOCOL.md) describes construction and comparison rules. Its executable copy remains in [frozen_protocol.py](../clarity/frozen_protocol.py). The replay guides record upstream revisions, dependencies, and access requirements.
+Published-table inputs retain source identifiers and transcription metadata where recorded. External replay identities are in [benchmark input hashes](../benchmarks/expected_sources.json) and [CLARITY input hashes](../clarity/expected_sources.py); the [frozen CLARITY protocol](../clarity/PROTOCOL.md) describes construction and comparison rules. Its executable copy remains in [frozen_protocol.py](../clarity/frozen_protocol.py). The replay guides record upstream revisions, dependencies, and access requirements. The [CLARITY public-source record](../clarity/public-source.json) identifies the released annotation files and their verified match to the analysis inputs.
 
 The package contains derived records needed to check calculations, rather than upstream databases or model weights. Upstream materials retain their original terms. Recorded scientific assignments and review judgments remain evidence to inspect; passing the arithmetic checks does not certify their validity or complete human validation.
 

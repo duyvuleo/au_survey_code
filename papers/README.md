@@ -18,7 +18,7 @@ These groups provide a reading order, rather than exclusive scientific assignmen
 | Year | Paper | ID |
 |---|---|---|
 | 2026 | [An Extensible Benchmark for Value Ambiguity Resolution in Text-to-SQL](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_9) | `M07` |
-| 2026 | [CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems](https://aclanthology.org/2026.acl-industry.86/) | `M05` |
+| 2026 | [CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems](https://aclanthology.org/2026.acl-industry.86/) · [Code and data](https://github.com/duyvuleo/clarity) | `M05` |
 | 2026 | [TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries](https://arxiv.org/abs/2606.14201) | `M06` |
 | 2026 | [To RAG or Not to RAG, That Is the Question: Effective Text-to-SQL Generation Under Ambiguity](https://scp.cc.gatech.edu/external-news/ieee-xplore-rag-or-not-rag-question-effective-text-sql-generation-under-ambiguity) | `M08` |
 | 2025 | [AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL](https://arxiv.org/abs/2508.15276) | `M04` |
