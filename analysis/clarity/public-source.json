@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-10",
   "repository": "https://github.com/duyvuleo/clarity",
-  "revision": "82512627914e5bf37b433d6fd992947ee85ca107",
+  "revision": "ce38e0bff6e97c977d66b6abb44e0c28644aa9f1",
   "repository_is_public": true,
   "files": [
     {
@@ -22,6 +22,6 @@
     }
   ],
   "scope": "Downloaded annotation bytes match the survey input hashes. Database snapshots and original model runs were not verified.",
-  "pinned_url": "https://github.com/duyvuleo/clarity/tree/82512627914e5bf37b433d6fd992947ee85ca107",
+  "pinned_url": "https://github.com/duyvuleo/clarity/tree/ce38e0bff6e97c977d66b6abb44e0c28644aa9f1",
   "database_scope": "SQLite databases are not included in the CLARITY repository. Use the separately pinned Spider/BIRD database files. Original author database snapshot identity remains unverified."
 }

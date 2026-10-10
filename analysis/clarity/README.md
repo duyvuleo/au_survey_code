@@ -12,13 +12,13 @@ Inputs are in `analysis/data/clarity/` and this directory. The command checks re
 
 ## Optional SQL execution
 
-CLARITY code and annotations are available at [https://github.com/duyvuleo/clarity](https://github.com/duyvuleo/clarity). We checked [revision `8251262`](https://github.com/duyvuleo/clarity/tree/82512627914e5bf37b433d6fd992947ee85ca107) on 10 October 2026. The public `data/spider/annotations.jsonl` and `data/bird/annotations.jsonl` files match the frozen SHA-256 hashes in `expected_sources.py`: 12,098 Spider records and 7,170 BIRD records. The [verification record](public-source.json) gives the full revision and hashes.
+CLARITY code and annotations are available at [https://github.com/duyvuleo/clarity](https://github.com/duyvuleo/clarity). We checked [revision `ce38e0b`](https://github.com/duyvuleo/clarity/tree/ce38e0bff6e97c977d66b6abb44e0c28644aa9f1) on 10 October 2026. The public `data/spider/annotations.jsonl` and `data/bird/annotations.jsonl` files match the frozen SHA-256 hashes in `expected_sources.py`: 12,098 Spider records and 7,170 BIRD records. The [verification record](public-source.json) gives the full revision and hashes.
 
 To use those files, clone the repository and select the checked revision:
 
 ```sh
 git clone https://github.com/duyvuleo/clarity.git
-git -C clarity checkout 82512627914e5bf37b433d6fd992947ee85ca107
+git -C clarity checkout ce38e0bff6e97c977d66b6abb44e0c28644aa9f1
 ```
 
 Pass the checkout's `data` directory as `--annotations-root`. The earlier `ANNOTATIONS/{spider,bird}/final_data/{spider,bird}_data.jsonl` layout is also accepted. Both layouts must match the same frozen hashes. If both layouts exist with different contents, the replay stops.
