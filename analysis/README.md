@@ -8,7 +8,7 @@ python3 analysis/run.py
 
 Use Python 3.10 or later; no dependency installation is needed. The command makes no network requests or model calls and does not execute SQL against external databases. It exits with code `0` when every check passes and with code `1` when a check fails.
 
-The literature discussion includes work published through 05 October 2026. These analyses use a fixed corpus with a publication cutoff of 01 October 2026. PlanPool is excluded. The 89-setting map and recorded human review retain their membership. The descriptive audit contains 12 settings from 10 studies. BIRD-History remains a retrieval-only comparison outside that audit.
+The literature discussion includes work published through 05 October 2026. These analyses use a fixed corpus with a publication cutoff of 01 October 2026. PlanPool and FALCON are excluded by the analysis cutoff. The 89-setting map and recorded human review retain their membership. The descriptive audit contains 12 settings from 10 studies. BIRD-History remains a retrieval-only comparison outside that audit.
 
 ## Paper results and code
 

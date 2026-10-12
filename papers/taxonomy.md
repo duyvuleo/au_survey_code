@@ -7,7 +7,7 @@ The reading families below include both direct answer comparison and supporting 
 ## Interpretation: What does the request mean?
 
 - **Annotate plausible interpretations:** [AmbiQT](https://aclanthology.org/2023.emnlp-main.436/) (2023); [AMBROSIA](https://arxiv.org/abs/2406.19073) (2024).
-- **Generate and expand alternatives:** [LogicalBeam](https://aclanthology.org/2023.emnlp-main.436/) (2023); [DFPL](https://aclanthology.org/2025.findings-acl.863/) (2025).
+- **Generate and expand alternatives:** [LogicalBeam](https://aclanthology.org/2023.emnlp-main.436/) (2023); [DFPL](https://aclanthology.org/2025.findings-acl.863/) (2025); [FALCON](https://arxiv.org/abs/2610.03625) (2026, training-data generation).
 - **Ground schema and value references:** [TACO](https://arxiv.org/abs/2606.14201) (2026); [VALASQL](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_9) (2026).
 - **Characterize conversational uncertainty:** [CLARITY](https://aclanthology.org/2026.acl-industry.86/) (2026; [code and data](https://github.com/duyvuleo/clarity)); [TIDE-Bench](https://arxiv.org/abs/2608.29543) (2026).
 

@@ -1,13 +1,13 @@
 # Papers
 
-Curated resources for **When Does Ambiguity Matter? A Survey of Ambiguity and Unanswerability in Reliable Text-to-SQL**. The collection contains 64 technical studies and five related surveys. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026. Links identify the recorded sources, not necessarily their latest versions.
+Curated resources for **When Does Ambiguity Matter? A Survey of Ambiguity and Unanswerability in Reliable Text-to-SQL**. The collection contains 65 technical studies and five related surveys. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026. Links identify the recorded sources, not necessarily their latest versions.
 
 ## Contents
 
-- [Interpretation](#interpretation) — 8 studies
+- [Interpretation](#interpretation) — 9 studies
 - [Answerability](#answerability) — 14 studies
 - [Consequence and verification](#consequence-and-verification) — 16 studies
-- [Action and interaction](#action-and-interaction) — 15 studies
+- [Action and interaction](#action-and-interaction) — 16 studies
 - [Context and user adaptation](#context-and-user-adaptation) — 10 studies
 - [Related surveys](#related-surveys) — 5 surveys
 
@@ -17,6 +17,7 @@ These groups provide a reading order, rather than exclusive scientific assignmen
 
 | Year | Paper | ID |
 |---|---|---|
+| 2026 | [FALCON: A Model and Dataset Agnostic Framework for Synthetic Data Generation for NL2SQL Pairs](https://arxiv.org/abs/2610.03625) | `FALCON2026` (literature only) |
 | 2026 | [An Extensible Benchmark for Value Ambiguity Resolution in Text-to-SQL](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_9) | `M07` |
 | 2026 | [CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems](https://aclanthology.org/2026.acl-industry.86/) · [Code and data](https://github.com/duyvuleo/clarity) | `M05` |
 | 2026 | [TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries](https://arxiv.org/abs/2606.14201) | `M06` |

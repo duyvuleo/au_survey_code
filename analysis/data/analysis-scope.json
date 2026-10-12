@@ -127,6 +127,10 @@
     "PlanPool2026": {
       "publication_date": "2026-10-02",
       "reason": "After the fixed analysis-corpus publication cutoff; included only in the literature discussion."
+    },
+    "FALCON2026": {
+      "publication_date": "2026-10-02",
+      "reason": "After the fixed analysis-corpus publication cutoff; included only in the literature discussion."
     }
   },
   "benchmark_audit_context_only_studies": [

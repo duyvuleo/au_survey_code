@@ -13,7 +13,7 @@ Anonymous companion repository for the paper submission. It contains a curated r
 
 ## Papers and taxonomy
 
-The collection contains **64 technical studies and five related surveys**. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026.
+The collection contains **65 technical studies and five related surveys**. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026.
 
 ![Taxonomy of ambiguity and unanswerability in reliable Text-to-SQL, connecting Interpretation, Answerability, Consequence, and Action with method families and representative studies.](assets/taxonomy.svg)
 
