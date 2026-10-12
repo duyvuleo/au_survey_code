@@ -12,7 +12,9 @@ Inputs are in `analysis/data/clarity/` and this directory. The command checks re
 
 ## Optional SQL execution
 
-CLARITY code and annotations are available at [https://github.com/duyvuleo/clarity](https://github.com/duyvuleo/clarity). We checked [revision `771d2a6`](https://github.com/duyvuleo/clarity/tree/771d2a66bade4c0ab96e6a1f40f1d469457a427e) on 12 October 2026. The public `data/spider/annotations.jsonl` and `data/bird/annotations.jsonl` files match the frozen SHA-256 hashes in `expected_sources.py`: 12,098 Spider records and 7,170 BIRD records. The [verification record](public-source.json) gives the full revision and hashes.
+We obtained CLARITY's code and dataset from its authors. They were later made available in the [public repository](https://github.com/duyvuleo/clarity).
+
+For public replay, we checked [revision `771d2a6`](https://github.com/duyvuleo/clarity/tree/771d2a66bade4c0ab96e6a1f40f1d469457a427e) on 12 October 2026. The public `data/spider/annotations.jsonl` and `data/bird/annotations.jsonl` files match the frozen SHA-256 hashes in `expected_sources.py`: 12,098 Spider records and 7,170 BIRD records. The [verification record](public-source.json) gives the full revision and hashes. This later check does not change how the survey inputs were obtained.
 
 To use those files, clone the repository and select the checked revision:
 

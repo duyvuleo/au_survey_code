@@ -33,11 +33,13 @@ These are fixed inputs to the submission's recorded-result checks. Files under a
 
 ## Provenance and use
 
-Published-table inputs retain source identifiers and transcription metadata where recorded. External replay identities are in [benchmark input hashes](../benchmarks/expected_sources.json) and [CLARITY input hashes](../clarity/expected_sources.py); the [frozen CLARITY protocol](../clarity/PROTOCOL.md) describes construction and comparison rules. Its executable copy remains in [frozen_protocol.py](../clarity/frozen_protocol.py). The replay guides record upstream revisions, dependencies, and access requirements. The [CLARITY public-source record](../clarity/public-source.json) identifies the released annotation files and their verified match to the analysis inputs.
+Published-table inputs retain source identifiers and transcription metadata where recorded. External replay identities are in [benchmark input hashes](../benchmarks/expected_sources.json) and [CLARITY input hashes](../clarity/expected_sources.py); the [frozen CLARITY protocol](../clarity/PROTOCOL.md) describes construction and comparison rules. Its executable copy remains in [frozen_protocol.py](../clarity/frozen_protocol.py). The replay guides record upstream revisions, dependencies, and access requirements. We obtained CLARITY's code and dataset from its authors. The [public-source record](../clarity/public-source.json) documents the later public release and the match between its annotation files and the analysis input hashes.
 
 The package contains derived records needed to check calculations, rather than upstream databases or model weights. Upstream materials retain their original terms. Recorded scientific assignments and review judgments remain evidence to inspect; passing the arithmetic checks does not certify their validity or complete human validation.
 
 The relationship records reflect the approved human-source-review revision of 9 October 2026. Reviewer A and B are anonymous labels. The forms retain missing fields and original review qualifications. Personal verification was confirmed separately, without inferring completion dates or independence before discussion. The resolutions preserve the three initial disagreements. Source locators identify public documents and retained normalized-text positions; full papers are not redistributed.
+
+For S12, the co-authors reviewed a supplied 15-page PDF. That PDF was unavailable for the 12 October source audit, so its cited passages were not independently rechecked in that audit. The confirmed review judgments remain unchanged.
 
 The CLARITY semantic inspections were performed by an AI analyst. They are separate from the two-author relationship verification. The recorded-review checker verifies the stored summaries and does not validate the interpretations or repeat either review.
 

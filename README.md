@@ -15,13 +15,13 @@ Anonymous companion repository for the paper submission. It contains a curated r
 
 The collection contains **65 technical studies and five related surveys**. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026.
 
-![Taxonomy of ambiguity and unanswerability in reliable Text-to-SQL, connecting Interpretation, Answerability, Consequence, and Action with method families and representative studies.](assets/taxonomy.svg)
+![Taxonomy of ambiguity and unanswerability in reliable Text-to-SQL, connecting Interpretation, Answerability, Consequence, and Action with representative benchmarks and methods.](assets/taxonomy.svg)
 
 *Figure 2. Taxonomy of ambiguity and unanswerability for reliable Text-to-SQL.*
 
 [View full-size SVG](assets/taxonomy.svg) · [PNG version](assets/taxonomy.png)
 
-Browse the [complete paper list](papers/README.md) for titles and source links, or the [taxonomy guide](papers/taxonomy.md) for method families. These perspectives overlap. The numerical analysis codes individual study settings and distinguishes direct answer comparison from supporting verification.
+Browse the [complete paper list](papers/README.md) for titles and source links, or the [taxonomy guide](papers/taxonomy.md) for representative benchmarks and methods. These perspectives overlap. The numerical analysis codes individual study settings and distinguishes direct answer comparison from supporting verification.
 
 ## Benchmarks and evaluation
 
@@ -69,4 +69,4 @@ reproduced/              # Generated locally; excluded from the ZIP
 
 The [input guide](analysis/data/README.md) describes the data conventions and provenance records. Some individual scripts also write into their own `reproduced/` subdirectories.
 
-Upstream code and datasets retain their original access and use terms. Download them through the links in the replay guides. CLARITY code and annotations are available in the [public repository](https://github.com/duyvuleo/clarity). The [replay guide](analysis/clarity/README.md) records the checked revision and input hashes.
+Upstream code and datasets retain their original access and use terms. Download them through the links in the replay guides. We obtained CLARITY's code and dataset from its authors. They were later made available in the [public repository](https://github.com/duyvuleo/clarity). The [replay guide](analysis/clarity/README.md) records the separate check of the public revision and annotation hashes.

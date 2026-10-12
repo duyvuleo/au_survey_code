@@ -11,7 +11,7 @@ Curated resources for **When Does Ambiguity Matter? A Survey of Ambiguity and Un
 - [Context and user adaptation](#context-and-user-adaptation) — 10 studies
 - [Related surveys](#related-surveys) — 5 surveys
 
-These groups provide a reading order, rather than exclusive scientific assignments. A study can address several perspectives. The [taxonomy guide](taxonomy.md) groups representative method families; the [analysis inputs](../analysis/data/README.md) retain setting-level assignments used for numerical comparisons. IDs are retained to connect papers with those records.
+These groups provide a reading order, rather than exclusive scientific assignments. A study can address several perspectives. The [taxonomy guide](taxonomy.md) groups representative studies. The [analysis inputs](../analysis/data/README.md) retain setting-level assignments used for numerical comparisons. IDs are retained to connect papers with those records.
 
 ## Interpretation
 
@@ -42,7 +42,7 @@ These groups provide a reading order, rather than exclusive scientific assignmen
 | 2025 | [SQUAB: Evaluating LLM robustness to Ambiguous and Unanswerable Questions in Semantic Parsing](https://aclanthology.org/2025.emnlp-main.906/) | `S06` |
 | 2024 | [Overview of the EHRSQL 2024 Shared Task on Reliable Text-to-SQL Modeling on Electronic Health Records](https://aclanthology.org/2024.clinicalnlp-1.62/) | `S03` |
 | 2024 | [TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring](https://arxiv.org/abs/2403.15879) | `S05` |
-| 2023 | [Know What I don’t Know: Handling Ambiguous and Unknown Questions for Text-to-SQL](https://aclanthology.org/2023.findings-acl.352/) | `S04` |
+| 2023 | [Know What I don’t Know: Handling Ambiguous and Unanswerable Questions for Text-to-SQL](https://aclanthology.org/2023.findings-acl.352/) | `S04` |
 | 2022 | [EHRSQL: A Practical Text-to-SQL Benchmark for Electronic Health Records](https://arxiv.org/abs/2301.07695) | `S02` |
 | 2020 | [Did You Ask a Good Question? A Cross-Domain Question Intention Classification Benchmark for Text-to-SQL](https://arxiv.org/abs/2010.12634) | `S01` |
 

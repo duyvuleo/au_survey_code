@@ -23,5 +23,15 @@
   ],
   "scope": "Downloaded annotation bytes match the survey input hashes. Database snapshots and original model runs were not verified.",
   "pinned_url": "https://github.com/duyvuleo/clarity/tree/771d2a66bade4c0ab96e6a1f40f1d469457a427e",
-  "database_scope": "SQLite databases are not included in the CLARITY repository. Use the separately pinned Spider/BIRD database files. Original author database snapshot identity remains unverified."
+  "database_scope": "SQLite databases are not included in the CLARITY repository. Use the separately pinned Spider/BIRD database files. Original author database snapshot identity remains unverified.",
+  "analysis_acquisition": {
+    "source": "CLARITY authors",
+    "materials": [
+      "code",
+      "dataset"
+    ],
+    "basis": "Acquisition reported by a survey author and stated in the manuscript.",
+    "public_release_role": "Later public availability, checked separately against the annotation hashes used in the analysis.",
+    "recorded": "2026-10-13"
+  }
 }
