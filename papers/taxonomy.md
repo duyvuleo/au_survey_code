@@ -23,7 +23,7 @@ The reading families below include both direct answer comparison and supporting 
 - **Group observed outcomes:** [RTS++](https://openproceedings.org/2026/conf/edbt/paper-177.pdf) (2026); [PleaSQLarify](https://arxiv.org/abs/2603.01795) (2026).
 - **Generate discriminating tests:** [Distilled test suites](https://aclanthology.org/2020.emnlp-main.29/) (2020); [ParSEval](https://www.vldb.org/pvldb/vol18/p4750-miao.pdf) (2025).
 - **Verify query equivalence:** [SPOTIT](https://www.cs.sfu.ca/~yuepeng/pubs/iclr26.pdf) (2026); [SpotIt+](https://arxiv.org/abs/2603.04334) (2026).
-- **Estimate candidate correctness:** [TraceSQL](https://arxiv.org/abs/2608.17795) (2026); [Selective prediction study](https://arxiv.org/abs/2607.06799) (2026).
+- **Estimate candidate correctness:** [TraceSQL](https://arxiv.org/abs/2608.17795) (2026); [MRSQLGen](https://matafeiyanll.github.io/paper/FSE26-MRSQLGen.pdf) (2026).
 - **Audit risk and evaluators:** [Oracle-sensitive certification](https://arxiv.org/abs/2609.25938) (2026); [SQL judge audit](https://arxiv.org/abs/2609.30290) (2026).
 
 ## Action: What should the system do next?

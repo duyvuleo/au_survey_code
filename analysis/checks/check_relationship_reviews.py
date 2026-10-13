@@ -30,8 +30,13 @@ verification = read(REV / "verification.json")
 records = keyed(read(REL / "outputs/strict-analysis-records.json"), "setting_id")
 sources = read(REL / "source-records.json")
 descriptions = keyed(sources["settings"], "setting_id")
-assert len(records) == 89 and set(records) == set(descriptions)
+scope = read(ROOT / "analysis/data/analysis-scope.json")
+assert len(records) == scope["direct_nl2sql_settings"] and set(records) == set(descriptions)
+assert {r["paper_id"] for r in records.values()} == set(scope["direct_nl2sql_paper_ids"])
+excluded_settings = {sid for item in scope["excluded_studies"].values() for sid in item["setting_ids"]}
+assert not set(records).intersection(excluded_settings)
 assert len(decisions) == 36 and all(set(f) == set(decisions) for f in forms.values())
+assert all(row["setting_id"] in records for row in decisions.values())
 fields = {"information_flow_PNU": "integration", "empirical_evaluation_PNU": "relationship_evaluation"}
 disagreements = []
 agreement = Counter()
@@ -85,6 +90,7 @@ for source in sources["source_locators"].values():
     assert parsed.scheme in ["http", "https"] and parsed.netloc
 result = {
     "status": "pass", "revision": verification["revision"],
+    "analysis_revision": scope["analysis_revision"],
     "setting_descriptions": len(descriptions), "review_cases": len(decisions),
     "submitted_form_agreement": dict(agreement), "disagreement_resolutions": disagreements,
     "source_locators": len(sources["source_locators"]), "input_sha256": inputs,

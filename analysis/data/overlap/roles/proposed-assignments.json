@@ -528,18 +528,6 @@
     }
   },
   {
-    "setting_id": "C12::signal-comparison",
-    "paper_id": "C12",
-    "direct": {
-      "status": "N",
-      "stage": "method/evaluation"
-    },
-    "verification": {
-      "status": "P",
-      "stage": "method/evaluation"
-    }
-  },
-  {
     "setting_id": "C13::metamorphic-detection",
     "paper_id": "C13",
     "direct": {

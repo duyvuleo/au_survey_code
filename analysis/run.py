@@ -178,16 +178,29 @@ def perspectives(pkg):
     records = pkg.json(f"{REL}/outputs/strict-analysis-records.json")
     scope = pkg.json("analysis/data/analysis-scope.json")
     paper_ids = {r["paper_id"] for r in records}
+    source_ids = set(scope["analysis_source_paper_ids"])
+    require(len(source_ids) == len(scope["analysis_source_paper_ids"]) == scope["analysis_source_papers"],
+            "Analysis source paper membership differs")
+    exclusions = scope["excluded_studies"]
+    excluded_settings = {sid for item in exclusions.values() for sid in item["setting_ids"]}
+    require(not source_ids.intersection(exclusions), "Excluded study entered the source population")
+    require(not {r["setting_id"] for r in records}.intersection(excluded_settings),
+            "Excluded setting entered the current analysis")
+    original = scope["original_analysis_population"]
+    require(scope["analysis_source_papers"] + len(exclusions) == original["analysis_source_papers"],
+            "Source paper exclusion accounting differs")
+    require(scope["analysis_source_settings"] + len(excluded_settings) == original["analysis_source_settings"],
+            "Source setting exclusion accounting differs")
     require(len(records) == scope["direct_nl2sql_settings"], "Analysis setting membership differs")
     require(paper_ids == set(scope["direct_nl2sql_paper_ids"]), "Analysis paper membership differs")
     require(len(paper_ids) == scope["direct_nl2sql_papers"], "Analysis paper count differs")
-    require(paper_ids <= set(scope["analysis_source_paper_ids"]), "Paper outside fixed analysis corpus")
+    require(paper_ids <= source_ids, "Paper outside current analysis corpus")
     require(not paper_ids.intersection(scope["excluded_literature"]), "Literature-only paper entered analysis")
     roles = pkg.json(f"{ROLES}/proposed-assignments.json")
     byid = index(records, ("setting_id",), "settings")
     byrole = index(roles, ("setting_id",), "roles")
-    require(len(records) == 89 and set(byid) == set(byrole),
-            "Expected the same 89 unique settings in records and roles")
+    require(set(byid) == set(byrole),
+            "Expected the same current settings in records and roles")
     for r in records:
         require(set(r["states"]) == set("IBCA"), f"{r['setting_id']}: endpoint keys")
         require(all(s in STATES for s in r["states"].values()), "Invalid endpoint state")
@@ -236,6 +249,8 @@ def perspectives(pkg):
             "pairs": list(pair_metrics(scope_records).values()),
         }
     stored = pkg.json(f"{ROLES}/definition-sensitivity.json")
+    compare(stored["population"], len(records), "definition-sensitivity setting count")
+    compare(stored["papers"], len(paper_ids), "definition-sensitivity paper count")
     compare(stored["roles"], role_counts, "role counts")
     if "role_combinations" in stored:
         compare(stored["role_combinations"], combinations, "role combinations")
@@ -273,11 +288,12 @@ def perspectives(pkg):
     ib_totals = {state: ib[field] for state, field in
                  (("P", "among_PP_present"), ("N", "among_PP_absent"), ("U", "among_PP_unclear")) if ib[field]}
     compare(ib_totals, contract["manuscript_results"]["ib_empirical_evaluation"], "manuscript IB result")
-    result = {"revision": contract["revision"], "main_evaluation_totals": totals,
+    result = {"revision": contract["revision"], "analysis_revision": scope["analysis_revision"],
+              "excluded_studies": exclusions, "main_evaluation_totals": totals,
               "roles": role_counts, "role_combinations": combinations,
               "scopes": scopes, "connection_counts": recalculated}
     pkg.write("perspective-calculations.json", result)
-    return {"settings": 89, "overlap_rows": len(overlap),
+    return {"settings": len(records), "papers": len(paper_ids), "overlap_rows": len(overlap),
             "connection_rows": len(counts), "independent_G_E": True,
             "scope": "Numerical summaries of fixed scientific labels, not label validation."}
 

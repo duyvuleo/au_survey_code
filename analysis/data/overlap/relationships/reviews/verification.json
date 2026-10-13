@@ -5,7 +5,7 @@
   "reviewer_labels": "Reviewer A and B replace personal file identifiers. Empty reviewer-ID, completion-date, and independence fields remain empty in the copied forms. The confirmation date is not an inferred review-completion date.",
   "independent_before_discussion": null,
   "scope": "The 36 supplied setting-pair information-flow and empirical-relationship judgments, covering 28 settings from 18 papers.",
-  "limits": "The confirmation does not establish independent first-pass annotation, complete paired subtype judgments, validation of all 89 endpoint assignments, or reproduction of SQL/model experiments. Original forms and their provenance notes are retained unchanged.",
+  "limits": "The confirmation does not establish independent first-pass annotation, complete paired subtype judgments, validation of all original 89 endpoint assignments (88 retained in the current analysis), or reproduction of SQL/model experiments. Original forms and their provenance notes are retained unchanged.",
   "submitted_form_agreement": {
     "information_flow_PNU": {
       "matching": 34,
@@ -34,5 +34,6 @@
     "reviewed_setting_pairs": 36,
     "reviewed_unique_settings": 28,
     "reviewed_papers": 18
-  }
+  },
+  "analysis_population_revision": "The current map excludes C12::signal-comparison under analysis-scope.json. That setting was absent from the 36 review cases, so the submitted forms, resolutions, agreements, and reported relationship totals are unchanged."
 }

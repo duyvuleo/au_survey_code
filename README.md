@@ -13,7 +13,7 @@ Anonymous companion repository for the paper submission. It contains a curated r
 
 ## Papers and taxonomy
 
-The collection contains **65 technical studies and five related surveys**. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026.
+The collection contains **64 technical studies and five related surveys**. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026.
 
 ![Taxonomy of ambiguity and unanswerability in reliable Text-to-SQL, connecting Interpretation, Answerability, Consequence, and Action with representative benchmarks and methods.](assets/taxonomy.svg)
 
@@ -29,7 +29,7 @@ The [benchmark guide](papers/benchmarks.md) compares **12 audited settings from 
 
 The accompanying analyses cover:
 
-- **Perspective connections:** overlap, information flow, and relationship evaluation across 89 direct NL2SQL settings.
+- **Perspective connections:** overlap, information flow, and relationship evaluation across 88 direct NL2SQL settings.
 - **SCARE and TrustSQL:** reconstruct response counts, coverage, and errors from published tables.
 - **AmbiQT and AMBROSIA:** check recorded query outcomes, candidate budgets, and scoring behavior.
 - **CLARITY:** check conditional agreement between annotation-derived query alternatives, population exclusions, and four worked cases.

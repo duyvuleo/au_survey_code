@@ -1,12 +1,12 @@
 # Papers
 
-Curated resources for **When Does Ambiguity Matter? A Survey of Ambiguity and Unanswerability in Reliable Text-to-SQL**. The collection contains 65 technical studies and five related surveys. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026. Links identify the recorded sources, not necessarily their latest versions.
+Curated resources for **When Does Ambiguity Matter? A Survey of Ambiguity and Unanswerability in Reliable Text-to-SQL**. The collection contains 64 technical studies and five related surveys. The technical literature cutoff is 05 October 2026. The quantitative analyses retain a fixed corpus with a publication cutoff of 01 October 2026. Links identify the recorded sources, not necessarily their latest versions.
 
 ## Contents
 
 - [Interpretation](#interpretation) — 9 studies
 - [Answerability](#answerability) — 14 studies
-- [Consequence and verification](#consequence-and-verification) — 16 studies
+- [Consequence and verification](#consequence-and-verification) — 15 studies
 - [Action and interaction](#action-and-interaction) — 16 studies
 - [Context and user adaptation](#context-and-user-adaptation) — 10 studies
 - [Related surveys](#related-surveys) — 5 surveys
@@ -21,7 +21,7 @@ These groups provide a reading order, rather than exclusive scientific assignmen
 | 2026 | [An Extensible Benchmark for Value Ambiguity Resolution in Text-to-SQL](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_9) | `M07` |
 | 2026 | [CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems](https://aclanthology.org/2026.acl-industry.86/) · [Code and data](https://github.com/duyvuleo/clarity) | `M05` |
 | 2026 | [TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries](https://arxiv.org/abs/2606.14201) | `M06` |
-| 2026 | [To RAG or Not to RAG, That Is the Question: Effective Text-to-SQL Generation Under Ambiguity](https://scp.cc.gatech.edu/external-news/ieee-xplore-rag-or-not-rag-question-effective-text-sql-generation-under-ambiguity) | `M08` |
+| 2026 | [To RAG or Not to RAG, That Is the Question: Effective Text-to-SQL Generation Under Ambiguity](https://www.researchgate.net/publication/401528766_To_RAG_or_Not_to_RAG_That_Is_the_Question_Effective_Text-to-SQL_Generation_Under_Ambiguity) | `M08` |
 | 2025 | [AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL](https://arxiv.org/abs/2508.15276) | `M04` |
 | 2025 | [Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing](https://aclanthology.org/2025.findings-acl.863/) | `M03` |
 | 2024 | [AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries](https://arxiv.org/abs/2406.19073) | `M02` |
@@ -60,7 +60,6 @@ These groups provide a reading order, rather than exclusive scientific assignmen
 | 2026 | [Text-to-SQL Evaluation Toolkit](https://research.ibm.com/publications/text-to-sql-evaluation-toolkit) | `C14` |
 | 2026 | [TraceSQL: Traceable Answerability Estimation for Reference-Free Text-to-SQL Verification](https://arxiv.org/abs/2608.17795) | `C10` |
 | 2026 | [Validating LLM-Generated SQL Queries through Metamorphic Prompting](https://matafeiyanll.github.io/paper/FSE26-MRSQLGen.pdf) | `C13` |
-| 2026 | [What Predicts Correctness in Text-to-SQL? A Selective-Prediction Study](https://arxiv.org/abs/2607.06799) | `C12` |
 | 2025 | [Fundamental Challenges in Evaluating Text2SQL Solutions and Detecting Their Limitations](https://arxiv.org/abs/2501.18197) | `C04` |
 | 2025 | [ParSEval: Plan-aware Test Database Generation for SQL Equivalence Evaluation](https://www.vldb.org/pvldb/vol18/p4750-miao.pdf) | `C05` |
 | 2023 | [Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation](https://arxiv.org/abs/2302.09664) | `C03` |
@@ -110,7 +109,7 @@ PlanPool is discussed in the survey but excluded from the fixed quantitative ana
 | Year | Paper | ID |
 |---|---|---|
 | 2025 | [A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?](https://arxiv.org/abs/2408.05109) | `L01` |
-| 2025 | [A Survey on Employing Large Language Models for Text-to-SQL Tasks](https://doi.org/10.1145/3737873) | `SurveyShi2025` |
+| 2025 | [A Survey on Employing Large Language Models for Text-to-SQL Tasks](https://arxiv.org/abs/2407.15186) | `SurveyShi2025` |
 | 2024 | [Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey](https://arxiv.org/abs/2310.17894v3) | `SurveyZhang2024` |
 | 2022 | [Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect](https://aclanthology.org/2022.coling-1.190/) | `L02` |
 | 2019 | [A comparative survey of recent natural language interfaces for databases](https://link.springer.com/article/10.1007/s00778-019-00567-8) | `SurveyAffolter2019` |

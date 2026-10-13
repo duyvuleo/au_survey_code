@@ -1,16 +1,16 @@
 {
   "status": "Descriptive analysis of recorded study assignments; independent human validation is not included.",
-  "population": 89,
-  "papers": 50,
+  "population": 88,
+  "papers": 49,
   "roles": {
     "direct": {
-      "N": 73,
+      "N": 72,
       "P": 11,
       "U": 5
     },
     "verification": {
       "N": 26,
-      "P": 57,
+      "P": 56,
       "U": 6
     }
   },
@@ -18,7 +18,7 @@
     "NN": 22,
     "PN": 2,
     "PP": 9,
-    "NP": 47,
+    "NP": 46,
     "UU": 2,
     "UN": 2,
     "NU": 4,
@@ -27,8 +27,8 @@
   "baseline": [
     {
       "pair": "IB",
-      "settings": 89,
-      "eligible": 87,
+      "settings": 88,
+      "eligible": 86,
       "n_p": 67,
       "n_q": 26,
       "both": 18,
@@ -67,16 +67,16 @@
     },
     {
       "pair": "IC",
-      "settings": 89,
-      "eligible": 86,
+      "settings": 88,
+      "eligible": 85,
       "n_p": 66,
-      "n_q": 58,
+      "n_q": 57,
       "both": 39,
-      "either": 85,
-      "jaccard": 0.4588235294117647,
+      "either": 84,
+      "jaccard": 0.4642857142857143,
       "bounds": [
-        0.4431818181818182,
-        0.47126436781609193
+        0.4482758620689655,
+        0.47674418604651164
       ],
       "evaluated": 19,
       "not_found": 4,
@@ -128,16 +128,16 @@
     },
     {
       "pair": "IA",
-      "settings": 89,
-      "eligible": 83,
+      "settings": 88,
+      "eligible": 82,
       "n_p": 63,
-      "n_q": 57,
+      "n_q": 56,
       "both": 43,
-      "either": 77,
-      "jaccard": 0.5584415584415584,
+      "either": 76,
+      "jaccard": 0.5657894736842105,
       "bounds": [
-        0.5180722891566265,
-        0.5903614457831325
+        0.524390243902439,
+        0.5975609756097561
       ],
       "evaluated": 26,
       "not_found": 2,
@@ -193,16 +193,16 @@
     },
     {
       "pair": "BC",
-      "settings": 89,
-      "eligible": 87,
+      "settings": 88,
+      "eligible": 86,
       "n_p": 26,
-      "n_q": 58,
+      "n_q": 57,
       "both": 12,
-      "either": 72,
-      "jaccard": 0.16666666666666666,
+      "either": 71,
+      "jaccard": 0.16901408450704225,
       "bounds": [
-        0.16216216216216217,
-        0.1891891891891892
+        0.1643835616438356,
+        0.1917808219178082
       ],
       "evaluated": 11,
       "not_found": 0,
@@ -227,16 +227,16 @@
     },
     {
       "pair": "BA",
-      "settings": 89,
-      "eligible": 84,
+      "settings": 88,
+      "eligible": 83,
       "n_p": 27,
-      "n_q": 58,
+      "n_q": 57,
       "both": 20,
-      "either": 65,
-      "jaccard": 0.3076923076923077,
+      "either": 64,
+      "jaccard": 0.3125,
       "bounds": [
-        0.2857142857142857,
-        0.3181818181818182
+        0.2898550724637681,
+        0.3230769230769231
       ],
       "evaluated": 16,
       "not_found": 1,
@@ -269,21 +269,21 @@
     },
     {
       "pair": "CA",
-      "settings": 89,
-      "eligible": 83,
-      "n_p": 58,
-      "n_q": 57,
-      "both": 44,
-      "either": 71,
-      "jaccard": 0.6197183098591549,
+      "settings": 88,
+      "eligible": 82,
+      "n_p": 57,
+      "n_q": 56,
+      "both": 43,
+      "either": 70,
+      "jaccard": 0.6142857142857143,
       "bounds": [
-        0.5714285714285714,
-        0.6301369863013698
+        0.5657894736842105,
+        0.625
       ],
-      "evaluated": 30,
+      "evaluated": 29,
       "not_found": 0,
       "unclear": 14,
-      "integrated": 44,
+      "integrated": 43,
       "integration_not_found": 0,
       "integration_unclear": 0,
       "setting_ids": [
@@ -300,7 +300,6 @@
         "C08::sql-filtering",
         "C09::clinical-generated",
         "C11::group-rank-resample",
-        "C12::signal-comparison",
         "C13::metamorphic-detection",
         "C15::oracle-swap",
         "C16::enriched",
@@ -337,8 +336,8 @@
   "strict": [
     {
       "pair": "IB",
-      "settings": 89,
-      "eligible": 87,
+      "settings": 88,
+      "eligible": 86,
       "n_p": 67,
       "n_q": 26,
       "both": 18,
@@ -377,8 +376,8 @@
     },
     {
       "pair": "IC",
-      "settings": 89,
-      "eligible": 83,
+      "settings": 88,
+      "eligible": 82,
       "n_p": 63,
       "n_q": 11,
       "both": 11,
@@ -410,16 +409,16 @@
     },
     {
       "pair": "IA",
-      "settings": 89,
-      "eligible": 83,
+      "settings": 88,
+      "eligible": 82,
       "n_p": 63,
-      "n_q": 57,
+      "n_q": 56,
       "both": 43,
-      "either": 77,
-      "jaccard": 0.5584415584415584,
+      "either": 76,
+      "jaccard": 0.5657894736842105,
       "bounds": [
-        0.5180722891566265,
-        0.5903614457831325
+        0.524390243902439,
+        0.5975609756097561
       ],
       "evaluated": 26,
       "not_found": 2,
@@ -475,8 +474,8 @@
     },
     {
       "pair": "BC",
-      "settings": 89,
-      "eligible": 84,
+      "settings": 88,
+      "eligible": 83,
       "n_p": 23,
       "n_q": 11,
       "both": 0,
@@ -496,16 +495,16 @@
     },
     {
       "pair": "BA",
-      "settings": 89,
-      "eligible": 84,
+      "settings": 88,
+      "eligible": 83,
       "n_p": 27,
-      "n_q": 58,
+      "n_q": 57,
       "both": 20,
-      "either": 65,
-      "jaccard": 0.3076923076923077,
+      "either": 64,
+      "jaccard": 0.3125,
       "bounds": [
-        0.2857142857142857,
-        0.3181818181818182
+        0.2898550724637681,
+        0.3230769230769231
       ],
       "evaluated": 16,
       "not_found": 1,
@@ -538,16 +537,16 @@
     },
     {
       "pair": "CA",
-      "settings": 89,
-      "eligible": 80,
+      "settings": 88,
+      "eligible": 79,
       "n_p": 11,
-      "n_q": 54,
+      "n_q": 53,
       "both": 6,
-      "either": 59,
-      "jaccard": 0.1016949152542373,
+      "either": 58,
+      "jaccard": 0.10344827586206896,
       "bounds": [
-        0.08823529411764706,
-        0.171875
+        0.08955223880597014,
+        0.1746031746031746
       ],
       "evaluated": 2,
       "not_found": 1,
@@ -568,15 +567,15 @@
   "scopes": {
     "direct": {
       "presence": {
-        "N": 73,
+        "N": 72,
         "P": 11,
         "U": 5
       },
       "pairs": [
         {
           "pair": "IB",
-          "settings": 89,
-          "eligible": 87,
+          "settings": 88,
+          "eligible": 86,
           "both": 18,
           "either": 75,
           "jaccard": 0.24,
@@ -587,8 +586,8 @@
         },
         {
           "pair": "IC",
-          "settings": 89,
-          "eligible": 83,
+          "settings": 88,
+          "eligible": 82,
           "both": 11,
           "either": 63,
           "jaccard": 0.1746031746031746,
@@ -599,20 +598,20 @@
         },
         {
           "pair": "IA",
-          "settings": 89,
-          "eligible": 83,
+          "settings": 88,
+          "eligible": 82,
           "both": 43,
-          "either": 77,
-          "jaccard": 0.5584415584415584,
+          "either": 76,
+          "jaccard": 0.5657894736842105,
           "bounds": [
-            0.5180722891566265,
-            0.5903614457831325
+            0.524390243902439,
+            0.5975609756097561
           ]
         },
         {
           "pair": "BC",
-          "settings": 89,
-          "eligible": 84,
+          "settings": 88,
+          "eligible": 83,
           "both": 0,
           "either": 34,
           "jaccard": 0.0,
@@ -623,26 +622,26 @@
         },
         {
           "pair": "BA",
-          "settings": 89,
-          "eligible": 84,
+          "settings": 88,
+          "eligible": 83,
           "both": 20,
-          "either": 65,
-          "jaccard": 0.3076923076923077,
+          "either": 64,
+          "jaccard": 0.3125,
           "bounds": [
-            0.2857142857142857,
-            0.3181818181818182
+            0.2898550724637681,
+            0.3230769230769231
           ]
         },
         {
           "pair": "CA",
-          "settings": 89,
-          "eligible": 80,
+          "settings": 88,
+          "eligible": 79,
           "both": 6,
-          "either": 59,
-          "jaccard": 0.1016949152542373,
+          "either": 58,
+          "jaccard": 0.10344827586206896,
           "bounds": [
-            0.08823529411764706,
-            0.171875
+            0.08955223880597014,
+            0.1746031746031746
           ]
         }
       ]
@@ -650,14 +649,14 @@
     "verification": {
       "presence": {
         "N": 26,
-        "P": 57,
+        "P": 56,
         "U": 6
       },
       "pairs": [
         {
           "pair": "IB",
-          "settings": 89,
-          "eligible": 87,
+          "settings": 88,
+          "eligible": 86,
           "both": 18,
           "either": 75,
           "jaccard": 0.24,
@@ -668,62 +667,62 @@
         },
         {
           "pair": "IC",
-          "settings": 89,
-          "eligible": 82,
+          "settings": 88,
+          "eligible": 81,
           "both": 38,
-          "either": 81,
-          "jaccard": 0.4691358024691358,
+          "either": 80,
+          "jaccard": 0.475,
           "bounds": [
-            0.4318181818181818,
-            0.5057471264367817
+            0.4367816091954023,
+            0.5116279069767442
           ]
         },
         {
           "pair": "IA",
-          "settings": 89,
-          "eligible": 83,
+          "settings": 88,
+          "eligible": 82,
           "both": 43,
-          "either": 77,
-          "jaccard": 0.5584415584415584,
+          "either": 76,
+          "jaccard": 0.5657894736842105,
           "bounds": [
-            0.5180722891566265,
-            0.5903614457831325
+            0.524390243902439,
+            0.5975609756097561
           ]
         },
         {
           "pair": "BC",
-          "settings": 89,
-          "eligible": 83,
+          "settings": 88,
+          "eligible": 82,
           "both": 12,
-          "either": 71,
-          "jaccard": 0.16901408450704225,
+          "either": 70,
+          "jaccard": 0.17142857142857143,
           "bounds": [
-            0.15584415584415584,
-            0.1917808219178082
+            0.15789473684210525,
+            0.19444444444444445
           ]
         },
         {
           "pair": "BA",
-          "settings": 89,
-          "eligible": 84,
+          "settings": 88,
+          "eligible": 83,
           "both": 20,
-          "either": 65,
-          "jaccard": 0.3076923076923077,
+          "either": 64,
+          "jaccard": 0.3125,
           "bounds": [
-            0.2857142857142857,
-            0.3181818181818182
+            0.2898550724637681,
+            0.3230769230769231
           ]
         },
         {
           "pair": "CA",
-          "settings": 89,
-          "eligible": 83,
-          "both": 44,
-          "either": 70,
-          "jaccard": 0.6285714285714286,
+          "settings": 88,
+          "eligible": 82,
+          "both": 43,
+          "either": 69,
+          "jaccard": 0.6231884057971014,
           "bounds": [
-            0.5789473684210527,
-            0.6578947368421053
+            0.5733333333333334,
+            0.6533333333333333
           ]
         }
       ]
@@ -731,14 +730,14 @@
     "inclusive": {
       "presence": {
         "N": 22,
-        "P": 59,
+        "P": 58,
         "U": 8
       },
       "pairs": [
         {
           "pair": "IB",
-          "settings": 89,
-          "eligible": 87,
+          "settings": 88,
+          "eligible": 86,
           "both": 18,
           "either": 75,
           "jaccard": 0.24,
@@ -749,62 +748,62 @@
         },
         {
           "pair": "IC",
-          "settings": 89,
-          "eligible": 80,
+          "settings": 88,
+          "eligible": 79,
           "both": 40,
-          "either": 79,
-          "jaccard": 0.5063291139240507,
+          "either": 78,
+          "jaccard": 0.5128205128205128,
           "bounds": [
-            0.45454545454545453,
-            0.5517241379310345
+            0.45977011494252873,
+            0.5581395348837209
           ]
         },
         {
           "pair": "IA",
-          "settings": 89,
-          "eligible": 83,
+          "settings": 88,
+          "eligible": 82,
           "both": 43,
-          "either": 77,
-          "jaccard": 0.5584415584415584,
+          "either": 76,
+          "jaccard": 0.5657894736842105,
           "bounds": [
-            0.5180722891566265,
-            0.5903614457831325
+            0.524390243902439,
+            0.5975609756097561
           ]
         },
         {
           "pair": "BC",
-          "settings": 89,
-          "eligible": 81,
+          "settings": 88,
+          "eligible": 80,
           "both": 12,
-          "either": 71,
-          "jaccard": 0.16901408450704225,
+          "either": 70,
+          "jaccard": 0.17142857142857143,
           "bounds": [
-            0.1518987341772152,
-            0.21333333333333335
+            0.15384615384615385,
+            0.21621621621621623
           ]
         },
         {
           "pair": "BA",
-          "settings": 89,
-          "eligible": 84,
+          "settings": 88,
+          "eligible": 83,
           "both": 20,
-          "either": 65,
-          "jaccard": 0.3076923076923077,
+          "either": 64,
+          "jaccard": 0.3125,
           "bounds": [
-            0.2857142857142857,
-            0.3181818181818182
+            0.2898550724637681,
+            0.3230769230769231
           ]
         },
         {
           "pair": "CA",
-          "settings": 89,
-          "eligible": 81,
-          "both": 44,
-          "either": 70,
-          "jaccard": 0.6285714285714286,
+          "settings": 88,
+          "eligible": 80,
+          "both": 43,
+          "either": 69,
+          "jaccard": 0.6231884057971014,
           "bounds": [
-            0.5641025641025641,
-            0.6666666666666666
+            0.5584415584415584,
+            0.6623376623376623
           ]
         }
       ]
@@ -945,13 +944,6 @@
       "rationale": "R3-SQL groups outputs of sampled candidates to improve ranking and recover a missing correct SQL. Distinct execution groups are called semantic outcomes, but are not assigned different plausible interpretations of the request."
     },
     {
-      "setting_id": "C12::signal-comparison",
-      "broad_C": "P",
-      "direct_D": "N",
-      "verification_V": "P",
-      "rationale": "The study scores the modal sampled query against a fixed execution reference. Sampling consistency and verifier signals concern correctness, without a set of represented alternative readings."
-    },
-    {
       "setting_id": "C13::metamorphic-detection",
       "broad_C": "P",
       "direct_D": "N",
@@ -977,7 +969,7 @@
       "broad_C": "P",
       "direct_D": "N",
       "verification_V": "P",
-      "rationale": "The enriched setting compares judge labels on single accepted question–SQL pairs. Upstream sampled-result consensus and debate do not establish represented meaning alternatives in this final-judge audit."
+      "rationale": "The enriched setting compares judge labels on single accepted question\u2013SQL pairs. Upstream sampled-result consensus and debate do not establish represented meaning alternatives in this final-judge audit."
     },
     {
       "setting_id": "C16::uniform",
@@ -1181,5 +1173,6 @@
       "rationale": "The study observes navigation, functional-difference comprehension, and output-driven changes during these interaction tasks."
     }
   ],
-  "caution": "The definition comparison uses the same 89 study settings. Direct comparison and supporting verification are distinct roles. Interpretation, Answerability and Action assignments are held fixed. Overlap describes selected settings and does not measure field-wide prevalence."
+  "caution": "The definition comparison uses the same 88 retained study settings. Direct comparison and supporting verification are distinct roles. Interpretation, Answerability and Action assignments are held fixed. Overlap describes selected settings and does not measure field-wide prevalence.",
+  "population_revision": "C12::signal-comparison is excluded from the current population. Original source annotations are retained; analysis-scope.json records the exclusion and original counts."
 }

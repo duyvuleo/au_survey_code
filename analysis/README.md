@@ -8,7 +8,7 @@ python3 analysis/run.py
 
 Use Python 3.10 or later; no dependency installation is needed. The command makes no network requests or model calls and does not execute SQL against external databases. It exits with code `0` when every check passes and with code `1` when a check fails.
 
-The literature discussion includes work published through 05 October 2026. These analyses use a fixed corpus with a publication cutoff of 01 October 2026. PlanPool and FALCON are excluded by the analysis cutoff. The 89-setting map and recorded human review retain their membership. The descriptive audit contains 12 settings from 10 studies. BIRD-History remains a retrieval-only comparison outside that audit.
+The literature discussion includes work published through 05 October 2026. These analyses use a fixed corpus with a publication cutoff of 01 October 2026. PlanPool and FALCON are excluded by the analysis cutoff. After excluding C12, the analysis contains 108 settings from 62 papers. The overlap map uses 88 direct NL2SQL settings from 49 papers. The 36 human-review cases are unchanged. The descriptive audit contains 12 settings from 10 studies. BIRD-History remains a retrieval-only comparison outside that audit.
 
 ## Paper results and code
 
@@ -22,7 +22,7 @@ The literature discussion includes work published through 05 October 2026. These
 | AmbiQT fixed-budget recovery and AMBROSIA query/scorer checks | [Recorded benchmark check](benchmarks/verify_recorded.py) | [Recorded benchmark outcomes](benchmarks/recorded/) | `reproduced/benchmarks/recorded-validation.json` |
 | CLARITY conditional agreement and sensitivity populations | `run.py` | [Bundle and pair ledgers](data/clarity/outputs/) | `reproduced/clarity-calculations.json` |
 | CLARITY population accounting and four worked cases | [Case check](clarity/verify_cases.py) | [Population](clarity/population.json), [worked cases](clarity/worked-cases.json), and the bundle ledger | `analysis/clarity/reproduced/validation.json` |
-| Relationship source records, submitted forms, and final decisions | [Relationship review check](checks/check_relationship_reviews.py) | [89 setting descriptions and 36 review cases](data/overlap/relationships/) | `reproduced/relationship-review-validation.json` |
+| Relationship source records, submitted forms, and final decisions | [Relationship review check](checks/check_relationship_reviews.py) | [88 setting descriptions and 36 review cases](data/overlap/relationships/) | `reproduced/relationship-review-validation.json` |
 | Consistency of recorded CLARITY review summaries | [Recorded-review check](checks/check_recorded_reviews.py) | [Recorded reviews](data/clarity/independent-review/) | `reproduced/recorded-review-validation.json` |
 
 The overall receipt is `reproduced/numeric-validation.json`. It records check status, input hashes, and the verification boundary. The [input guide](data/README.md) explains the fixed records and their fields. Directory names such as `data/*/outputs/` refer to outputs of the original analyses retained as inputs here; rerunning writes new results only to `reproduced/` directories.

@@ -1584,42 +1584,6 @@
     }
   },
   {
-    "setting_id": "C12::signal-comparison",
-    "paper_id": "C12",
-    "states": {
-      "I": "N",
-      "B": "N",
-      "C": "N",
-      "A": "P"
-    },
-    "connections": {
-      "IB": {
-        "integration": "N",
-        "relationship_evaluation": "N"
-      },
-      "IC": {
-        "integration": "N",
-        "relationship_evaluation": "N"
-      },
-      "IA": {
-        "integration": "N",
-        "relationship_evaluation": "N"
-      },
-      "BC": {
-        "integration": "N",
-        "relationship_evaluation": "N"
-      },
-      "BA": {
-        "integration": "N",
-        "relationship_evaluation": "N"
-      },
-      "CA": {
-        "integration": "N",
-        "relationship_evaluation": "N"
-      }
-    }
-  },
-  {
     "setting_id": "C13::metamorphic-detection",
     "paper_id": "C13",
     "states": {
