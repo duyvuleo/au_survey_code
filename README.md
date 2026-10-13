@@ -36,7 +36,7 @@ The accompanying analyses cover:
 
 See the [analysis guide](analysis/README.md) for the mapping from paper results to scripts, inputs, and outputs.
 
-The relationship records use the human-source-review revision of 9 October 2026: 5 of 18 Interpretation–Answerability settings have relationship evaluations. Across the six perspective pairs, the counts are 60 evaluated, 18 not found, and 20 unclear. The [source records](analysis/data/overlap/relationships/source-records.json) and anonymized review forms ([Reviewer A](analysis/data/overlap/relationships/reviews/reviewer-a.csv), [Reviewer B](analysis/data/overlap/relationships/reviews/reviewer-b.csv)) preserve the evidence and [three resolution decisions](analysis/data/overlap/relationships/reviews/resolutions.json).
+The [source records](analysis/data/overlap/relationships/source-records.json) and anonymized review forms ([Reviewer A](analysis/data/overlap/relationships/reviews/reviewer-a.csv), [Reviewer B](analysis/data/overlap/relationships/reviews/reviewer-b.csv)) preserve the evidence and [three resolution decisions](analysis/data/overlap/relationships/reviews/resolutions.json).
 
 ## Run the analyses
 
