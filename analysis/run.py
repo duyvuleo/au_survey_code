@@ -289,12 +289,14 @@ def perspectives(pkg):
     ib_totals = {state: ib[field] for state, field in
                  (("P", "among_PP_present"), ("N", "among_PP_absent"), ("U", "among_PP_unclear")) if ib[field]}
     compare(ib_totals, contract["manuscript_results"]["ib_empirical_evaluation"], "manuscript IB result")
-    result = {"revision": contract["revision"], "analysis_revision": scope["analysis_revision"],
+    result = {"revision": contract["revision"],
               "main_evaluation_totals": totals,
               "roles": role_counts, "role_combinations": combinations,
               "scopes": scopes, "connection_counts": recalculated}
     if exclusions is not None:
         result["excluded_studies"] = exclusions
+    if "analysis_revision" in scope:
+        result["analysis_revision"] = scope["analysis_revision"]
     pkg.write("perspective-calculations.json", result)
     return {"settings": len(records), "papers": len(paper_ids), "overlap_rows": len(overlap),
             "connection_rows": len(counts), "independent_G_E": True,

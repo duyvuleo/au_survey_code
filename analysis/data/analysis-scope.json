@@ -133,17 +133,5 @@
   },
   "benchmark_audit_context_only_studies": [
     "PersonaBIRDHistory"
-  ],
-  "benchmark_audit_grouping": "Sphinteract CQs and CQs & ES count as one audit group; Simple feedback excluded. This audit grouping does not change perspective-map membership.",
-  "benchmark_audit_updated": "2026-10-10",
-  "analysis_source_settings": 108,
-  "analysis_revision": "study-count-update-2026-10-13",
-  "original_analysis_population": {
-    "analysis_source_papers": 63,
-    "analysis_source_settings": 109,
-    "direct_nl2sql_papers": 50,
-    "direct_nl2sql_settings": 89,
-    "scope_sha256": "9c07aed2979d78508ab70f8f352a18abb7388e35cade489f7fff5fbb3b580f0f",
-    "provenance": "Original 01 October analysis membership before the 13 October study exclusion; historical source annotations and review forms are retained unchanged."
-  }
+  ]
 }

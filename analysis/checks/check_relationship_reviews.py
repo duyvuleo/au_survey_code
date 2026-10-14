@@ -90,12 +90,13 @@ for source in sources["source_locators"].values():
     assert parsed.scheme in ["http", "https"] and parsed.netloc
 result = {
     "status": "pass", "revision": verification["revision"],
-    "analysis_revision": scope["analysis_revision"],
     "setting_descriptions": len(descriptions), "review_cases": len(decisions),
     "submitted_form_agreement": dict(agreement), "disagreement_resolutions": disagreements,
     "source_locators": len(sources["source_locators"]), "input_sha256": inputs,
     "scope": "Checks preserved forms, source metadata, resolved labels, and numerical linkage. Does not repeat source inspection or human review.",
 }
+if "analysis_revision" in scope:
+    result["analysis_revision"] = scope["analysis_revision"]
 for path, expected in inputs.items():
     assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == expected
 output = ROOT / "reproduced/relationship-review-validation.json"
