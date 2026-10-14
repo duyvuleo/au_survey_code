@@ -145,13 +145,5 @@
     "direct_nl2sql_settings": 89,
     "scope_sha256": "9c07aed2979d78508ab70f8f352a18abb7388e35cade489f7fff5fbb3b580f0f",
     "provenance": "Original 01 October analysis membership before the 13 October study exclusion; historical source annotations and review forms are retained unchanged."
-  },
-  "excluded_studies": {
-    "C12": {
-      "setting_ids": [
-        "C12::signal-comparison"
-      ],
-      "reason": "Removed from the survey and current calculations at the survey author's request on 13 October 2026. Original source annotations remain historical evidence."
-    }
   }
 }

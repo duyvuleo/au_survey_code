@@ -181,16 +181,17 @@ def perspectives(pkg):
     source_ids = set(scope["analysis_source_paper_ids"])
     require(len(source_ids) == len(scope["analysis_source_paper_ids"]) == scope["analysis_source_papers"],
             "Analysis source paper membership differs")
-    exclusions = scope["excluded_studies"]
-    excluded_settings = {sid for item in exclusions.values() for sid in item["setting_ids"]}
-    require(not source_ids.intersection(exclusions), "Excluded study entered the source population")
-    require(not {r["setting_id"] for r in records}.intersection(excluded_settings),
-            "Excluded setting entered the current analysis")
-    original = scope["original_analysis_population"]
-    require(scope["analysis_source_papers"] + len(exclusions) == original["analysis_source_papers"],
-            "Source paper exclusion accounting differs")
-    require(scope["analysis_source_settings"] + len(excluded_settings) == original["analysis_source_settings"],
-            "Source setting exclusion accounting differs")
+    exclusions = scope.get("excluded_studies")
+    if exclusions is not None:
+        excluded_settings = {sid for item in exclusions.values() for sid in item["setting_ids"]}
+        require(not source_ids.intersection(exclusions), "Excluded study entered the source population")
+        require(not {r["setting_id"] for r in records}.intersection(excluded_settings),
+                "Excluded setting entered the current analysis")
+        original = scope["original_analysis_population"]
+        require(scope["analysis_source_papers"] + len(exclusions) == original["analysis_source_papers"],
+                "Source paper exclusion accounting differs")
+        require(scope["analysis_source_settings"] + len(excluded_settings) == original["analysis_source_settings"],
+                "Source setting exclusion accounting differs")
     require(len(records) == scope["direct_nl2sql_settings"], "Analysis setting membership differs")
     require(paper_ids == set(scope["direct_nl2sql_paper_ids"]), "Analysis paper membership differs")
     require(len(paper_ids) == scope["direct_nl2sql_papers"], "Analysis paper count differs")
@@ -289,9 +290,11 @@ def perspectives(pkg):
                  (("P", "among_PP_present"), ("N", "among_PP_absent"), ("U", "among_PP_unclear")) if ib[field]}
     compare(ib_totals, contract["manuscript_results"]["ib_empirical_evaluation"], "manuscript IB result")
     result = {"revision": contract["revision"], "analysis_revision": scope["analysis_revision"],
-              "excluded_studies": exclusions, "main_evaluation_totals": totals,
+              "main_evaluation_totals": totals,
               "roles": role_counts, "role_combinations": combinations,
               "scopes": scopes, "connection_counts": recalculated}
+    if exclusions is not None:
+        result["excluded_studies"] = exclusions
     pkg.write("perspective-calculations.json", result)
     return {"settings": len(records), "papers": len(paper_ids), "overlap_rows": len(overlap),
             "connection_rows": len(counts), "independent_G_E": True,
