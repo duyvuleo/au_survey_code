@@ -1,0 +1,59 @@
+name: Publish survey explorer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/build_explorer.py'
+      - 'tests/**'
+      - 'papers/**'
+      - 'analysis/**'
+      - 'PUBLICATION.json'
+      - '.github/workflows/explorer-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: survey-explorer-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the companion repository
+        uses: actions/checkout@v6
+      - name: Verify publication inventory and explorer data
+        run: |
+          python3 -c 'from pathlib import Path; from analysis.publication import snapshot; snapshot(Path.cwd())'
+          python3 scripts/build_explorer.py --check
+      - name: Test source boundaries and filtering
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          node --test tests/explorer.test.cjs
+          node --check site/app.js
+      - name: Verify recorded numerical analyses
+        run: python3 analysis/run.py
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the static explorer
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the explorer
+        id: deployment
+        uses: actions/deploy-pages@v4

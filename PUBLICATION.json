@@ -1,8 +1,10 @@
 {
   "schema_version": 1,
   "files": {
+    ".github/workflows/explorer-pages.yml": "27ee0830da0788bc74fcc26cef9076f526aa56352df3211a91c2965337d6f262",
     ".gitignore": "823710c5c3793cd1a294fb44014b18f014f54b9f4f9866779298862c8a2d4b82",
-    "README.md": "d699a757ca9da07a524a338e2732037322c3a2d86a391f730ffd76c092a68881",
+    "EXPLORER.md": "214d4fe848af0e013083df04cdb20a33afa8a199599b2ca46587bbcaa1011d59",
+    "README.md": "59fc3e0ff218c7374e8cd3bc74e93f71f7427fae0d6467152a4c29a4f3289d58",
     "analysis/README.md": "2529a408540c7af60f9c96ffc1e0088fcdd377d6b613a9aba7b558fe41cfe140",
     "analysis/benchmarks/README.md": "397ed81942d21b0ed5959de817b25a31e305a1e80a43d6bc948ec7d6c5c6647f",
     "analysis/benchmarks/adaptations.json": "3a94bb51b611d805e95c566ae7385429b506c68edc9466f633d69809e8d3ceea",
@@ -99,6 +101,15 @@
     "assets/taxonomy.svg": "5aa8cd741747b83c9712aa5c941c170707d23e78a85ee8ae96960c8b33ca43b8",
     "papers/README.md": "3e95aee9e9ab8df0347a20fbb52501d8c0d70f6656a5a3f60d605e680c23ea20",
     "papers/benchmarks.md": "d73edef849d586e5ef9d1719e72abd93ea8da84e2489e782a59308cbe353cb90",
-    "papers/taxonomy.md": "37d0b5ab5df8e91e7c4e1a1f96b8af57df9fa9160c0ea6c56ad9777a0b372aab"
+    "papers/taxonomy.md": "37d0b5ab5df8e91e7c4e1a1f96b8af57df9fa9160c0ea6c56ad9777a0b372aab",
+    "scripts/build_explorer.py": "dc05241fea9650fd09a948eb1aa844355fe13b9050dc090ecae170940597fee7",
+    "site/app.js": "db2aa0f0e808947e95e1f796bbe372c7492a5cab1e05f6e77a299189e9eb3cec",
+    "site/core.js": "4b45e0c6da0d1274a1ad2632e4cf9373e88ce1b200496c651dcc6243b36f930f",
+    "site/data.js": "75127cbb5e2a298b6e515269ab35297e9b7b9a90073e046dcb722e9ecfc4572a",
+    "site/index.html": "cf0abfc1c59da71fea7bb9ca4bd9f219f08211e80e2ca070f217c36814aff201",
+    "site/paper-names.json": "eca2a04b535374f23f32e06593c21ce4de5f9b59b9c051022b6d91fe5d51ef8e",
+    "site/styles.css": "d58ec93c8651587f9651371b7e51980b7047a9af86ac684c58ae92beb4cd8ff3",
+    "tests/explorer.test.cjs": "2fb21e90e1cdbda01fc61507a35251a81fbb6c5f9b8c5c5adaa1d69bf9aacdac",
+    "tests/test_explorer_data.py": "183c3238ff9f5bcd3e1735d36fbf173c9537dc2fdcc256f2ab1b17b95edd0ced"
   }
 }

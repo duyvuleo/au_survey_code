@@ -6,10 +6,19 @@ Anonymous companion repository for the paper submission. It contains a curated r
 
 ## Contents
 
+- [Visual explorer](#visual-explorer)
 - [Papers and taxonomy](#papers-and-taxonomy)
 - [Benchmarks and evaluation](#benchmarks-and-evaluation)
 - [Run the analyses](#run-the-analyses)
 - [Repository layout](#repository-layout)
+
+## Visual explorer
+
+**[Open the interactive survey explorer ↗](https://duyvuleo.github.io/au_survey_code/)**
+
+Browse the literature map, filter papers by year and perspective, inspect setting-level evidence, and compare benchmark audit findings. Labels use recognizable paper and method names; source IDs remain available for traceability. The [local version](site/index.html) is included in this repository.
+
+See the [explorer guide](EXPLORER.md) for local preview, data generation, verification, and hosting instructions. The explorer reads the included survey records and preserves the literature and quantitative-analysis cutoffs.
 
 ## Papers and taxonomy
 
@@ -56,6 +65,9 @@ The default run verifies arithmetic and consistency of the included records. It 
 README.md
 papers/                  # Reading list, taxonomy, benchmark guide
 assets/                  # Taxonomy figure from the paper
+site/                    # Offline visual explorer and generated data
+scripts/                 # Explorer data builder
+tests/                   # Explorer data and filter checks
 analysis/
   run.py                 # One command for all recorded-result checks
   package.py             # Verify and build the submission ZIP
